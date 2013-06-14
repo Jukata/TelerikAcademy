@@ -1,0 +1,8 @@
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\bin\Debug\02.ArrangeNamesAlfabeticly.exe.config
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\obj\Debug\02.ArrangeNamesAlfabeticly.exe
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\obj\Debug\02.ArrangeNamesAlfabeticly.pdb
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\bin\Debug\02.ArrangeNamesAlfabeticly.exe
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\bin\Debug\02.ArrangeNamesAlfabeticly.pdb
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\02.ArrangeNamesAlfabeticly\bin\Debug\02.ArrangeNamesAlfabeticly.exe.config
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\02.ArrangeNamesAlfabeticly\obj\Debug\02.ArrangeNamesAlfabeticly.exe
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\02.ArrangeNamesAlfabeticly\obj\Debug\02.ArrangeNamesAlfabeticly.pdb

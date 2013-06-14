@@ -1,0 +1,6 @@
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorIndentifiersName\bin\Debug\RefactorIndentifiersName.exe.config
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorIndentifiersName\bin\Debug\RefactorIndentifiersName.exe
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorIndentifiersName\bin\Debug\RefactorIndentifiersName.pdb
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorIndentifiersName\obj\Debug\RefactorIndentifiersName.csprojResolveAssemblyReference.cache
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorIndentifiersName\obj\Debug\RefactorIndentifiersName.exe
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorIndentifiersName\obj\Debug\RefactorIndentifiersName.pdb

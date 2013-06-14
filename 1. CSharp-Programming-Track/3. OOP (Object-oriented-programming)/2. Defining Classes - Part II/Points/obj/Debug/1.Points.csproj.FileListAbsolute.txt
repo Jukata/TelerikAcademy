@@ -1,0 +1,6 @@
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Points\bin\Debug\Points.exe.config
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Points\bin\Debug\Points.exe
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Points\bin\Debug\Points.pdb
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Points\obj\Debug\1.Points.csprojResolveAssemblyReference.cache
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Points\obj\Debug\Points.exe
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Points\obj\Debug\Points.pdb

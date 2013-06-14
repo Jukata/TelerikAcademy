@@ -1,0 +1,4 @@
+E:\GitHub-Bahtev\TelerikAcademy\1. CSharp-Programming-Track\4. HQC (High-Quality-Programming-Code)\8. High-Quality-Classes\Abstraction\bin\Debug\Abstraction.exe
+E:\GitHub-Bahtev\TelerikAcademy\1. CSharp-Programming-Track\4. HQC (High-Quality-Programming-Code)\8. High-Quality-Classes\Abstraction\bin\Debug\Abstraction.pdb
+E:\GitHub-Bahtev\TelerikAcademy\1. CSharp-Programming-Track\4. HQC (High-Quality-Programming-Code)\8. High-Quality-Classes\Abstraction\obj\Debug\Abstraction.exe
+E:\GitHub-Bahtev\TelerikAcademy\1. CSharp-Programming-Track\4. HQC (High-Quality-Programming-Code)\8. High-Quality-Classes\Abstraction\obj\Debug\Abstraction.pdb

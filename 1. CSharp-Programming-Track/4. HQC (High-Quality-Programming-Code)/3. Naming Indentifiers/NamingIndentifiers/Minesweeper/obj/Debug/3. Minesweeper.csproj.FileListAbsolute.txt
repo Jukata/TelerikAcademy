@@ -1,0 +1,6 @@
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\Minesweeper\obj\Debug\3. Minesweeper.csprojResolveAssemblyReference.cache
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\Minesweeper\bin\Debug\Minesweeper.exe.config
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\Minesweeper\bin\Debug\Minesweeper.exe
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\Minesweeper\bin\Debug\Minesweeper.pdb
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\Minesweeper\obj\Debug\Minesweeper.exe
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\Minesweeper\obj\Debug\Minesweeper.pdb

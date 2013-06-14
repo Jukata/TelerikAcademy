@@ -1,0 +1,3 @@
+E:\Telerik\OOP\5. OOP Principles - Part II\Homework\OOPPrinciplesPartII\InvalidRangeException\bin\Debug\InvalidRangeException.exe.config
+E:\Telerik\OOP\5. OOP Principles - Part II\Homework\OOPPrinciplesPartII\InvalidRangeException\obj\Debug\InvalidRangeException.exe
+E:\Telerik\OOP\5. OOP Principles - Part II\Homework\OOPPrinciplesPartII\InvalidRangeException\obj\Debug\InvalidRangeException.pdb

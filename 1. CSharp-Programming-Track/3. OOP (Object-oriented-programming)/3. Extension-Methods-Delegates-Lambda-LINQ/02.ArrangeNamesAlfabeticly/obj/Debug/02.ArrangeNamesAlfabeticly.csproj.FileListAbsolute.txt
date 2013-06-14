@@ -1,0 +1,6 @@
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\bin\Debug\02.ArrangeNamesAlfabeticly.exe.config
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\bin\Debug\02.ArrangeNamesAlfabeticly.exe
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\bin\Debug\02.ArrangeNamesAlfabeticly.pdb
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\obj\Debug\02.ArrangeNamesAlfabeticly.csprojResolveAssemblyReference.cache
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\obj\Debug\02.ArrangeNamesAlfabeticly.exe
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\02.ArrangeNamesAlfabeticly\obj\Debug\02.ArrangeNamesAlfabeticly.pdb

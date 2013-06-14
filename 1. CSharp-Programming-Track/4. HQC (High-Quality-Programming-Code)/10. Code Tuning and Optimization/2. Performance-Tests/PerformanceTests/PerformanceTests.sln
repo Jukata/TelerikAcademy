@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-3.MathOperationsPerformanceForDiffTypes", "MathOperationsPerformanceForDiffTypes\2-3.MathOperationsPerformanceForDiffTypes.csproj", "{0304CE12-61BA-4EFF-A9DB-9B6A3959B19B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. SortTests", "SortTests\4. SortTests.csproj", "{004A7746-814A-47D6-8166-F0FE37412EC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0304CE12-61BA-4EFF-A9DB-9B6A3959B19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0304CE12-61BA-4EFF-A9DB-9B6A3959B19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0304CE12-61BA-4EFF-A9DB-9B6A3959B19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0304CE12-61BA-4EFF-A9DB-9B6A3959B19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004A7746-814A-47D6-8166-F0FE37412EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004A7746-814A-47D6-8166-F0FE37412EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004A7746-814A-47D6-8166-F0FE37412EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004A7746-814A-47D6-8166-F0FE37412EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

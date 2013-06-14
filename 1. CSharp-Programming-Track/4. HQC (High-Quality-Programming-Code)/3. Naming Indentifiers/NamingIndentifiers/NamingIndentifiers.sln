@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefactorCSharpCode", "RefactorCSharpCode", "{81CE5FA4-DFC9-4207-9DC2-A54223696336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. RefactorIndentifiersName", "RefactorIndentifiersName\1. RefactorIndentifiersName.csproj", "{99938719-D81C-4FC8-8E28-2702D798A8F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. RefactorHumanClass", "RefactorHumanClass\2. RefactorHumanClass.csproj", "{2BED8E0E-49D1-4C39-924C-41B28613F15F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefactorJavaScriptCode", "RefactorJavaScriptCode", "{7D6CBB37-6228-4247-B88C-3933C7FFEAB7}"
+	ProjectSection(SolutionItems) = preProject
+		RefactorJavaScriptCode.html = RefactorJavaScriptCode.html
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Minesweeper", "Minesweeper\3. Minesweeper.csproj", "{5510EE14-E5F5-400D-9FCA-A8BE5C6FAAB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99938719-D81C-4FC8-8E28-2702D798A8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99938719-D81C-4FC8-8E28-2702D798A8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99938719-D81C-4FC8-8E28-2702D798A8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99938719-D81C-4FC8-8E28-2702D798A8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BED8E0E-49D1-4C39-924C-41B28613F15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BED8E0E-49D1-4C39-924C-41B28613F15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BED8E0E-49D1-4C39-924C-41B28613F15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BED8E0E-49D1-4C39-924C-41B28613F15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5510EE14-E5F5-400D-9FCA-A8BE5C6FAAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5510EE14-E5F5-400D-9FCA-A8BE5C6FAAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5510EE14-E5F5-400D-9FCA-A8BE5C6FAAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5510EE14-E5F5-400D-9FCA-A8BE5C6FAAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99938719-D81C-4FC8-8E28-2702D798A8F0} = {81CE5FA4-DFC9-4207-9DC2-A54223696336}
+		{2BED8E0E-49D1-4C39-924C-41B28613F15F} = {81CE5FA4-DFC9-4207-9DC2-A54223696336}
+		{5510EE14-E5F5-400D-9FCA-A8BE5C6FAAB9} = {81CE5FA4-DFC9-4207-9DC2-A54223696336}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+brown -> 5
+beer -> 4
+vodka -> 3
+martini -> 2
+osvaldo -> 2
+green -> 2
+marker -> 1
+table -> 1
+food -> 1
+milk -> 1
+john -> 1
+smith -> 1
+michael -> 1
+breezer -> 0
+juice -> 0

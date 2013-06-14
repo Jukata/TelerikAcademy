@@ -1,0 +1,6 @@
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorHumanClass\obj\Debug\2. RefactorHumanClass.csprojResolveAssemblyReference.cache
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorHumanClass\bin\Debug\RefactorHumanClass.exe.config
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorHumanClass\bin\Debug\RefactorHumanClass.exe
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorHumanClass\bin\Debug\RefactorHumanClass.pdb
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorHumanClass\obj\Debug\RefactorHumanClass.exe
+E:\Telerik\KPK\3. Naming Indentifiers\NamingIndentifiers\RefactorHumanClass\obj\Debug\RefactorHumanClass.pdb

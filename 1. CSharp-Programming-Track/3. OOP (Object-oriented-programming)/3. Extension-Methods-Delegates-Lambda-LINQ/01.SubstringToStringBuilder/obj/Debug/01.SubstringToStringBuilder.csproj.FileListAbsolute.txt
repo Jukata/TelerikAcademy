@@ -1,0 +1,12 @@
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\01.SubstringToStringBuilder\bin\Debug\01.SubstringToStringBuilder.exe.config
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\01.SubstringToStringBuilder\bin\Debug\01.SubstringToStringBuilder.exe
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\01.SubstringToStringBuilder\bin\Debug\01.SubstringToStringBuilder.pdb
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\01.SubstringToStringBuilder\obj\Debug\01.SubstringToStringBuilder.csprojResolveAssemblyReference.cache
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\01.SubstringToStringBuilder\obj\Debug\01.SubstringToStringBuilder.exe
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\01.SubstringToStringBuilder\obj\Debug\01.SubstringToStringBuilder.pdb
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\01.SubstringToStringBuilder\bin\Debug\01.SubstringToStringBuilder.exe.config
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\01.SubstringToStringBuilder\obj\Debug\01.SubstringToStringBuilder.exe
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\01.SubstringToStringBuilder\obj\Debug\01.SubstringToStringBuilder.pdb
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\01.SubstringToStringBuilder\bin\Debug\01.SubstringToStringBuilder.exe
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\01.SubstringToStringBuilder\bin\Debug\01.SubstringToStringBuilder.pdb
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\01.SubstringToStringBuilder\obj\Debug\01.SubstringToStringBuilder.csprojResolveAssemblyReference.cache

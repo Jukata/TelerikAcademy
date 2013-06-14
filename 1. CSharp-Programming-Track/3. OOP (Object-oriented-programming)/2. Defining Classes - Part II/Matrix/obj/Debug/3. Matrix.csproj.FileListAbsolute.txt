@@ -1,0 +1,6 @@
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Matrix\obj\Debug\3. Matrix.csprojResolveAssemblyReference.cache
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Matrix\bin\Debug\Matrix.exe.config
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Matrix\bin\Debug\Matrix.exe
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Matrix\bin\Debug\Matrix.pdb
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Matrix\obj\Debug\Matrix.exe
+E:\Telerik\OOP\2. Defining Classes - Part II\Homework\DefiningClassesPartII\Matrix\obj\Debug\Matrix.pdb

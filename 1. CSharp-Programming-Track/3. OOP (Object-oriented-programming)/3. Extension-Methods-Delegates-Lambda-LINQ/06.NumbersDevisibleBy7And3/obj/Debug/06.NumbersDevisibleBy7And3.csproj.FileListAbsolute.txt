@@ -1,0 +1,9 @@
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\06.NumbersDevisibleBy7And3\bin\Debug\06.NumbersDevisibleBy7And3.exe.config
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\06.NumbersDevisibleBy7And3\bin\Debug\06.NumbersDevisibleBy7And3.exe
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\06.NumbersDevisibleBy7And3\bin\Debug\06.NumbersDevisibleBy7And3.pdb
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\06.NumbersDevisibleBy7And3\obj\Debug\06.NumbersDevisibleBy7And3.csprojResolveAssemblyReference.cache
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\06.NumbersDevisibleBy7And3\obj\Debug\06.NumbersDevisibleBy7And3.exe
+D:\TU\Telerik Academy\OOP part 1\Homework\ExtentonMethodsDelegatesLINQ\06.NumbersDevisibleBy7And3\obj\Debug\06.NumbersDevisibleBy7And3.pdb
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\06.NumbersDevisibleBy7And3\bin\Debug\06.NumbersDevisibleBy7And3.exe.config
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\06.NumbersDevisibleBy7And3\obj\Debug\06.NumbersDevisibleBy7And3.exe
+E:\Telerik\OOP\3. Extension-Methods-Delegates-Lambda-LINQ\Homework\06.NumbersDevisibleBy7And3\obj\Debug\06.NumbersDevisibleBy7And3.pdb

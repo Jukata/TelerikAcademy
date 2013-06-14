@@ -1,0 +1,7 @@
+E:\Telerik\KPK\2. Code formatting\Event\Events\bin\Debug\Events.exe.config
+E:\Telerik\KPK\2. Code formatting\Event\Events\bin\Debug\Events.exe
+E:\Telerik\KPK\2. Code formatting\Event\Events\bin\Debug\Events.pdb
+E:\Telerik\KPK\2. Code formatting\Event\Events\bin\Debug\PowerCollections.dll
+E:\Telerik\KPK\2. Code formatting\Event\Events\obj\Debug\Events.csprojResolveAssemblyReference.cache
+E:\Telerik\KPK\2. Code formatting\Event\Events\obj\Debug\Events.exe
+E:\Telerik\KPK\2. Code formatting\Event\Events\obj\Debug\Events.pdb

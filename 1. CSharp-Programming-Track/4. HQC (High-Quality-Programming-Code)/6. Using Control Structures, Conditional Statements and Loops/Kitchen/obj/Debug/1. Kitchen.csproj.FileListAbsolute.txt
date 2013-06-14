@@ -1,0 +1,6 @@
+E:\Telerik\KPK\6. Using Control Structures, Conditional Statements and Loops\ControlStructuresConditionalsLoops\Kitchen\obj\Debug\1. Kitchen.csprojResolveAssemblyReference.cache
+E:\Telerik\KPK\6. Using Control Structures, Conditional Statements and Loops\ControlStructuresConditionalsLoops\Kitchen\obj\Debug\Kitchen.exe
+E:\Telerik\KPK\6. Using Control Structures, Conditional Statements and Loops\ControlStructuresConditionalsLoops\Kitchen\obj\Debug\Kitchen.pdb
+E:\Telerik\KPK\6. Using Control Structures, Conditional Statements and Loops\ControlStructuresConditionalsLoops\Kitchen\bin\Debug\Kitchen.exe.config
+E:\Telerik\KPK\6. Using Control Structures, Conditional Statements and Loops\ControlStructuresConditionalsLoops\Kitchen\bin\Debug\Kitchen.exe
+E:\Telerik\KPK\6. Using Control Structures, Conditional Statements and Loops\ControlStructuresConditionalsLoops\Kitchen\bin\Debug\Kitchen.pdb

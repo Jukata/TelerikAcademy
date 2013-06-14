@@ -1,0 +1,16 @@
+
+using System.IO;
+class ReadTextFileAndPrintOddLines
+    static void Main()
+        try
+            StreamReader reader = new StreamReader(@"../../ReadTextFileAndPrintOddLines.cs");
+            {
+                using (writer)
+                    while (reader.ReadLine() != null)
+                        writer.WriteLine(reader.ReadLine());
+                }
+            Console.WriteLine("Read and write complete.");
+        catch (FileNotFoundException ex)
+            Console.WriteLine(ex.Message);
+    }
+

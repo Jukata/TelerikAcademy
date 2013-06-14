@@ -1,0 +1,36 @@
+Line 1: //Write a program that reads a text file and inserts line numbers in front of each of its lines.
+Line 2: //The result should be written to another text file.
+Line 3: 
+Line 4: using System;
+Line 5: using System.IO;
+Line 6: 
+Line 7: class ReadFileAndWriteWithLineNumbers
+Line 8: {
+Line 9:     static void Main()
+Line 10:     {
+Line 11:         try
+Line 12:         {
+Line 13:             StreamWriter writer = new StreamWriter(@"../../result.txt");
+Line 14:             using (writer)
+Line 15:             {
+Line 16:                 StreamReader reader = new StreamReader(@"../../ReadFileAndWriteWithLineNumbers.cs");
+Line 17:                 using (reader)
+Line 18:                 {
+Line 19:                     string stringForWrite = reader.ReadLine();
+Line 20:                     int lineNumber = 1;
+Line 21:                     while (stringForWrite != null)
+Line 22:                     {
+Line 23:                         writer.WriteLine("Line {0}: {1}", lineNumber, stringForWrite);
+Line 24:                         lineNumber++;
+Line 25:                         stringForWrite = reader.ReadLine();
+Line 26:                     }
+Line 27:                 }
+Line 28:             }
+Line 29:             Console.WriteLine("Reading and writing completed.");
+Line 30:         }
+Line 31:         catch (FileNotFoundException ex)
+Line 32:         {
+Line 33:             Console.WriteLine(ex.Message);
+Line 34:         }
+Line 35:     }
+Line 36: }

@@ -1,0 +1,6 @@
+E:\Telerik\OOP\1. Defining Classes - Part I\Homework\DefiningClassesPartI\MobilePhone\bin\Debug\MobilePhone.exe.config
+E:\Telerik\OOP\1. Defining Classes - Part I\Homework\DefiningClassesPartI\MobilePhone\bin\Debug\MobilePhone.exe
+E:\Telerik\OOP\1. Defining Classes - Part I\Homework\DefiningClassesPartI\MobilePhone\bin\Debug\MobilePhone.pdb
+E:\Telerik\OOP\1. Defining Classes - Part I\Homework\DefiningClassesPartI\MobilePhone\obj\Debug\MobilePhone.csprojResolveAssemblyReference.cache
+E:\Telerik\OOP\1. Defining Classes - Part I\Homework\DefiningClassesPartI\MobilePhone\obj\Debug\MobilePhone.exe
+E:\Telerik\OOP\1. Defining Classes - Part I\Homework\DefiningClassesPartI\MobilePhone\obj\Debug\MobilePhone.pdb

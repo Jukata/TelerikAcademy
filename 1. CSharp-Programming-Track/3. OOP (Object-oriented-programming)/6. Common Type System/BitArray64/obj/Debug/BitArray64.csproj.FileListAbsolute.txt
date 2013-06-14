@@ -1,0 +1,1 @@
+E:\Telerik\OOP\6. Common Type System\Homework\CommonTypeSystem\BitArray64\bin\Debug\BitArray64.exe.config

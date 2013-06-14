@@ -1,0 +1,6 @@
+E:\Telerik\KPK\10. Code Tuning and Optimization\2. Performance-Tests\PerformanceTests\SortTests\bin\Debug\SortTests.exe.config
+E:\Telerik\KPK\10. Code Tuning and Optimization\2. Performance-Tests\PerformanceTests\SortTests\bin\Debug\SortTests.exe
+E:\Telerik\KPK\10. Code Tuning and Optimization\2. Performance-Tests\PerformanceTests\SortTests\bin\Debug\SortTests.pdb
+E:\Telerik\KPK\10. Code Tuning and Optimization\2. Performance-Tests\PerformanceTests\SortTests\obj\Debug\SortTests.exe
+E:\Telerik\KPK\10. Code Tuning and Optimization\2. Performance-Tests\PerformanceTests\SortTests\obj\Debug\SortTests.pdb
+E:\Telerik\KPK\10. Code Tuning and Optimization\2. Performance-Tests\PerformanceTests\SortTests\obj\Debug\4. SortTests.csprojResolveAssemblyReference.cache
