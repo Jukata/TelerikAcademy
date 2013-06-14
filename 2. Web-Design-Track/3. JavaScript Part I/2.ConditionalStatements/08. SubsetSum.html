@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Subset sum</title>
+    <script src="scripts/isValidInput.js"></script>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="task">
+		We are given 5 integer numbers. Write a script that checks if the sum of some subset of them is 0. 
+        Example: 3, -2, 1, 1, 8 -> 1+1-2=0.
+	</div>
+    <label for="firstNumber">Enter first number:</label>
+    <input type="text" id="firstNumber" />
+    <label for="secondNumber">Enter second number:</label>
+    <input type="text" id="secondNumber" />
+    <label for="thirdNumber">Enter third number:</label>
+    <input type="text" id="thirdNumber" />
+    <br />
+    <label for="fourthNumber">Enter fourth number:</label>
+    <input type="text" id="fourthNumber" />
+    <label for="fifthNumber">Enter fifth number:</label>
+    <input type="text" id="fifthNumber" />
+    <button onclick="SubsetSum()">Run</button>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        //We are given 5 integer numbers. Write a script that checks if the sum of some subset of them is 0. 
+        //Example: 3, -2, 1, 1, 8 -> 1+1-2=0.
+        function SubsetSum() {
+            var firstNumber = parseFloat(document.getElementById("firstNumber").value);
+            var secondNumber = parseFloat(document.getElementById("secondNumber").value);
+            var thirdNumber = parseFloat(document.getElementById("thirdNumber").value);
+            var fourthNumber = parseFloat(document.getElementById("fourthNumber").value);
+            var fifthNumber = parseFloat(document.getElementById("fifthNumber").value);
+			var hasSolution = false;
+			
+            if (isValidInputNumber(firstNumber) && isValidInputNumber(secondNumber) && isValidInputNumber(thirdNumber)
+                && isValidInputNumber(fourthNumber) && isValidInputNumber(fifthNumber)) {
+
+                var arr = [firstNumber, secondNumber, thirdNumber, fourthNumber, fifthNumber];
+
+                for (var i = 1; i < 32; i++) {
+                    var sum = 0;
+                    for (var j = 0; j < 5; j++) {
+                        if (((i >> j) & 1) == 1) {
+                            sum += arr[j];
+                        }
+                    }
+                    if (sum == 0) {
+						hasSolution = true;
+                        jsConsole.write("Subset with sum 0 -> [ ")
+                        for (var j = 0; j < 5; j++) {
+                            if (((i >> j) & 1) == 1) {
+                                jsConsole.write(arr[j] + " ");
+                            }
+                        }
+                        jsConsole.writeLine("]");
+                    }
+                }
+				if(!hasSolution) jsConsole.writeLine("There isn't subset with sum 0.");
+            }
+            else {
+                jsConsole.writeLine("Enter valid integers.");
+            }
+        }
+    </script>
+</body>
+</html>

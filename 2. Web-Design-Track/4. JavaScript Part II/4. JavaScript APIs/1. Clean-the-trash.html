@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>1. Clean the trash</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <style>
+        div#task {
+            width: 75%;
+            height: 140px;
+        }
+
+        div#clean-the-trash {
+            width: 100%;
+            height: 600px;
+        }
+		
+		img:not(#bin) {
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a client-side based web application that consists of a trash bucket and lots of trash items in the browser window. Implement the following functionality:
+        </p>
+        <ul>
+            <li>Drag trash items</li>
+            <li>Open the bucket when a trash item is being dragged over it and close when the trash is dragged out of the bucket, or is dropped in the bucket</li>
+            <li>To throw a trash item into the bucket, i.e. make it disappear from the browser window</li>
+        </ul>
+        <a href="2. Just-clean-the-trash.html">Next task</a>
+    </div>
+    <div id="clean-the-trash">
+        <img src="images/android-sad.png" id="bin" ondrop="cleanTrash(event)"
+             ondragleave="changeBinPicture()" ondragover="openBin(event)" ondragstart="disableBinDrag(event)" />
+    </div>
+    <script>
+        var bin = document.getElementById("bin");
+
+        var applesCount = 5 + (Math.random() * 6 | 0);
+        var trashedApplesCount = 0;
+
+        generateApples();
+
+        function generateApples() {
+            for (var i = 0; i < applesCount; i++) {
+                var img = document.createElement("img");
+                img.src = "images/apple.png";
+                img.style.position = "absolute";
+                img.style.top = 200 + (Math.random() * 300 | 0) + "px";
+                img.style.left = 450 + (Math.random() * 500 | 0) + "px";
+                img.draggable = "true";
+                img.id = "apple" + i;
+
+                if (img.addEventListener) {
+                    img.addEventListener("dragstart", startDrag, false);
+                }
+                else {
+                    img.attachEvent("ondragstart", img);
+                }
+
+                document.getElementById("clean-the-trash").appendChild(img);
+            }
+        }
+
+        function startDrag(event) {
+            if (!event) event = window.event;
+
+            event.dataTransfer.setData("dragged-item-id", event.target.id);
+        }
+
+        function openBin(event) {
+            if (!event) event = window.event;
+            bin.src = "images/android-open.png";
+            if (event.preventDefault) event.preventDefault();
+        }
+
+        function cleanTrash(event) {
+            if (!event) event = window.event;
+
+            var trashId = event.dataTransfer.getData("dragged-item-id");
+            var trash = document.getElementById(trashId);
+            trash.parentNode.removeChild(trash);
+
+            if (event.preventDefault) event.preventDefault();
+
+            trashedApplesCount++;
+
+            changeBinPicture();
+        }
+
+        function changeBinPicture() {
+            if (bin.src = "images/android-open.png") {
+
+                if (trashedApplesCount == applesCount) {
+                    bin.src = "images/android-happy.png";
+                }
+                else if (trashedApplesCount < applesCount / 2) {
+                    bin.src = "images/android-sad.png";
+                }
+                else if (trashedApplesCount >= applesCount / 2) {
+                    bin.src = "images/android-closed.png";
+                }
+            }
+        }
+
+        function disableBinDrag(event) {
+            event.preventDefault();
+        }
+    </script>
+</body>
+</html>

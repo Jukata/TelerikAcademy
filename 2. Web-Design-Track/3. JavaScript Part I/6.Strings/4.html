@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Change text in tags</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            You are given a text. Write a function that changes the text in all regions:
+            <br />
+            &lt;upcase&gt;text&lt;/upcase&gt; to uppercase.
+            &lt;lowcase&gt;text&lt;/lowcase&gt; to lowercase
+            &lt;mixcase&gt;text&lt;/mixcase&gt; to mix casing(random)
+            <br />
+        </p>
+        <a href="3.html">Previous task</a>
+        <a href="5.html">Next task</a>
+    </div>
+
+    <br />
+    <button onclick="changeTextInTags()">Run script</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function changeTextInTags() {
+            var text = "We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else."
+
+            jsConsole.writeLine(text);
+
+            text = doUpcase(text);
+            text = doMixCase(text);
+            text = doLowCase(text);
+
+            jsConsole.writeLine(text);
+        }
+
+
+        function doUpcase(text) {
+            var indexStart = text.indexOf("<upcase>");
+            while (indexStart != -1) {
+                var insideText = text.substring(indexStart + 8, text.indexOf("</upcase>", indexStart))
+                var upperText = insideText.toUpperCase();
+                text = text.replace(insideText, upperText);
+                indexStart = text.indexOf("<upcase>", indexStart + 1);
+            }
+            return text;
+        }
+
+        function doMixCase(text) {
+            var indexStart = text.indexOf("<mixcase>");
+            while (indexStart != -1) {
+                var insideText = text.substring(indexStart + 9, text.indexOf("</mixcase>", indexStart));
+                var mixedText = new String(insideText);
+                for (var i = 0; i < mixedText.length ; i++) {
+                    if (i % 2 == 0) {
+                        mixedText = mixedText.replace(mixedText[i], mixedText[i].toLowerCase())
+                    }
+                    else {
+                        mixedText = mixedText.replace(mixedText[i], mixedText[i].toUpperCase())
+                    }
+                }
+                text = text.replace(insideText, mixedText);
+                indexStart = text.indexOf("<mixcase>", indexStart + 1);
+            }
+            return text;
+        }
+
+        function doLowCase(text) {
+            var indexStart = text.indexOf("<lowcase>");
+            while (indexStart != -1) {
+                var insideText = text.substring(indexStart + 9, text.indexOf("</lowcase>", indexStart));
+                var lowerText = insideText.toLowerCase();
+                text = text.replace(insideText, lowerText);
+                indexStart = text.indexOf("<lowcase>", indexStart + 1);
+            }
+            return text;
+        }
+    </script>
+</body>
+</html>

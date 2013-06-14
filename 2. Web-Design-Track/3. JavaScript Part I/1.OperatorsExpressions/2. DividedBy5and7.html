@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Divided by 5 and 7</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <script src="scripts/isValidInput.js"></script>
+</head>
+<body>
+    <label for="input">Enter integer</label>
+    <input type="text" id="input" />
+    <button onclick="DivideBy5and7()">
+        Check integer can be divided by 5 and 7.
+    </button>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        //Write a boolean expression that checks for given integer if it 
+        //can be divided (without remainder) by 7 and 5 in the same time.
+        function DivideBy5and7() {
+            var number = parseInt(document.getElementById("input").value); // get input value
+            if (isValidInputNumber(number)) { // validate input value
+                if (number % 35 == 0) {
+                    jsConsole.writeLine(number + " is divided by 5 and 7 without remainder.");
+                }
+                else {
+                    jsConsole.writeLine(number + " is NOT divided by 5 and 7 without remainder.");
+                }
+            }
+            else {
+                jsConsole.writeLine("Enter valid integer number.");
+            }
+        }
+    </script>
+</body>
+</html>

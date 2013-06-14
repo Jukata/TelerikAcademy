@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>4. Color inputs</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style>
+        div#task {
+            height: 80px;
+        }
+
+        textarea {
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Create a text area and two inputs with type="color"
+            Make the font color of the text area as the value of the first color input
+            Make the background color of the text area as the value of the second input
+        </p>
+        <a href="3. Query-selector-shim.html">Previous task</a>
+        <a href="5. Tag-Cloud.html">Next task</a>
+    </div>
+
+    <label for="font-color">Font color:</label>
+    <input type="color" id="font-color" onchange="changeColor()" />
+    <label for="background-color">Background color:</label>
+    <input type="color" id="background-color" onchange="changeColor()" />
+    <br />
+    
+    <textarea>Enter some text here...</textarea>
+
+    <script>
+        var textarea = document.getElementsByTagName("textarea")[0];
+
+        function changeColor() {
+            var fontColor = document.getElementById("font-color").value;
+            var backgroundColor = document.getElementById("background-color").value;
+            textarea.style.color = fontColor;
+            textarea.style.backgroundColor = backgroundColor;
+        }
+    </script>
+</body>
+</html>

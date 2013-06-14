@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sign of product</title>
+    <script src="scripts/isValidInput.js"></script>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="task">
+	    Write a script that shows the sign (+ or -) of the product of three real 
+        numbers without calculating it. Use a sequence of if statements.
+	</div>
+    <label for="firstNumber">Enter first number:</label>
+    <input type="text" id="firstNumber" />
+    <label for="secondNumber">Enter second number:</label>
+    <input type="text" id="secondNumber" />
+    <label for="thirdNumber">Enter third number:</label>
+    <input type="text" id="thirdNumber" />
+    <button onclick="CheckSign()">Run</button>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        //Write a script that shows the sign (+ or -) of the product of three real 
+        //numbers without calculating it. Use a sequence of if statements.
+        function CheckSign() {
+            var firstNumber = parseInt(document.getElementById("firstNumber").value);
+            var secondNumber = parseInt(document.getElementById("secondNumber").value);
+            var thirdNumber = parseInt(document.getElementById("thirdNumber").value);
+            var sign = "result is unsigned (0)";
+            if (isValidInputNumber(firstNumber) && isValidInputNumber(secondNumber) && isValidInputNumber(thirdNumber)) {
+                if (firstNumber < 0) {
+                    if (secondNumber > 0) {
+                        if (thirdNumber < 0) sign = "positive";
+                        else if (thirdNumber > 0) sign = "negative";
+                    }
+                    else if (secondNumber < 0) {
+                        if (thirdNumber < 0) sign = "negative";
+                        else if (thirdNumber > 0) sign = "positive";
+                    }
+                }
+                else if (firstNumber > 0) {
+                    if (secondNumber > 0) {
+                        if (thirdNumber > 0) sign = "positive";
+                        else if (thirdNumber < 0) sign = "negative";
+                    }
+                    else if (secondNumber < 0) {
+                        if (thirdNumber > 0) sign = "negative";
+                        else if (thirdNumber < 0) sign = "positive";
+                    }
+                }
+                jsConsole.writeLine("Product of " + firstNumber + " * " + secondNumber + " * " + thirdNumber + " is " + sign + ".");
+            }
+            else {
+                jsConsole.writeLine("Enter valid integers.");
+            }
+        }
+    </script>
+</body>
+</html>

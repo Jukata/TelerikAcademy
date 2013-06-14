@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>1. Dom module</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style>
+        div#task {
+            width: 75%;
+            height: 220px;
+        }
+        a.button{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>Create a module for working with DOM. The module should have the following functionality</p>
+        <ul>
+            <li>Add DOM element to parent element given by selector</li>
+            <li>Remove element from the DOM  by given selector</li>
+            <li>Attach event to given selector by given event type and event handler</li>
+            <li>Add elements to buffer, which appends them to the DOM when their count for some selector becomes 100
+                <ul>
+                    <li>The buffer contains elements for each selector it gets</li>
+                </ul>
+            </li>
+            <li>Get elements by CSS selector</li>
+            <li>The module should reveal only the methods</li>
+        </ul>
+        <a href="2. Moving-divs-module.html">Next task</a>
+    </div>
+
+    <div id="wrapper">
+    </div>
+    <ul id="list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <a href="#" class="button">Anchor button</a>
+    <a href="#" class="button">Anchor button</a>
+    <a href="#" class="button">Anchor button</a>
+
+    <script>
+        var domModule = function domModule() {
+            var bufferSize = 100;
+            var buffer = {};
+
+            function createElement(tagName, innerHtml) {
+                var element = document.createElement(tagName);
+                element.innerHTML = innerHtml;
+                return element;
+            }
+
+            function appendChild(tagName, innerHTML, selector) {
+                var parentElement = document.querySelector(selector);
+                var childElement = createElement(tagName, innerHTML);
+                parentElement.appendChild(childElement);
+            }
+
+            function removeChild(parentSelector, childSelector) {
+                var child = document.querySelector(parentSelector + " > " + childSelector);
+                var parent = document.querySelector(parentSelector);
+
+                if (arguments.length == 1) {
+                    child.parentNode.removeChild(child);
+                }
+                else if (arguments.length == 2) {
+                    parent.removeChild(child);
+                }
+            }
+
+            function addHandler(selector, event, eventHandler) {
+                var elements = document.querySelectorAll(selector);
+                for (var i = 0, len = elements.length; i < len; i++) {
+                    elements[i].addEventListener(event, eventHandler, true);
+                }
+            }
+
+            function addElementToBuffer(parentSelector, tagName, attributes, innerHtml) {
+                var child = createElement(tagName, attributes, innerHtml)
+
+                if (!buffer[parentSelector]) {
+                    buffer[parentSelector] = document.createDocumentFragment();
+                }
+
+                buffer[parentSelector].appendChild(child);
+
+                if (buffer[parentSelector].childNodes.length >= bufferSize) {
+                    var parent = document.querySelector(parentSelector);
+                    parent.appendChild(buffer[parentSelector]);
+                    buffer[parentSelector] = null;
+                }
+            }
+
+            function getElements(selector) {
+                return document.querySelectorAll(selector);
+            }
+
+            return {
+                appendChild: appendChild,
+                removeChild: removeChild,
+                addHandler: addHandler,
+                addElementToBuffer: addElementToBuffer
+            }
+        }();
+
+        //appends div to #wrapper
+        domModule.appendChild("div", "Some inner HTML text.", "#wrapper");
+        //removes li:first-child from ul
+        domModule.removeChild("ul#list", "li:first-child");
+        //add handler to each a element with class button
+        domModule.addHandler("a.button", 'click', function () { alert("Clicked!") });
+
+    </script>
+</body>
+</html>

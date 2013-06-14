@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Appearence of number</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a function that counts how many times given number appears in given array. Write a test function to check if the function is working correctly.
+        </p>
+        <a href="4.html">Previous task</a>
+        <a href="6.html">Next task</a>
+    </div>
+
+    <br />
+    <button onclick="appearenceOfNumberInArray()">Run script</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function appearenceOfNumberInArray() {
+            var numbers = [1, 2, 23, 4, 5, 4, 1, 2, 1];
+            var number = 1;
+            var numberOfAppearence = 0;
+            for (var i = 0; i < numbers.length; i++) {
+                if (numbers[i] == number) {
+                    numberOfAppearence++;
+                }
+            }
+            jsConsole.writeLine("The number " + number + " appear " + numberOfAppearence + " times in the array " + numbers);
+           testFunc(numberOfAppearence);
+        }
+
+        function testFunc(result) {
+            var expectedResult = 3;
+            console.assert(result == expectedResult);
+        }
+    </script>
+</body>
+</html>

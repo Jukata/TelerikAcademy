@@ -1,0 +1,54 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+thead,tfoot
+{
+	background:#E7E9EB;
+}
+table,td,th
+{
+	border:1px solid grey;
+	border-collapse:collapse;
+}
+td,th
+{
+	padding:4px;
+	text-align:left;
+}
+table
+{
+	color:#333333;
+	margin:10px;
+}
+.small
+{
+	width:30px;
+}
+.medium
+{
+	width:95px;
+}
+.up
+{
+	vertical-align:4px;
+}
+input[type=button]
+{
+	padding:1px;
+}
+a
+{
+	text-decoration:none;
+	color:#333333;
+}
+.right
+{
+	float:right;
+}
+.select
+{
+	border:1px solid #C95C05;
+}

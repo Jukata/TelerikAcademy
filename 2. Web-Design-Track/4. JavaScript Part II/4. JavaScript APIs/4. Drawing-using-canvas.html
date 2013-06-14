@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>4.Drawing using canvas</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <style>
+        div#task {
+            width: 50%;
+            height: 60px;
+        }
+
+        canvas {
+            border: 3px solid red;
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>Draw the following graphics using canvas.</p>
+        <a href="3. Storages-shims.html">Previous task</a>
+		<a href="5. Bouncing-ball.html">Next task</a>
+    </div>
+
+    <canvas width="1000" height="500"></canvas>
+
+    <script>
+        var canvas = document.getElementsByTagName("canvas")[0];
+        var context = canvas.getContext("2d");
+
+        (function drawHeadWithHat() {
+            context.fillStyle = "#90CAD7";
+            context.strokeStyle = "#348093";
+            context.lineWidth = 3;
+
+            // head
+            context.beginPath();
+            context.arc(200, 200, 80, 0, Math.PI * 2, false);
+            context.stroke();
+            context.fill();
+
+            // left eye
+            context.beginPath();
+            context.save();
+            context.scale(1, 0.8)
+            context.arc(160, 210, 10, 0, Math.PI * 2, false);
+            context.stroke();
+            context.restore();
+
+            // right eye
+            context.beginPath();
+            context.save();
+            context.scale(1, 0.8)
+            context.arc(210, 210, 10, 0, Math.PI * 2, false);
+            context.stroke();
+            context.restore();
+
+            //nose
+            context.beginPath();
+            context.moveTo(185, 210);
+            context.lineTo(170, 210);
+            context.lineTo(185, 170);
+            context.stroke();
+
+            // mouth
+            context.beginPath();
+            context.save();
+            context.scale(1, 0.5);
+            context.arc(185, 480, 30, 0, Math.PI * 2, false);
+            context.stroke();
+            context.restore();
+
+            // finishng eyes
+            context.fillStyle = "#348093";
+            context.beginPath();
+            context.save();
+            context.scale(0.5, 1)
+            context.arc(315, 168, 7, 0, Math.PI * 2, false);
+            context.fill();
+            context.restore();
+
+            context.beginPath();
+            context.save();
+            context.scale(0.5, 1)
+            context.arc(415, 168, 7, 0, Math.PI * 2, false);
+            context.fill();
+            context.restore();
+
+            // hat;
+            context.fillStyle = "#396693";
+            context.strokeStyle = "black";
+            context.beginPath();
+            context.save();
+            context.scale(1, 0.25);
+            context.lineWidth = 6;
+            context.arc(190, 500, 90, 0, Math.PI * 2, false);
+            context.fill();
+            context.stroke();
+            context.restore();
+
+            context.fillRect(160, 33, 80, 77);
+            context.strokeRect(160, 33, 80, 77);
+
+            context.beginPath();
+            context.save();
+            context.scale(1, 0.25);
+            context.lineWidth = 6;
+            context.arc(200, 440, 38, 0, Math.PI * 2, false);
+            context.fill();
+            context.restore();
+
+            context.beginPath();
+            context.save();
+            context.scale(1, 0.25);
+            context.lineWidth = 6;
+            context.arc(200, 440, 38, 0, Math.PI, false);
+            context.stroke();
+            context.restore();
+
+            context.beginPath();
+            context.save();
+            context.scale(1, 0.4);
+            context.lineWidth = 6;
+            context.arc(200, 80, 38, 0, Math.PI * 2, false);
+            context.fill();
+            context.stroke();
+            context.restore();
+
+        })();
+
+        (function drawHouse() {
+            context.strokeStyle = "black";
+            context.fillStyle = "#975B5B";
+            context.lineWidth = 3;
+
+            context.fillRect(700, 200, 250, 250);
+            context.strokeRect(700, 200, 250, 250);
+
+            // roof
+            context.beginPath();
+            context.moveTo(700, 200);
+            context.lineTo(950, 200);
+            context.lineTo(825, 50);
+            context.lineTo(700, 200);
+            context.fill();
+            context.stroke();
+
+            // chimney
+            context.beginPath();
+            context.moveTo(880, 170);
+            context.lineTo(880, 100);
+            context.lineTo(900, 100);
+            context.lineTo(900, 170);
+            context.fill();
+            context.stroke();
+
+            // chimney ellipse
+            context.beginPath();
+            context.save();
+            context.scale(1, 0.25);
+            context.arc(890, 400, 10, 0, Math.PI * 2, false);
+            context.fill();
+            context.stroke()
+            context.restore();
+
+            //door
+            context.beginPath();
+            context.save();
+            context.scale(1, 0.5);
+            context.arc(770, 700, 40, Math.PI, 0, false);
+            context.stroke();
+            context.restore();
+
+            context.beginPath();
+            context.moveTo(730, 450);
+            context.lineTo(730, 350);
+            context.moveTo(810, 350);
+            context.lineTo(810, 450);
+            context.moveTo(770, 450);
+            context.lineTo(770, 330);
+            context.stroke();
+
+            context.beginPath();
+            context.arc(760, 420, 5, 0, Math.PI * 2, false);
+            context.stroke();
+            context.beginPath();
+            context.arc(780, 420, 5, 0, Math.PI * 2, false);
+            context.stroke();
+
+            // windows
+            context.fillStyle = "black";
+            context.strokeStyle = "#975B5B";
+            context.fillRect(710, 230, 50, 40);
+            context.fillRect(763, 230, 50, 40);
+            context.fillRect(710, 273, 50, 40);
+            context.fillRect(763, 273, 50, 40);
+
+            context.fillRect(840, 230, 50, 40);
+            context.fillRect(893, 230, 50, 40);
+            context.fillRect(840, 273, 50, 40);
+            context.fillRect(893, 273, 50, 40);
+
+            context.fillRect(840, 340, 50, 40);
+            context.fillRect(893, 340, 50, 40);
+            context.fillRect(840, 383, 50, 40);
+            context.fillRect(893, 383, 50, 40);
+
+        })();
+
+        (function drawBike() {
+            context.fillStyle = "#90CAD7";
+            context.strokeStyle = "#348093";
+            context.lineWidth = 3;
+
+            // right wheel
+            context.beginPath();
+            context.arc(60, 440, 50, 0, 2 * Math.PI, false);
+            context.fill();
+            context.stroke();
+
+            // left wheel
+            context.beginPath();
+            context.arc(260, 440, 50, 0, 2 * Math.PI, false);
+            context.fill();
+            context.stroke();
+
+            // Chain
+            context.beginPath();
+            context.arc(150, 440, 15, 0, 2 * Math.PI, false);
+            context.stroke();
+
+            //pedals
+            context.beginPath();
+            context.moveTo(141, 430);
+            context.lineTo(128, 413);
+            context.moveTo(159, 450);
+            context.lineTo(172, 467);
+
+            // bike frame
+            context.moveTo(60, 440);
+            context.lineTo(150, 440);
+            context.lineTo(254, 365);
+            context.lineTo(140, 365);
+            context.lineTo(60, 440);
+
+            context.moveTo(150, 440);
+            context.lineTo(130, 345);
+            context.moveTo(110, 345);
+            context.lineTo(150, 345);
+
+            context.moveTo(260, 440);
+            context.lineTo(255, 335);
+            context.lineTo(220, 345);
+            context.moveTo(255, 335);
+            context.lineTo(275, 300);
+
+            context.stroke();
+        })();
+    </script>
+</body>
+</html>

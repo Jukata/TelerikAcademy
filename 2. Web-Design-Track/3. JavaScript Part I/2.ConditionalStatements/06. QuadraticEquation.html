@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Quadratic equation</title>
+    <script src="scripts/isValidInput.js"></script>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="task">
+		Write a script that enters the coefficients a, b and c of a quadratic equation
+        a*x2 + b*x + c = 0
+        and calculates and prints its real roots. Note that quadratic equations may have 0, 1 or 2 real roots.
+	</div>
+    <label for="a">Enter coefficient A:</label>
+    <input type="text" id="a" />
+    <label for="b">Enter coefficient B:</label>
+    <input type="text" id="b" />
+    <label for="c">Enter coefficient C:</label>
+    <input type="text" id="c" />
+    <button onclick="QuadraticEquation()">Find real roots</button>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        //Write a script that enters the coefficients a, b and c of a quadratic equation
+        //a*x2 + b*x + c = 0
+        //and calculates and prints its real roots. Note that quadratic equations may have 0, 1 or 2 real roots.
+
+        function QuadraticEquation() {
+            var a = parseFloat(document.getElementById("a").value);
+            var b = parseFloat(document.getElementById("b").value);
+            var c = parseFloat(document.getElementById("c").value);
+
+            if (isValidInputNumber(a) && isValidInputNumber(b) && isValidInputNumber(c)) {
+                if (a != 0) {
+                    var d = b * b - 4 * a * c;
+                    if (d > 0) {
+                        var x1 = (-b + Math.sqrt(d)) / (2 * a);
+                        var x2 = (-b - Math.sqrt(d)) / (2 * a);
+                        jsConsole.writeLine("x1=" + x1);
+                        jsConsole.writeLine("x2=" + x2);
+                    }
+                    else if (d == 0) {
+                        var x = -b / (2 * a);
+                        jsConsole.writeLine("x1=x2=" + x);
+                    }
+                    else if (d < 0) {
+                        jsConsole.writeLine("The equation has no real roots");
+                    }
+                }
+                else {
+                    if (b != 0) {
+                        var x = -c / b;
+                        jsConsole.writeLine("x=" + x);
+                    }
+                    else {
+                        jsConsole.writeLine("The equation has no solution");
+                    }
+                }
+            }
+
+            else {
+                jsjsConsole.writeLine("Enter valid integers.");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sort three integers in descending order</title>
+    <script src="scripts/isValidInput.js"></script>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="task">
+		Sort 3 real values in descending order using nested if statements.
+	</div>
+    <label for="firstNumber">Enter first number:</label>
+    <input type="text" id="firstNumber" />
+    <label for="secondNumber">Enter second number:</label>
+    <input type="text" id="secondNumber" />
+    <label for="thirdNumber">Enter third number:</label>
+    <input type="text" id="thirdNumber" />
+    <button onclick="SortDescending()">Run</button>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        //Sort 3 real values in descending order using nested if statements.
+        function SortDescending() {
+            var firstNumber = parseInt(document.getElementById("firstNumber").value);
+            var secondNumber = parseInt(document.getElementById("secondNumber").value);
+            var thirdNumber = parseInt(document.getElementById("thirdNumber").value);
+
+            if (isValidInputNumber(firstNumber) && isValidInputNumber(secondNumber) && isValidInputNumber(thirdNumber)) {
+                if (thirdNumber < secondNumber) { // exchange third -> second
+                    secondNumber = secondNumber + thirdNumber;
+                    thirdNumber = secondNumber - thirdNumber;
+                    secondNumber = secondNumber - thirdNumber;
+                }
+                if (secondNumber < firstNumber) { // exchange second -> first
+                    firstNumber = firstNumber + secondNumber;
+                    secondNumber = firstNumber - secondNumber;
+                    firstNumber = firstNumber - secondNumber;
+                }
+                if (thirdNumber < secondNumber) { //exchange third -> second
+                    thirdNumber = thirdNumber + secondNumber;
+                    secondNumber = thirdNumber - secondNumber;
+                    thirdNumber = thirdNumber - secondNumber;
+                }
+                //sorted in acsending so take them in reverse order
+                jsConsole.writeLine("Sorted in descending order: " + thirdNumber + " " + secondNumber + " " + firstNumber);
+            }
+            else {
+                jsConsole.writeLine("Enter valid integers.");
+            }
+        }
+    </script>
+</body>
+</html>

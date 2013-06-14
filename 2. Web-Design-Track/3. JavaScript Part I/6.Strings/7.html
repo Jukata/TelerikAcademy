@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Parse url</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a script that parses an URL address given in the format:
+        <br />
+            [protocol]://[server]/[resource]
+            and extracts from it the [protocol], [server] and [resource] elements. Return the elements in a JSON object.For example from the URL http://www.devbg.org/forum/index.php the following information should be extracted:
+         <br />
+            {protocol: "http", server: "www.devbg.org", 
+            resource: "/forum/index.php"}
+        </p>
+        <a href="6.html">Previous task</a>
+        <a href="8.html">Next task</a>
+    </div>
+
+    <br />
+    <label for="urlInput">Enter url</label>
+    <input type="text" id="urlInput" />
+    <button onclick="parseURL()">Parse URL</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function parseURL() {
+            var url = document.getElementById("urlInput").value;
+            url = url || "http://www.devbg.org/forum/index.php"; // if empty input use default
+
+            var urlJSON = parseURLtoJSON(url);
+            jsConsole.writeLine(url);
+            jsConsole.writeLine(urlJSON.toString());
+        }
+
+        function parseURLtoJSON(url) {
+            url += ""; //tostring 
+            var prot = url.substring(0, url.indexOf("://"));
+            var serv = url.substring(url.indexOf("://") + 3, url.indexOf("/", url.indexOf("://") + 3));
+            var resrc = url.substr(url.indexOf("/", url.indexOf("://") + 3) + 1);
+            return {
+                protocol: prot,
+                server: serv,
+                resource: resrc,
+                toString: function () {
+                    return "Protocol: " + this.protocol + "<br/>Server: " + this.server + "<br/>Resource: " + this.resource;
+                }
+            };
+        }
+
+    </script>
+</body>
+</html>

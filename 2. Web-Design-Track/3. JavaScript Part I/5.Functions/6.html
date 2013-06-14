@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Is number bigger than its neighboorsr</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a function that checks if the element at given position in given array of integers is bigger than its two neighbors (when such exist).
+        </p>
+        <a href="5.html">Previous task</a>
+        <a href="7.html">Next task</a>
+    </div>
+
+    <br />
+    <label for="position">Enter position for check:</label>
+    <input type="text" id="position" />
+    <label for="array">Enter array of integers(separated by interval):</label>
+    <input type="text" id="array" />
+    <button onclick="isBiggerThanNeighboors()">Run script</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function isBiggerThanNeighboors() {
+            var position = parseInt(document.getElementById("position").value);
+            var array = document.getElementById("array").value.split(' ');
+            var i;
+            for (i = 0; i < array.length; i++) {
+                array[i] = parseInt(array[i]);
+            }
+
+            if (position == 0 || position >= array.length - 1) {
+                jsConsole.writeLine("Element at position " + position + " hasn't two neighboors.");
+            }
+            else {
+                if (array[position] > array[position - 1] && array[position] > array[position + 1]) {
+                    jsConsole.writeLine("Element " + array[position] +
+                        " is bigger than its neighboors (" + array[position - 1] +
+                        " and " + array[position + 1] + ")");
+                }
+                else {
+                    jsConsole.writeLine("Element " + array[position] +
+                        " ISN'T bigger than its neighboors (" + array[position - 1] +
+                        " and " + array[position + 1] + ")");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

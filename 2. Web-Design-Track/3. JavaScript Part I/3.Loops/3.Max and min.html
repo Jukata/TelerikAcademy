@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Max and min from sequence numbers</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>Write a script that finds the max and min number from a sequence of numbers</p>
+        <a href="2. Not divisible by 3 and 7.html">
+            <button>Previous task</button></a>
+        <a href="4. Find properties.html">
+            <button>Next task</button></a>
+    </div>
+
+    <br />
+    <label for="input">Enter sequence of numbers separated by interval:</label>
+    <input id="input" />
+    <button onclick="MaxAndMinFromSequence()">Run</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        //Write a script that finds the max and min number from a sequence of numbers
+
+        function MaxAndMinFromSequence() {
+
+            var min = Number.MAX_VALUE; // min comparer begin from max value
+            var max = Number.MIN_VALUE; // max comparer begin from min value
+			var hasSolution = false;
+            var numbers = document.getElementById("input").value.split(' '); // split numbers from input text box
+			
+            if (numbers.length > 0) {
+                for (var i = 0; i < numbers.length; i++) {
+                    var number = parseFloat(numbers[i]); // parse element in area to number
+					if(isValidInputNumber(number)){
+						hasSolution = true;
+					}
+                    if (number > max) {
+                        max = number;
+                    }
+                    if (number < min) {
+                        min = number;
+                    }
+                }
+				if(hasSolution)jsConsole.writeLine("Min = " + min + " Max = " + max);
+				else jsConsole.writeLine("Enter at least one number.");
+            }
+            else {
+                jsConsole.writeLine("Enter at least one number.");
+            }
+
+        }
+    </script>
+</body>
+</html>

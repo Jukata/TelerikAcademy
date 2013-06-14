@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Placeholders</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a function that formats a string using placeholders. The function should work with up to 30 placeholders and all types
+        </p>
+        <a href="10.html">Previous task</a>
+        <a href="12.html">Next task</a>
+    </div>
+
+    <br />
+    <button onclick="placeholders()">Run script</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function placeholders() {
+
+            jsConsole.writeLine(stringFormat("Hello {0}!! Your name is not {1} and your name is not {2}.", "pesho", "gosho", "tosho"));
+            jsConsole.writeLine(stringFormat("Digits: {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}!", "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"));
+
+            function stringFormat() {
+                var result = arguments[0];
+                for (var i = 1; i < arguments.length; i++) {
+                    result = result.replace(("{" + (i - 1) + "}"), arguments[i]);
+                }
+                return result;
+            }
+        }
+    </script>
+</body>
+</html>

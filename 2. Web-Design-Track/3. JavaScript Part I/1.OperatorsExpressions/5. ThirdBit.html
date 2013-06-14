@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find third bit</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <script src="scripts/isValidInput.js"></script>
+</head>
+<body>
+    <label for="input">Enter number:</label>
+    <input type="text" id="input" />
+    <button onclick="FindThirdBit()">Find third bit</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        //Write a boolean expression for finding if the bit 3 (counting from 0) of a given integer is 1 or 0.
+        function FindThirdBit() {
+            var number = parseInt(document.getElementById("input").value);
+            if (isValidInputNumber(number)) {
+                PrintBits(number);
+                if ((number >> 3) & 1 == 1) {
+                    jsConsole.writeLine(". Third bit is 1.")
+                }
+                else {
+                    jsConsole.writeLine(". Third bit is 0.")
+                }
+            }
+            else {
+                jsConsole.writeLine("Enter valid number.");
+            }
+        }
+        function PrintBits(number) {
+            var numberAsBits = "";
+            for (var i = 31; i >= 0; i--) {
+                if ((number >> i) & 1 == 1) {
+                    numberAsBits += "1";
+                }
+                else {
+                    numberAsBits += "0";
+                }
+            }
+            jsConsole.write(numberAsBits)
+        }
+    </script>
+</body>
+</html>

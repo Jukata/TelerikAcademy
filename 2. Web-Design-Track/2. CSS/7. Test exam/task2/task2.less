@@ -1,0 +1,95 @@
+body, div, form, fieldset, input, button, label {
+    margin: 0;
+    padding: 0;
+}
+
+.linear-gradient(@from-color,@to-color,@from-pos: 0%,@to-pos: 100%) {
+    background-image: linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background-image: -o-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background-image: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background-image: -webkit-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background-image: -ms-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+   }
+
+@default-font-color: #000000;
+@default-font-size: 16px;
+@default-font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+
+body {
+    color: @default-font-color;
+    font-size: @default-font-size;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+
+    #wrapper {
+        /*.linear-gradient(white,black,0%,100%);*/
+        margin-left: 50px;
+        width: 1024px;
+
+        .btn-login-form {
+            color: black;
+            font-size: 1.2em;
+            text-decoration: none;
+			&:hover{
+				color:#666666;
+			}
+        }
+
+        .current {
+            font-weight: bold;
+        }
+
+        .invisible {
+            display: none;
+        }
+
+        form {
+            .linear-gradient(white,#595959,10%,100%);
+            width: 450px;
+
+            fieldset {
+                width: 365px;
+                border: 5px solid black;
+                border-radius: 5px;
+                padding-right: 75px;
+                padding-top: 3px;
+                text-align: right;
+
+                legend {
+                    font-size: 1.7em;
+                    font-weight: bold;
+                    font-style: italic;
+                    padding: 0 10px;
+                }
+
+                label {
+                    font-weight: bold;
+                }
+
+                input {
+                    margin-bottom: 7px;
+					margin-left:1px;
+                    padding: 10px 15px;
+                    border-radius: 15px;
+                    border: 0;
+					color:white;
+                    .linear-gradient(#020202,#CACACA,0%,100%);
+
+                    &:first-of-type {
+                        margin-top: 10px;
+                    }
+                }
+				button{
+					padding:5px 10px;
+					font-size:1.2em;
+					border:2px solid black;
+					border-radius: 15px;
+					.linear-gradient(#030303,#FCFCFC,0%,100%);
+					margin:3px 0 10px 0;
+					&:hover{
+						.linear-gradient(#020202,#CACACA,0%,100%);
+					}
+				}
+            }
+        }
+    }
+}

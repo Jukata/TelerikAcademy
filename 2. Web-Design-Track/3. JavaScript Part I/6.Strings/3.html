@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Substring contained in text</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a JavaScript function that finds how many times a substring is contained in a given text (perform case insensitive search).
+		    Example: The target substring is "in". The text is as follows:
+            <br />
+            We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.
+            The result is: 9.
+        </p>
+        <a href="2.html">Previous task</a>
+        <a href="4.html">Next task</a>
+    </div>
+
+    <br />
+    <button onclick="searchForSubstring()">Run script</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function searchForSubstring() {
+            var text = "We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+            text = text.toLowerCase(); // perform case insencitive search
+            var word = "in";
+            var wordLength = word.length;
+            var count = 0;
+            var index = text.indexOf(word);
+            while (index != -1) {
+                count++;
+                index = text.indexOf(word, index + wordLength);
+            }
+            jsConsole.writeLine("The word " + word + " appear in the text " + count + " times.");
+        }
+
+
+    </script>
+</body>
+</html>

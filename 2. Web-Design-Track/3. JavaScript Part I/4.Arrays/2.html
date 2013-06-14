@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Compare char arrays</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>Write a script that compares two char arrays lexicographically (letter by letter).</p>
+        <a href="1.html">
+            <button>Previous task</button></a>
+        <a href="3.html">
+            <button>Next task</button></a>
+    </div>
+
+    <br />
+    <label for="firstCharArray">Enter first char array:</label>
+    <input id="firstCharArray" type="text" />
+    <label for="secondCharArray">Enter second char array:</label>
+    <input id="secondCharArray" type="text" />
+    <button onclick="CompareCharArrays()">Compare</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function CompareCharArrays() {
+            //making char array from string
+            var firstCharArray = document.getElementById("firstCharArray").value.split('');
+            var secondCharArray = document.getElementById("secondCharArray").value.split('');
+            var areEquals = true;
+
+            if (firstCharArray.length != secondCharArray.length) {
+                jsConsole.writeLine("The arrays have not same number of elements -> They wont be equals!");
+            }
+            else {
+                for (var i = 0; i < firstCharArray.length; i++) {
+                    if (firstCharArray[i] != secondCharArray[i]) {
+                        areEquals = false;
+                        break;
+                    }
+                }
+                if (areEquals) jsConsole.writeLine("The two char arrays are equals!");
+                else jsConsole.writeLine("The two char arrays are NOT equals!");
+            }
+
+        }
+    </script>
+</body>
+</html>

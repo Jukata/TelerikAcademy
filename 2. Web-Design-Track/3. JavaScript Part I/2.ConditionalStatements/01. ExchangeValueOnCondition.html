@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Exchange values on condition</title>
+    <script src="scripts/isValidInput.js"></script>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="task">
+		Write an if statement that examines two integer variables and exchanges 
+        their values if the first one is greater than the second one.
+	</div>
+    <label for="firstNumber">Enter first number:</label>
+    <input type="text" id="firstNumber" />
+    <label for="secondNumber">Enter second number:</label>
+    <input type="text" id="secondNumber" />
+    <button onclick="ExchangeValues()">Run</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        //Write an if statement that examines two integer variables and exchanges 
+        //their values if the first one is greater than the second one.
+        function ExchangeValues() {
+            var firstNumber = parseInt(document.getElementById("firstNumber").value);
+            var secondNumber = parseInt(document.getElementById("secondNumber").value);
+            if (isValidInputNumber(firstNumber) && isValidInputNumber(secondNumber)) {
+                jsConsole.writeLine("Values first = " + firstNumber + " second = " + secondNumber);
+                if (firstNumber > secondNumber) {
+                    firstNumber = firstNumber + secondNumber;
+                    secondNumber = firstNumber - secondNumber;
+                    firstNumber = firstNumber - secondNumber;
+                    jsConsole.writeLine("Changed values - first = " + firstNumber + " second = " + secondNumber);
+                }
+                else {
+                    jsConsole.writeLine("Values not changed.");
+                }
+            }
+            else {
+                jsConsole.writeLine("Enter valid integers.");
+            }
+        }
+    </script>
+</body>
+</html>

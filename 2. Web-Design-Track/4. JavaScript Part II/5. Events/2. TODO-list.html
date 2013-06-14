@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>2. TODO list</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style>
+        div#task {
+            width: 60%;
+            height: 160px;
+        }
+
+        ul#TODO-list {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Create a TODO list with the following UI controls
+        </p>
+        <ul>
+            <li>Form input for new Item</li>
+            <li>Button for adding the new Item</li>
+            <li>Button for deleting some item</li>
+            <li>Show and Hide Button</li>
+        </ul>
+        <a href="1. Carousel.html">Previous task</a>
+    </div>
+
+    <input type="text" id="new-item-input" />
+
+    <button onclick="addNewItem()">Add new item</button>
+    <button onclick="deleteItem()">Delete item</button>
+    <button onclick="showList()">Show list</button>
+    <button onclick="hideList()">Hide list</button>
+
+    <ul id="TODO-list"></ul>
+
+    <script>
+        var input = document.getElementById("new-item-input");
+        var todoList = document.getElementById("TODO-list");
+        var id = 0;
+
+        function addNewItem() {
+            var todoItem = input.value.trim();
+            if (todoItem) {
+                var li = document.createElement("li");
+                li.innerHTML = "<input type='checkbox' class='todo-item' id='todo-item" + id + "' />" +
+                    "<label for='todo-item" + id + "'>" + todoItem + "</label>";
+                todoList.appendChild(li);
+                id++;
+            }
+        }
+
+        function deleteItem() {
+            var checkboxes = document.querySelectorAll('.todo-item');
+            for (var i = 0, len = checkboxes.length; i < len; i++) {
+                if (checkboxes[i].checked) {
+                    checkboxes[i].parentNode.parentNode.removeChild(checkboxes[i].parentNode);
+                }
+            }
+        }
+
+        function showList() {
+            todoList.style.display = "block";
+        }
+
+        function hideList() {
+            todoList.style.display = "none";
+        }
+
+    </script>
+</body>
+</html>

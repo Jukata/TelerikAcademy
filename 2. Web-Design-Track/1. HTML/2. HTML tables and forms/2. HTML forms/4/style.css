@@ -1,0 +1,9 @@
+/*CSS Document*/
+
+table,tr,td
+{
+	border-collapse:collapse;
+	font-family: sans-serif;
+	text-align:center;
+	font-weight:bold;
+}

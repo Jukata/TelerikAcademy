@@ -1,0 +1,50 @@
+﻿.gallery-image {
+    border: 1px solid black;
+    width: 150px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+
+.gallery-album {
+    border: 2px solid black;
+    width: 70%;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(50,50,50,0.3);
+    position:relative;
+}
+
+.album-title{
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.album-title:hover{
+    color:red;
+}
+
+.collapseed div{
+    display:none;
+}
+
+.expanded div{
+    display:block;
+}
+
+.enlarged-image-holder{
+    position:absolute;
+    top:50px;
+    right:50px;
+}
+
+.enlarged-title{
+    font-weight:bold;
+    font-size:2em;
+}
+
+button.sort-button{
+    position:absolute;
+    top:0;
+    left:0;
+}

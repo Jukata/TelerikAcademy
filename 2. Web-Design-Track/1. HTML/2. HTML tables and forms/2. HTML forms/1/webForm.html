@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web form</title>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<form>
+			<table>
+				<colgroup>
+					<col style="width:170px"/>
+					<col style="width:248px"/>
+					<col style="width:45px"/>
+					<col style="width:70px"/>
+				</colgroup>
+				<thead>
+				</thead>
+				<tfoot>
+					<tr>
+						<td colspan="4">
+							<div>
+								<input type="submit" value="Submit" />
+								<input type="reset" value="Clear This Form" />
+							</div>
+							
+						</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td>
+							<div><label for="lastName">Last Name</label></div>
+						</td>
+						<td colspan="3">
+							<input type="text" id="lastName" placeholder="Nakov" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="firstName">First Name</label></div>
+						</td>
+						<td colspan="3">
+							<input type="text" id="firstName" placeholder="Svetlin" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="address">Address</label></div>
+						</td>
+						<td colspan="3">
+							<textarea id="address">17 Hristo Botev Str. floor 3, apt. 12</textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="city">City</label></div>
+						</td>
+						<td>
+							<input type="text" id="city" placeholder="Kaspichan" />
+						</td>
+						<td>
+							<label for="state">State</label>
+						</td>
+						<td>
+							<input type="text" id="state" class="small" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="postalCode">Zip/Postal Code</label></div>
+						</td>
+						<td colspan="3">
+							<input type="text" id="postalCode" placeholder="9325" class="medium"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="country">Country</label></div>
+						</td>
+						<td colspan="3">
+							<select id="country">
+								<option selected="selected">---</option>
+								<option>Afganistan</option>
+								<option>Andora</option>
+								<option>Brazil</option>
+								<option>Bulgaria</option>
+								<option>Burundi</option>
+								<option>Canada</option>
+								<option>Denmark</option>
+								<option>Egypth</option>
+								<option>France</option>
+								<option>Germany</option>
+								<option>Honduras</option>
+								<option>India</option>
+								<option>Italy</option>
+								<option>Jamaica</option>
+								<option>Kenia</option>
+								<option>Lebanon</option>
+								<option>Moldova</option>
+								<option>Makedonia</option>
+								<option>Norway</option>
+								<option>Portugal</option>
+								<option>Russia</option>
+								<option>Switzerland</option>
+								<option>Slovakia</option>
+								<option>Slovenia</option>
+								<option>Turkey</option>
+								<option>Ukraine</option>
+								<option>Zimbabwe</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="phone">Phone (country code, area code, number)</label></div>
+						</td>
+						<td colspan="3">
+							<span>
+								(+<input type="tel" id="phone" class="small" placeholder="359" />)<input type="tel" class="small" placeholder="88" />-<input type="tel" placeholder="8334343" />
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="email">E-mail</label></div>
+						</td>
+						<td colspan="3">
+							<input type="email" id="email" placeholder="nakov@kaspichan.org" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="month">Birth date</label></div>
+						</td>
+						<td colspan="3">
+							<label for="month">Month</label>
+							<input type="text" id="month" class="small" placeholder="06" />
+							<label for="day">Day</label>
+							<input type="text" id="day" class="small" placeholder="14" />
+							<label for="year">Year(4 digit)</label>
+							<input type="text" id="year" class="small" placeholder="1980"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="gender">Gender</label></div>
+						</td>
+						<td colspan="3">
+							<select id="gender">
+								<option selected="selected">---</option>
+								<option>Male</option>
+								<option>Female</option>
+								<option>Other</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="spring">Starting date</label></div>
+						</td>
+						<td colspan="3">
+							<input type="radio" id="spring" name="date" />
+							<label for="spring">Spring 2006</label>
+							<input type="radio" id="summer" name="date" />
+							<label for="summer">Summer 2006</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div><label for="comment">Comments/Questions</label></div>
+						</td>
+						<td colspan="3">
+							<textarea id="comment">Please send me more information about the lodging</textarea>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

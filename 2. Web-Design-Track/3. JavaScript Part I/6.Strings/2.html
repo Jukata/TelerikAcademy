@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Correct brackets</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a JavaScript function to check if in a given expression the brackets are put correctly.
+            <br />
+            of correct expression: ((a+b)/5-d).
+            <br />
+            Example of incorrect expression: )(a+b)).
+        </p>
+        <a href="1.html">Previous task</a>
+        <a href="3.html">Next task</a>
+    </div>
+
+    <br />
+    <label for="input">Enter expression:</label>
+    <input type="text" id="input" />
+    <button onclick="checkBrackets()">Reverse number</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function checkBrackets() {
+            var expression = document.getElementById("input").value;
+            //if you want some test
+            //var expression = "(a+b)+(a+(a+b)+(a+b)+c)+d";          true
+            //var expression = "((a+b)/5-d)";                        true
+            //var expression = ")(a+b))";                            false
+            //var expression = ")a-b(";                              false
+            //var expression = "(a-b)+)a+b(-(a+b)";                  false
+            //var expression = "(a+b+(c+d+(e+f+(g+h+(i+j)))))";      true
+            //var expression = "(a+b+(c+d+(e+f+(g+h+(i+j))))";       false
+
+            if(isBracketsCorrect(expression))
+            {
+                jsConsole.writeLine("Brackets are put correctly");
+            }
+            else {
+                jsConsole.writeLine("Brackets are NOT put correctly");
+            }
+        }
+
+        function isBracketsCorrect(expression) {
+            var bracketsStack = [];
+
+            for (var i = 0; i < expression.length; i++) {
+                if (expression[i] == "(") {
+                    bracketsStack.push("(");
+                }
+                else if (expression[i] == ")") { 
+                    if (bracketsStack.length == 0) {
+                        return false;
+                    }
+                    else {
+                        bracketsStack.pop();
+                    }
+                }
+            }
+
+            if (bracketsStack.length == 0) return true;
+            else return false;
+        }
+    </script>
+</body>
+</html>

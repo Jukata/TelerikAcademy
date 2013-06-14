@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>3. Storages shims</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/cookies.js"></script>
+    <style>
+        div#task {
+            width: 75%;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Using the exercise with the bucket implement functionality for high-score
+        </p>
+		<a href="2. Just-clean-the-trash.html">Previous task</a>
+        <a href="4. Drawing-using-canvas.html">Next task</a>
+        
+    </div>
+
+    <script>
+        
+        // session storage via associative array
+        if (!window.sessionStorage) window.sessionStorage = (function () {
+            this.storage = {};
+
+            function setItem(key, value) {
+                this.storage[key] = value.toString();
+            }
+
+            function getItem(key) {
+                return this.storage[key];
+            }
+
+            function removeItem(key) {
+                this.storage[key] = null;
+            }
+
+            function clear() {
+                this.storage = {};
+            }
+
+            return {
+                setItem: setItem,
+                getItem: getItem,
+                removeItem: removeItem,
+                clear: clear
+            }
+        })();
+
+        // localStorageShim via cookies
+        if(!windwo.localStorage) window.localStorage = (function () {
+            var prefix = "localStorage";
+
+            function setItem(key, value) {
+                cookies.create(prefix + key, value, 9999);
+            }
+
+            function getItem(key) {
+                return cookies.read(prefix + key);
+            }
+
+            function removeItem(key) {
+                cookies.remove(prefix + key);
+            }
+
+            function clear() {
+                var allCookies = document.cookie.split(";");
+                for (var i = 0; i < allCookies.length; i++) {
+                    var cookie = allCookies[i];
+                    for (var j = 0; j < cookie.length; j++) {
+                        if (cookie[j] !== " ") {
+                            break;
+                        }
+                    }
+                    cookie = cookie.substring(j);
+                    if (cookie.startsWith(prefix)) {
+                        cookies.remove(name)
+                    }
+                }
+            }
+
+            return {
+                setItem: setItem,
+                getItem: getItem,
+                removeItem: removeItem,
+                clear: clear,
+            };
+        })();
+    </script>
+</body>
+</html>

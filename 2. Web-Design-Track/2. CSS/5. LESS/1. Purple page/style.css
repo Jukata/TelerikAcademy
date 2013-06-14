@@ -1,0 +1,189 @@
+body,
+header,
+section,
+nav,
+aside,
+footer,
+ul,
+li,
+p,
+article,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font: 14px normal Arial;
+  background: #d593ff;
+  background: -moz-linear-gradient(top, #d593ff 0%, #8f19ef 15%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d593ff), color-stop(15%, #8f19ef));
+  background: -webkit-linear-gradient(top, #d593ff 0%, #8f19ef 15%);
+  background: -o-linear-gradient(top, #d593ff 0%, #8f19ef 15%);
+  background: -ms-linear-gradient(top, #d593ff 0%, #8f19ef 15%);
+  background: linear-gradient(to bottom, #d593ff 0%, #8f19ef 15%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@from-color', endColorstr='@to-color', GradientType=0);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #9215f2;
+}
+body header {
+  padding-bottom: 5px;
+}
+body header div#logo-container {
+  float: left;
+}
+body header div#header-container {
+  padding: 10px 0 0 25px;
+}
+body header div#header-container:after {
+  display: block;
+  content: "";
+  height: 0;
+  clear: both;
+}
+body header div#reg-form-container {
+  float: right;
+  margin: 20px 80px 0 0;
+}
+body header div#reg-form-container label {
+  margin: 0 10px 0 0;
+}
+body header div#reg-form-container input {
+  margin: 5px;
+  background-color: #b35ef3;
+  border: 1px solid #603382;
+  border-radius: 10px;
+  width: 140px;
+  height: 17px;
+}
+body header div#reg-form-container button {
+  background-color: #b35ef3;
+  color: white;
+  padding: 5px 10px;
+  border-top: 2px solid #dccaea;
+  border-left: 2px solid #dccaea;
+  border-right: 2px solid #603382;
+  border-bottom: 2px solid #603382;
+  border-radius: 10px;
+  font-weight: bold;
+}
+body header div#reg-form-container button:active {
+  background-color: #670dab;
+  border-right: 2px solid #dccaea;
+  border-bottom: 2px solid #dccaea;
+  border-left: 2px solid #603382;
+  border-top: 2px solid #603382;
+}
+body header nav {
+  padding: 15px 35px 30px 35px;
+}
+body header nav ul {
+  width: 80%;
+  list-style-type: none;
+}
+body header nav ul#main-nav-list {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+body header nav ul#main-nav-list > li {
+  display: inline-block;
+  padding: 10px 15px 10px 15px;
+}
+body header nav ul#main-nav-list > li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+body header nav ul#main-nav-list > li:hover {
+  cursor: pointer;
+}
+body header nav ul#main-nav-list > li:hover > a {
+  text-decoration: underline;
+  color: #A09AA8;
+}
+body header nav ul#main-nav-list > li:hover ul {
+  display: block;
+  position: absolute;
+}
+body header nav ul#main-nav-list > li ul {
+  width: 280px;
+  background-color: #b45df6;
+  display: none;
+}
+body header nav ul#main-nav-list > li ul li {
+  margin: 5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
+  border-bottom: 1px solid #000000;
+}
+body header nav ul#main-nav-list > li ul li:last-of-type {
+  border: none;
+}
+body header nav ul#main-nav-list > li ul li:hover a {
+  text-decoration: underline;
+  color: #A8A8A8;
+}
+body section {
+  float: left;
+  width: 74%;
+  padding: 15px;
+}
+body section article {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 25px 30px 50px 25px;
+  margin: 0 0 30px 0;
+}
+body section article h1 {
+  font-size: 1.4em;
+}
+body section article footer {
+  float: right;
+  padding-top: 5px;
+  font-size: 16px;
+}
+body section article footer a {
+  color: #CCA3F7;
+  text-decoration: none;
+}
+body section article footer a:hover {
+  text-decoration: underline;
+}
+body aside {
+  float: right;
+  width: 20%;
+  padding: 25px 40px 0 0;
+}
+body aside ul {
+  list-style-type: none;
+}
+body aside > ul > li {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 5px 20px 20px 20px;
+  margin: 15px 0;
+}
+body aside > ul > li h2 {
+  font-size: 1.2em;
+}
+body aside > ul > li a {
+  color: #AAAAAA;
+  text-decoration: none;
+}
+body aside > ul > li a:hover {
+  text-decoration: underline;
+}
+body aside > ul > li li {
+  background-image: url('images/li-dot.png');
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  padding-left: 30px;
+}
+body footer {
+  clear: both;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-bottom: 15px;
+}

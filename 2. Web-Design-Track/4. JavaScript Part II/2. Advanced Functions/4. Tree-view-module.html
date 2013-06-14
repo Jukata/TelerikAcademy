@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>5. Tree view module</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            background-image: url(images/list-style-type.png);
+            -moz-background-size: 15px 15px;
+            -o-background-size: 15px 15px;
+            -webkit-background-size: 15px 15px;
+            background-size: 15px 15px;
+            background-repeat: no-repeat;
+            background-position: left 3px;
+            padding: 3px 3px 3px 20px;
+        }
+
+        div#task {
+            height: 60px;
+        }
+
+        ul.sublist {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>
+            *Wrap the TreeView from the previous presentation into a module
+        </p>
+        <a href="3. Special-console.html">Previous task</a>
+    </div>
+
+    <script>
+        // Show and hide sub list
+        function revealSubList(e) {
+            if (!e) {
+                var e = window.event;
+            }
+
+            var currentUL = this;
+
+            if (currentUL.childNodes[1].style.display == "none") {
+                currentUL.childNodes[1].style.display = "block";
+            }
+            else {
+                currentUL.childNodes[1].style.display = "none";
+            }
+
+            e.cancelBubble = true;
+            return false;
+        }
+
+        HTMLElement.prototype.addNode = function () {
+            var collection = this.getElementsByTagName("ul");
+            var li = document.createElement("li");
+            li.addEventListener("click", revealSubList, false);
+
+            if (collection.length > 0) {
+                collection[0].appendChild(li);
+            }
+            else {
+                var element = document.createElement("ul");
+                element.appendChild(li);
+                this.appendChild(element);
+            }
+            return li;
+        }
+
+        HTMLElement.prototype.content = function (cont) {
+            var span = document.createElement("span");
+            span.innerHTML = cont;
+            span.addEventListener("click", revealSubList,false);
+            this.appendChild(span);
+        }
+
+        var controls = (function () {
+
+            function treeView(rootSelector) {
+                var root = document.querySelector(rootSelector);
+                if (!root) {
+                    root = document.createElement("div");
+                    root.className = "tree-view";
+                    document.body.appendChild(root);
+                }
+                return root;
+            }
+
+            return {
+                treeView: treeView
+            };
+        })();
+
+        var treeView = controls.treeView('div.tree-view');
+
+        var htmlNode = treeView.addNode();
+        htmlNode.content('HTML');
+
+        var cssNode = treeView.addNode();
+        cssNode.content('CSS');
+
+        var jsnode = treeView.addNode();
+        jsnode.content('JavaScript');
+
+        var js1subnode = jsnode.addNode();
+        js1subnode.content('JavaScript - part 1');
+
+        var js2subnode = jsnode.addNode();
+        js2subnode.content('JavaScript - part 2');
+
+        var jslibssubnode = jsnode.addNode();
+        jslibssubnode.content('JS Libraries');
+
+        var jqueryNode = jslibssubnode.addNode();
+        jqueryNode.content('jQuery');
+
+        var jsframeworksnode = jsnode.addNode();
+        jsframeworksnode.content('JS Frameworks and UI');
+
+        var webnode = treeView.addNode();
+        webnode.content('Web');
+
+    </script>
+</body>
+</html>

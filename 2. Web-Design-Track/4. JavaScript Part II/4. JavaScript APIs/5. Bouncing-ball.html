@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>5. Bouncing ball</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <style>
+        div#task {
+            width: 50%;
+            height: 60px;
+        }
+
+        canvas {
+            border: 3px solid black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Draw a circle that flies inside a box. When it reaches an edge, it should bounce that edge.
+        </p>
+        <a href="4. Drawing-using-canvas.html">Previous task</a>
+    </div>
+
+    <label for="circles-count">Circles count: </label>
+    <input type="text" id="circles-count" placeholder="1-20" />
+    <button onclick="start()">Start</button>
+    <br />
+
+    <canvas width="500" height="300"></canvas>
+
+    <script>
+        var canvas = document.getElementsByTagName("canvas")[0];
+        var context = canvas.getContext("2d");
+        var canvasWidth = canvas.width;
+        var canvasHeight = canvas.height;
+        context.fillStyle = "red"
+        context.strokeStyle = "blue";
+
+        function start() {
+            var i;
+            var numberOfCircles = document.getElementById("circles-count").value | 0;
+            if (isNaN(numberOfCircles) || numberOfCircles < 1 || numberOfCircles > 20) {
+                numberOfCircles = 5;
+            }
+            context.clearRect(0, 0, 500, 300);
+
+            //clear all intervals
+            for ( i = 0; i < 99999; i++) {
+                clearInterval(i);
+            }
+
+            for ( i = 0; i < numberOfCircles; i++) {
+                makeMovingCircle();
+            }
+        }
+
+        function makeMovingCircle() {
+            var radius = 10;
+            var centerX = getRandomBetween(radius + 1, canvasWidth - radius - 1);
+            var centerY = getRandomBetween(radius + 1, canvasHeight - radius - 1);
+            var direction = [getRandomBetween(-1, 1), getRandomBetween(-1, 1)];
+            if (direction[0] == 0) direction[0]++;
+            if (direction[1] == 0) direction[1]++;
+            var fillColor = getRandomColor();
+            var strokeColor = getRandomColor();
+
+            setInterval(updateCirclePosition, 1);
+
+            function updateCirclePosition() {
+                var newX = centerX + direction[0];
+                var newY = centerY + direction[1];
+
+                if (newX + radius >= canvasWidth) {
+                    direction[0] *= -1;
+                    updateCirclePosition();
+                }
+
+                if (newY + radius >= canvasHeight) {
+                    direction[1] *= -1;
+                    updateCirclePosition();
+                }
+
+                if (newX - radius <= 0) {
+                    direction[0] *= -1;
+                    updateCirclePosition();
+                }
+
+                if (newY - radius <= 0) {
+                    direction[1] *= -1;
+                    updateCirclePosition();
+                }
+
+                centerX = newX;
+                centerY = newY;
+                drawCircle();
+            }
+
+            function drawCircle() {
+                //context.clearRect(0, 0, canvasWidth, canvasHeight);
+                context.fillStyle = fillColor;
+                context.strokeStyle = strokeColor;
+                context.beginPath();
+                context.arc(centerX, centerY, radius, 0, Math.PI * 2, false);
+                context.fill();
+                context.stroke();
+            }
+        }
+
+        function getRandomBetween(min, max) {
+            return min + Math.floor(Math.random() * (max - min + 1));
+        }
+
+        function getRandomColor() {
+            var red = getRandomBetween(1, 255);
+            var green = getRandomBetween(1, 255);
+            var blue = getRandomBetween(1, 255);
+
+            return "rgb(" + red + ", " + green + ", " + blue + ")";
+        }
+    </script>
+</body>
+</html>

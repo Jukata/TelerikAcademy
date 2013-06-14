@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Extract palindromes</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".
+        </p>
+        <a href="9.html">Previous task</a>
+        <a href="11.html">Next task</a>
+    </div>
+
+    <br />
+    <button onclick="extractPalindromes()">Run script</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function extractPalindromes() {
+            var text = 'NEVEN gaag Write a !prrp! !program ?that extracts from a given text all palindromes, e.g. ABBA, lamal, exe.';
+            var words = text.split(/[\s,\.\?!]+/);
+
+            for (var i = 0; i < words.length; i++) {
+                if (isPalindrome(words[i])) {
+                    jsConsole.writeLine(words[i]);
+                }
+            }
+
+        }
+
+        function isPalindrome(word) {
+            if (word.length < 2) return false;
+            var loopEnd = parseInt(word.length/2);
+            for (var i = 0; i < loopEnd; i++) {
+                if(word[i] != word[word.length-1-i]) return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>

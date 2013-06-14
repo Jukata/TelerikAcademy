@@ -1,0 +1,46 @@
+/* CSS Document */
+
+*
+{
+	padding:0px;
+}
+table
+{
+	border-collapse:collapse;
+}
+td
+{
+	border:1px solid #8CF4F2;
+}
+input
+{
+	font-size:40px;
+	color:#8CF4F2;
+	background:#FAFAFA;
+	border:0;
+	text-shadow: 2px 2px 2px #121212;
+}
+
+.smallButton
+{
+	width:80px;
+	height:80px;
+}
+.largeButton
+{
+	width:160px;
+	height:80px;
+}
+.result
+{
+	width:326px;
+	height: 80px;
+	text-align:right;
+	padding-right:12px;
+}
+
+.smallButton:active, .largeButton:active
+{
+	/* stupid way to simulate click */
+	background-color:#F1F1F1;
+}

@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>5. Tag cloud</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style>
+        div#task {
+            height: 80px;
+        }
+
+        div#tag-cloud {
+            width: 70%;
+            padding: 10px;
+            background-color: rgba(0, 255, 255,0.3);
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body onload="generateTagCloud()">
+    <div id="task">
+        <p>
+            Create a tag cloud:
+            Visualize a string of tags (strings) in a given container.
+            By given minFontSize and maxFontSize, generate the tags with
+            different font-size, depending on the number of occurrences.
+        </p>
+        <a href="4. Color-inputs.html">Previous task</a>
+        <a href="6. Tree-view.html">Next task</a>
+    </div>
+
+    <label for="input-tag">Enter tag:</label>
+    <input type="text" id="input-tag" />
+    <button onclick="addTag()">Add</button>
+    <button onclick="removeTag()">Remove</button>
+    <br />
+
+    <label for="min-font-size">Min font size:</label>
+    <input type="number" id="min-font-size" value="17" onchange="generateTagCloud()" />
+    <label for="max-font-size">Max font size:</label>
+    <input type="number" id="max-font-size" value="99" onchange="generateTagCloud()" />
+
+    <div id="tag-cloud">
+    </div>
+
+    <script>
+        var tagCloud = document.getElementById("tag-cloud");
+        var taskTags = ["cms", "cms", "cms", "cms", "cms", "wordpress", "joomla", "joomla", "joomla",
+            "cms", "cms", "js", "js", "js", "asp.net MVC", "ASP.NET MVC", "xaml", "xaml", "http",
+            "javascript", "js", "ASP.NET MVC", ".net", ".net", "css", "wordpress", "xaml", "js", "http",
+            "js", "js", "web", "asp.net", "asp.net MVC", "ASP.NET MVC", "wp", "javascript", "js", "cms",
+            "html", "javascript", "http", "http", "CMS", "Doncho", "Doncho", "Doncho", "Doncho", "Doncho",
+            "niki", "niki", "niki", "niki", "nakov", "nakov", "nakov", "nakov", "svetlin", "svetlin", "svetlin",
+            "kostov", "minkov", "kostov", "minkov", "kostov", "minkov", "kostov", "minkov", "kostov", "asya",
+            "asya", "asya", "asya", "asya", "george", "george", "george", "george", "george", "george",
+            "C Sharp", "C Sharp", "C Sharp", "html", "js", "css", "saas", "less", "asp", ".Net", "Mysql", "boiko"
+        ];
+        var tags = {};
+        for (var i = 0; i < taskTags.length; i++) {
+            var tagToLower = taskTags[i].toLowerCase();
+            if (tags[tagToLower] === undefined) {
+                tags[tagToLower] = 1;
+            }
+            else {
+                tags[tagToLower]++;
+            }
+        }
+
+
+        function generateTagCloud() {
+            while (tagCloud.firstChild) tagCloud.removeChild(tagCloud.firstChild);
+
+            var minFontSize = document.getElementById("min-font-size").value | 0;
+            var maxFontSize = document.getElementById("max-font-size").value | 0;
+
+            var minTagCount = Number.MAX_VALUE;
+            var maxTagCount = Number.MAX_VALUE * -1;
+
+            //count most and least frequent tag
+            for (var i in tags) {
+                if (tags[i] <= 0) continue;
+                if (tags[i] < minTagCount) {
+                    minTagCount = tags[i]
+                }
+                if (tags[i] > maxTagCount) {
+                    maxTagCount = tags[i];
+                }
+            }
+
+            var fontSizeIncrement = (maxFontSize - minFontSize) / (maxTagCount - minTagCount);
+
+            for (var j in tags) {
+                if (tags[j] <= 0) continue;
+                var tag = document.createElement("div")
+                var currentTagFontSize;
+                var count = parseInt(tags[j]);
+                if (count == minTagCount) {
+                    currentTagFontSize = minFontSize;
+                }
+                else if (count == maxTagCount) {
+                    currentTagFontSize = maxFontSize;
+                }
+                else {
+                    currentTagFontSize = minFontSize + (count - minTagCount) * fontSizeIncrement;
+                }
+                tag.style.fontSize = currentTagFontSize + "px";
+                //tag.style.color = getRandomColor();
+                tag.style.margin = "1px";
+                tag.style.padding = "1px 5px";
+                tag.style.display = "inline-block";
+                tag.innerHTML = j;
+                tagCloud.appendChild(tag);
+            }
+        }
+
+        function addTag() {
+            var inputTag = document.getElementById("input-tag").value.toLowerCase();
+            if (inputTag) {
+                if (tags[inputTag]) {
+                    tags[inputTag]++;
+                }
+                else {
+                    tags[inputTag] = 1;
+                }
+                generateTagCloud();
+            }
+        }
+
+        function removeTag() {
+            var inputTag = document.getElementById("input-tag").value.toLowerCase();
+            tags[inputTag] = 0;
+            generateTagCloud();
+        }
+
+        function getRandomColor() {
+            var red = Math.random() * 256 | 0;
+            var green = Math.random() * 256 | 0;
+            var blue = Math.random() * 256 | 0;
+            return "rgb(" + red + ", " + green + ", " + blue + ")";
+        }
+    </script>
+</body>
+</html>

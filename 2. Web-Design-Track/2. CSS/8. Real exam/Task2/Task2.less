@@ -1,0 +1,97 @@
+﻿body, div, ul, li, a, span, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+.linear-gradient(@from-color,@to-color,@from-position: 0%,@to-position: 100%,@repeat: no-repeat) {
+    background: @from-color;
+    background: -moz-linear-gradient(top, @from-color @from-position, @to-color @to-position);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-position,@from-color), color-stop(@to-position,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-position,@to-color @to-position);
+    background: -o-linear-gradient(top, @from-color @from-position,@to-color @to-position);
+    background: -ms-linear-gradient(top, @from-color @from-position,@to-color @to-position);
+    background: linear-gradient(to bottom, @from-color @from-position,@to-color @to-position);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 );
+    background-repeat: @repeat;
+}
+
+@Resolution-width: 960px;
+@font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+@font-size: 16px;
+
+.clearfix {
+    &:after {
+        display: block;
+        content: "";
+        height: 0;
+        clear: both;
+    }
+}
+
+body {
+    width: @Resolution-width;
+    font-family: @font-family;
+    font-size: @font-size;
+
+    #wrapper {
+        width: 680px;
+        background-color: #CCCCCC;
+        margin: 15px;
+        padding: 10px 10px 6px 10px;
+        border-radius: 5px;
+
+        div {
+            display: inline-block;
+        }
+
+        .holder {
+            float: left;
+
+            img {
+                width: 550px;
+                border-radius: 5px;
+            }
+        }
+
+        ul {
+            margin: 5px 0 5px 10px;
+            list-style-type: none;
+
+            li {
+                border-bottom: 1px solid black;
+                padding: 5px 0 5px 7px;
+
+                &:first-of-type {
+                    padding-top: 0;
+                }
+
+                a {
+                    color: black;
+                    text-decoration: none;
+                    font-weight: bold;
+
+                    img {
+                        margin: 0 10px;
+                        display: block;
+                        border-radius: 10px;
+                    }
+
+                    span {
+                        margin-left: 1px;
+                    }
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        /*div {
+            position: relative;
+            margin: 25px 0 0 25px;
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 15px 35px;
+        }*/
+    }
+}

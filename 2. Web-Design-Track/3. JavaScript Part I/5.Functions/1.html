@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Say last digit</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a function that returns the last digit of given integer as an English word. Examples: 512 -> "two", 1024 -> "four", 12309 -> "nine"
+        </p>
+        <a href="2.html">Next task</a>
+    </div>
+
+    <br />
+    <label for="input">Enter integer:</label>
+    <input type="text" id="input" />
+    <button onclick="LastDigitInEnglish()">Say last digit in english</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function LastDigitInEnglish() {
+            var input = parseInt(document.getElementById("input").value);
+            if (isValidInputNumber(input)) {
+                if (input < 0) input *= -1; // script must work for negative integers too.
+                jsConsole.writeLine(getLastDigit(input));
+            }
+            else {
+                jsConsole.writeLine("Please enter valid integer number.");
+            }
+        }
+
+        function getLastDigit(input) {
+            var lastDigit = parseInt(input % 10);
+            switch (lastDigit) {
+                case 0: return "Zero";
+                case 1: return "One";
+                case 2: return "Two";
+                case 3: return "Three";
+                case 4: return "Four";
+                case 5: return "Five";
+                case 6: return "Six";
+                case 7: return "Seven";
+                case 8: return "Eight";
+                case 9: return "Nine";
+                default: return "Not a digit";
+            }
+        }
+    </script>
+</body>
+</html>

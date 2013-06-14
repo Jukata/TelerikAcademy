@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>2. Divs in circle</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style>
+        div.rotating-divs {
+            width: 50px;
+            height: 50px;
+            border: 1px solid blue;
+            border-radius: 100%;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="task" style="height: 70px; width: 800px;">
+        <p>
+            Write a script that creates 5 div elements and moves them in circular path with interval of 100 milliseconds
+        </p>
+        <a href="1. Random-Divs.html">Previous task</a>
+        <a href="3. Query-selector-shim.html">Next task</a>
+    </div>
+
+    <label for="number-of-divs">Number of divs:</label>
+    <input type="text" id="number-of-divs" placeholder="1-100" />
+    <button onclick="startRotate()" id="startButton">Start rotate</button>
+    <button onclick="stopRotate()" id="stopButton" disabled="disabled">Stop rotate</button>
+
+    <div id="div-container"></div>
+
+    <script>
+        var timer;
+        var angle = 0;
+        var divs = document.getElementsByClassName("rotating-divs");
+
+        function startRotate() {
+            document.getElementById("stopButton").disabled = "";
+            document.getElementById("startButton").disabled = "disabled";
+
+            var divContainer = document.getElementById("div-container");
+            while (divContainer.firstChild) divContainer.removeChild(divContainer.firstChild);
+
+            var numberOfDivs = document.getElementById("number-of-divs").value | 0;
+            if (numberOfDivs < 1 || numberOfDivs > 100) numberOfDivs = 5;
+
+            for (var i = 0; i < numberOfDivs; i++) {
+                var div = document.createElement("div");
+                div.className = "rotating-divs"
+                divContainer.appendChild(div);
+            }
+
+            timer = setInterval(rotateDivs, 100);
+        }
+
+        function rotateDivs() {
+            for (i = 0, len = divs.length; i < len ; i++) {
+                divs[i].style.left = 110 + (Math.cos(angle + 2 * Math.PI / len * i) * 100) + 'px';
+                divs[i].style.top = 250 + (Math.sin(angle + 2 * Math.PI / len * i) * 100) + 'px';
+            }
+
+            angle = angle + 0.1;
+        }
+
+        function stopRotate() {
+            document.getElementById("stopButton").disabled = "disabled";
+            document.getElementById("startButton").disabled = "";
+            clearInterval(timer);
+        }
+
+    </script>
+</body>
+</html>

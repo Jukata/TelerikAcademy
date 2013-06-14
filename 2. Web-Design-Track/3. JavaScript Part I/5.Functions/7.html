@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>First number bigger than its neighboorsr</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a Function that returns the index of the first element in array that is bigger than its neighbors, or -1, if there’s no such element.
+            Use the function from the previous exercise.
+        </p>
+        <a href="6.html">Previous task</a>
+    </div>
+
+    <br />
+    <label for="array">Enter array of integers(separated by interval):</label>
+    <input type="text" id="array" />
+    <button onclick="firstBiggerThanItsNeighboors()">Run script</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function firstBiggerThanItsNeighboors() {
+            var array = document.getElementById("array").value.split(' ');
+            var bestIndex = -1;
+            for (var i = 0; i < array.length; i++) {
+                if (isBiggerThanNeighboors(i,array)) {
+                    bestIndex = i;
+                    break;
+                }
+            }
+            if (bestIndex != -1) {
+                jsConsole.writeLine("First number that is bigger than its neighboors is:");
+                jsConsole.writeLine(array[bestIndex] + "!! Its neighboors are ("
+                    + array[bestIndex - 1] + " " + array[bestIndex + 1] + ").");
+            }
+            else {
+                jsConsole.writeLine("There is no such number that is bigger than its two neighboors!");
+            }
+
+        }
+
+        //function from last exercise
+        function isBiggerThanNeighboors(position,array) {
+            position = position - 0; // garantee it's number
+            var i;
+            for (i = 0; i < array.length; i++) {
+                array[i] = parseInt(array[i]);
+            }
+
+            if (position == 0 || position >= array.length - 1) {
+                return false
+            }
+            else {
+                if (array[position] > array[position - 1] && array[position] > array[position + 1]) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+    </script>
+</body>
+</html>

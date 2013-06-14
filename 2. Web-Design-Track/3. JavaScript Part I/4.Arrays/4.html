@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Maximal increasing sequence</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>Write a script that finds the maximal increasing sequence in an array. Example: {3, 2, 3, 4, 2, 2, 4} -> {2, 3, 4}.</p>
+        <a href="3.html">
+            <button>Previous task</button></a>
+        <a href="5.html">
+            <button>Next task</button></a>
+    </div>
+
+    <br />
+    <label for="array">Enter array elements (separated by intervals):</label>
+    <input id="array" type="text" />
+    <button onclick="FindMaxSequence()">Find max increasing sequence</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function FindMaxSequence() {
+            //read input
+            var stringArray = document.getElementById("array").value.split(' ');
+
+            //parse input
+            var numbers = new Array(stringArray.length);
+            for (var i = 0; i < stringArray.length; i++) {
+                numbers[i] = parseInt(stringArray[i]);
+            }
+            //solution
+            var startIndex = 0;
+            var bestStartIndex = 0;
+            var checker = numbers[0];
+            var count = 1;
+            var bestCount = 0;
+
+            for (var i = 1; i < numbers.length; i++) {
+                if (checker < numbers[i]) {
+                    count++;
+                    checker = numbers[i];
+                }
+                else {
+                    if (count > bestCount) {
+                        bestCount = count;
+                        bestStartIndex = startIndex;
+                    }
+                    startIndex = i;
+                    count = 1;
+                    checker = numbers[i]
+                }
+            }
+            if (count > bestCount) { // this check is missed by for checks
+                bestCount = count;
+                bestStartIndex = startIndex;
+            }
+            jsConsole.write("Maximal increasing sequence -> ( ");
+            for (var i = bestStartIndex; i < bestStartIndex + bestCount; i++) {
+                jsConsole.write(numbers[i] + " ");
+            }
+            jsConsole.writeLine(")");
+        }
+    </script>
+</body>
+</html>

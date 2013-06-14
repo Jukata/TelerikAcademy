@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>1. Carousel</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <script src="scripts/Carousel.js"></script>
+    <style>
+        body {
+            background-color:black;
+        }
+
+        div#task {
+            width: 98%;
+            height: 60px;
+        }
+
+        div#carousel {
+            width: 800px;
+            height: 600px;
+            border: 1px solid black;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        img#arrow-left {
+            position: absolute;
+            top: 250px;
+            left: -15px;
+        }
+
+        img#arrow-right {
+            position: absolute;
+            top: 250px;
+            right: -15px;
+        }
+
+        img {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Create a Simple JS Carousel with N images and two arrows for image control. (Click on image for start/stop slideshow);
+        </p>
+        <a href="2. TODO-list.html">Next task</a>
+    </div>
+
+    <div id="carousel">
+        <img src="images/arrow-left.png" alt="Arrow for previous image" id="arrow-left" />
+        <img src="images/arrow-right.png" alt="Arrow for next image" id="arrow-right" />
+    </div>
+
+    <script>
+
+        var imagePaths = ["images/animals/Giraffe.jpg",
+            "images/animals/lion.jpg",
+            "images/animals/polar-bear.jpg",
+            "images/animals/tiger.jpg",
+            "images/animals/wolf.jpg"
+        ];
+
+        var carousel = new Carousel("carousel", imagePaths, "arrow-left", "arrow-right", 800, 600);
+        carousel.init();
+
+    </script>
+</body>
+</html>

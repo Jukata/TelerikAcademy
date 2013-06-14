@@ -1,0 +1,97 @@
+﻿body, header, nav div, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+.linear-gradient(@from-color,@to-color,@from-pos: 0%,@to-pos: 100%) {
+    background-image: linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background-image: -o-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background-image: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background-image: -webkit-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background-image: -ms-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+}
+
+@default-font-color: #000000;
+@default-font-size: 16px;
+@default-font-family: Arial;
+
+body {
+    color: @default-font-color;
+    font-size: @default-font-size;
+    font-family: @default-font-family;
+	width:1024px;
+    nav {
+        width: 910px;
+        padding: 50px 0 105px 50px;
+        .linear-gradient(#002D44,#77D1FF);
+    }
+
+    ul {
+        list-style-type: none;
+
+        & > li {
+            &:hover {
+                .linear-gradient(#085075,#105B81);
+            }
+
+            &.selected {
+                .linear-gradient(#143C50,#27566E);
+
+                &>ul {
+                    display: block;
+                    position: absolute;
+                    top: 91px;
+                    left: 50px;
+
+                    li {
+                        &:hover {
+                            background: rgba(11, 80, 115, 0.7);
+							position:relative;
+							border-radius:15px;
+                            &>ul {
+                                display: block;
+                                position: absolute;
+								top:43px;
+								left:0;
+								width:335px;
+								padding:15px 25px 10px 30px;
+                                .linear-gradient(#FEFEFF,#77D1FF);
+								border:0;
+								border-radius:15px;
+
+                                li {
+									padding:5px 1px 5px 5px;
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            border-radius: 15px;
+            display: inline-block;
+            padding: 5px 11px;
+            margin-right: 4px;
+
+
+            & > a {
+                color: black;
+                text-decoration: none;
+                font-size: 2em;
+            }
+
+            ul {
+                display: none;
+            }
+        }
+    }
+}
+
+li li li {
+	border-bottom: 1px solid black;
+	border-radius:0px;
+	&:last-of-type{
+		border:0;
+	}
+}

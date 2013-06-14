@@ -1,0 +1,75 @@
+/* CSS Document*/
+table {
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 12px;
+    color: white;
+    border-collapse: collapse;
+}
+
+    table tr th {
+        background-color: #56B906;
+        border-bottom: 2px ridge #4c9710;
+        border-right: 2px ridge #4c9710;
+        text-align: left;
+        padding-left: 5px;
+        height: 25px;
+    }
+
+        table tr th:last-child {
+            border-right: 0;
+        }
+
+    table tr td {
+        color: black;
+        border-right: 2px ridge #938f8f;
+        padding-left: 5px;
+        height: 25px;
+    }
+
+    table tr:last-child td {
+        border-bottom: 2px ridge #938f8f;
+    }
+
+    table tr:nth-child(2n+1) {
+        background-color: white;
+    }
+
+    table tr:nth-child(2n) {
+        background-color: #ececd8;
+    }
+
+
+
+    table tr td:last-child {
+        border-right: 0;
+    }
+
+col {
+    width: 150px;
+}
+
+    col:last-child {
+        width: 80px;
+    }
+
+table tr td.country {
+    padding-left: 25px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    -moz-background-size: 15px 12px;
+    -o-background-size: 15px 12px;
+    -webkit-background-size: 15px 12px;
+    background-size: 15px 12px;
+}
+
+    table tr td.country.germany {
+        background-image: url(GermanyFlag.png);
+    }
+
+    table tr td.country.mexico {
+        background-image: url(MexicoFlag.png);
+    }
+
+    table tr td.country.uk {
+        background-image: url(UkFlag.png);
+    }

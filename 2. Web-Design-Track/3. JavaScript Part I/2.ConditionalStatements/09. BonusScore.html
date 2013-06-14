@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bonus Score</title>
+    <script src="scripts/isValidInput.js"></script>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="task">
+		Write a script that applies bonus scores to given scores in the range [1..9]. 
+        The program reads a digit as an input. If the digit is between 1 and 3,
+         the program multiplies it by 10; if it is between 4 and 6, multiplies it by 100; 
+        if it is between 7 and 9, multiplies it by 1000. If it is zero or if the value 
+        is not a digit, the script must report an error
+	</div>
+    <label for="inputDigit">Enter digit:</label>
+    <input type="text" id="inputDigit" />
+    <button onclick="ApplyBonusScore()">Apply bonus score</button>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        //Write a script that applies bonus scores to given scores in the range [1..9]. 
+        //The program reads a digit as an input. If the digit is between 1 and 3,
+        // the program multiplies it by 10; if it is between 4 and 6, multiplies it by 100; 
+        //if it is between 7 and 9, multiplies it by 1000. If it is zero or if the value 
+        //is not a digit, the script must report an error.
+
+        function ApplyBonusScore() {
+            var digit = parseInt(document.getElementById("inputDigit").value);
+
+            if (isValidInputNumber(digit) && digit >= 1 && digit <= 9) {
+                switch (digit) {
+                    case 1:
+                    case 2:
+                    case 3: jsConsole.writeLine(digit * 10); break;
+                    case 4:
+                    case 5:
+                    case 6: jsConsole.writeLine(digit * 100); break;
+                    case 7:
+                    case 8:
+                    case 9: jsConsole.writeLine(digit * 1000); break;
+                }
+            }
+            else {
+                jsConsole.writeLine("Error. Enter valid digit [1...9].");
+            }
+        }
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+div#wrapper {
+    width: 1080px;
+    height: 500px;
+}
+
+header nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+    header nav ul li {
+        display: inline-block;
+        padding: 5px;
+    }
+
+        header nav ul li a {
+            color: #00AFF0;
+            font-size: 1.5em;
+        }
+
+hr {
+    width: 95%;
+    height: 1px;
+    background-color: black;
+    border: 0;
+    margin-bottom: 25px;
+}
+
+
+aside {
+    font-size: 1.5em;
+    padding: 100px 30px 100px 30px;
+    float: right;
+}
+
+    aside input {
+        width: 75%;
+        padding:5px;
+    }
+    aside p {
+        padding:5px;
+    }
+
+#laptops {
+    margin: 5px;
+    padding: 4px 4px 4px 2px;
+    border: 1px solid black;
+    width: 70%;
+    height:100%;
+}
+
+    #laptops img {
+        float: left;
+    }
+
+    #laptops fieldset {
+        margin: 2px;
+        padding: 2px;
+        float:left;
+        width:48%;
+        border:1px solid black;
+    }
+        #laptops fieldset legend {
+            text-align:center;
+        }
+        #laptops fieldset p{
+            padding:15px 8px 5px 2px;
+        }
+            #laptops fieldset p:nth-of-type(4) {
+                margin-top:0;
+                padding-top:0;
+                float:left;
+            }
+        

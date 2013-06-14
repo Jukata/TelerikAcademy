@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Initialize array elements with their indexes</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.</p>
+        <a href="2.html"><button>Next task</button></a>
+    </div>
+
+    <br />
+    <button onclick="InitializeArrayWithTheirIndexes()">Run script</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function InitializeArrayWithTheirIndexes() {
+            var array = Array(20);
+            for (var i = 0; i < array.length; i++) {
+                array[i] = i * 5;
+                jsConsole.write(array[i] + " ");
+            }
+            jsConsole.writeLine("...");
+        }
+    </script>
+</body>
+</html>

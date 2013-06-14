@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculate trapezoid area</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <script src="scripts/isValidInput.js"></script>
+</head>
+<body>
+    <label for="aSide">Enter side a:</label>
+    <input type="text" id="aSide" />
+    <label for="bSide">Enter side b:</label>
+    <input type="text" id="bSide" />
+    <label for="height">Enter height h:</label>
+    <input type="text" id="height" />
+    <button onclick="CalculateTrapezoidArea()">Calculate trapezoid area</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        //Write an expression that calculates trapezoid's area by given sides a and b and height h.
+        function CalculateTrapezoidArea() {
+            var a = parseFloat(document.getElementById("aSide").value);
+            var b = parseFloat(document.getElementById("bSide").value);
+            var h = parseFloat(document.getElementById("height").value);
+            if (isValidInputNumber(a) && isValidInputNumber(b) && isValidInputNumber(h)
+                && a > 0 && b > 0 && h > 0) {
+                var area = (a + b) / 2 * h;
+                jsConsole.writeLine("Trapezoid area = " + area);
+            }
+            else {
+                jsConsole.writeLine("Enter valid positive nubmers.");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #BCBCBC;
+}
+
+button, a {
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    padding: 3px;
+}
+
+    button:active, a:active {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid grey;
+        border-bottom: 1px solid grey;
+        background-color: #9C9C9C !important;
+    }
+
+    button:hover a:hover {
+        background-color: #ACACAC;
+    }
+
+div#task {
+    width: 80%;
+    height: 200px;
+    overflow: auto;
+    padding: 5px 10px;
+    background-color: #32CA56;
+    border: 3px solid darkgray;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+    div#task p {
+        margin: 0 0 10px 0;
+    }
+
+    div#task a {
+        text-decoration: none;
+        color: black;
+    }

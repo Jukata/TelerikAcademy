@@ -1,0 +1,76 @@
+﻿body, h1, div, img, p, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+.linear-gradient(@from-color,@to-color,@from-position: 0%,@to-position: 100%,@repeat: no-repeat) {
+    background: @from-color;
+    background: -moz-linear-gradient(top, @from-color @from-position, @to-color @to-position);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-position,@from-color), color-stop(@to-position,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-position,@to-color @to-position);
+    background: -o-linear-gradient(top, @from-color @from-position,@to-color @to-position);
+    background: -ms-linear-gradient(top, @from-color @from-position,@to-color @to-position);
+    background: linear-gradient(to bottom, @from-color @from-position,@to-color @to-position);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 );
+    background-repeat: @repeat;
+}
+
+@Resolution-width: 960px;
+@font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+@font-size: 16px;
+
+.clearfix {
+    &:after {
+        display: block;
+        content: "";
+        height: 0;
+        clear: both;
+    }
+}
+
+body {
+    #wrapper {
+        width: @Resolution-width;
+        font-family: @font-family;
+        font-size: @font-size;
+
+        div {
+            position: relative;
+            margin: 25px 0 0 25px;
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 15px 35px;
+            .linear-gradient(#DE28FF,#F9DBFF,15%,75%);
+
+			h1{
+				font-size:1.8em;
+			}
+            img {
+                position: absolute;
+
+                &.left-arrow {
+                    left: 0px;
+                    top: 40%;
+                }
+
+                &.right-arrow {
+                    right: 0px;
+                    top: 40%;
+                }
+            }
+
+            .postedby {
+                width:367px;
+				margin:5px 15px;
+				border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                padding: 5px 15px;
+
+            }
+			.info{
+				margin:21px 0 16px 0;
+				text-align:justify;
+			}
+        }
+    }
+}

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Is point within a circle and outside of rectangle</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <script src="scripts/isValidInput.js"></script>
+</head>
+<body>
+    <label for="xCoord">Enter x coord:</label>
+    <input type="text" id="xCoord" />
+    <label for="yCoord">Enter y coord:</label>
+    <input type="text" id="yCoord" />
+    <button onclick="IsPointInCircle(), IsPointInRectangle()">Is point in circle K(0,5)</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        //Write an expression that checks for given point (x, y) if it is within the circle K( (1,1), 3)
+        //and out of the rectangle R(top=1, left=-1, width=6, height=2).
+        function IsPointInCircle() {
+            var circleXCoord = 1;
+            var circleYCoord = 1;
+            var circleRadius = 3;
+            var xCoord = parseFloat(document.getElementById("xCoord").value);
+            var yCoord = parseFloat(document.getElementById("yCoord").value);
+            if (isValidInputNumber(xCoord) && isValidInputNumber(yCoord)) {
+                if (Math.sqrt(
+                    (xCoord - circleXCoord) * (xCoord - circleXCoord) +
+                    (yCoord - circleYCoord) * (yCoord - circleYCoord)) <= circleRadius) {
+                    jsConsole.write("The point is in the circle and ")
+                }
+                else {
+                    jsConsole.write("The point is out of the circle and ");
+                }
+            }
+            else {
+                jsConsole.writeLine("Enter valid numbers.")
+            }
+        }
+        function IsPointInRectangle() {
+            var rectangleTop = 1;
+            var rectangleLeft = -1;
+            var rectangleWidth = 6;
+            var rectangleHeight = 2;
+            var rectangleRight = rectangleLeft + rectangleWidth;
+            var rectangleBottom = rectangleTop - rectangleHeight;
+
+            var xCoord = parseFloat(document.getElementById("xCoord").value);
+            var yCoord = parseFloat(document.getElementById("yCoord").value);
+
+            if (isValidInputNumber(xCoord) && isValidInputNumber(yCoord)) {
+                if (xCoord >= rectangleLeft && xCoord <= rectangleRight
+                    && yCoord >= rectangleBottom && xCoord <= rectangleTop) {
+                    jsConsole.writeLine("in the rectangle.");
+                }
+                else {
+                    jsConsole.writeLine("out of rectangle.");
+                }
+            }
+            else {
+                jsConsole.writeLine("Enter valid numbers.")
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <script src="scripts/isValidInput.js"></script>
+</head>
+<body>
+    <label for="width">Enter width:</label>
+    <input type="text" id="width" />
+    <label for="height">Enter height:</label>
+    <input type="text" id="height" />
+    <button onclick="CalculateArea()">
+        Calculate rectangle's area
+    </button>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        //Write an expression that calculates rectangle’s area by given width and height.
+        function CalculateArea() {
+            var width = parseFloat(document.getElementById("width").value);
+            var height = parseFloat(document.getElementById("height").value);
+            if (isValidInputNumber(width) && isValidInputNumber(height)) {
+                jsConsole.writeLine("Rectangle area = " + (width * height));
+            }
+            else {
+                jsConsole.writeLine("Enter valid numbers.");
+            }
+        }
+    </script>
+</body>
+</html>

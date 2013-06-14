@@ -1,0 +1,50 @@
+body, div, ul, li, input, img, label
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	width:100%;
+	height:800px;
+	div
+	{
+		margin:0 auto;
+		padding:5px;
+		width:1300px;
+		&#gallery-nav
+		{
+			ul
+			{
+				list-style-type:none;
+			}
+			li
+			{
+				display:inline-block;
+				padding:5px;
+				img
+				{
+					border:1px solid black;
+				}
+			}
+		}
+		&#images
+		{
+			width:1200px;
+			text-align:center;
+			img{
+				display:none;
+			}
+			input
+			{
+				display:none;
+				&:checked + img
+				{
+					display:inline-block;
+					border:1px solid black;
+				}
+			}
+		}
+	}
+}

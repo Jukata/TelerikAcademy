@@ -1,0 +1,88 @@
+body,
+div,
+form,
+fieldset,
+input,
+button,
+label,
+ul,
+li,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1024px;
+  margin: 15px;
+}
+body ul#popup-box {
+  list-style-type: none;
+}
+body ul#popup-box li.popup-item {
+  width: 95px;
+  border-bottom: 1px solid black;
+  padding: 5px 10px 7px 5px;
+  position: relative;
+}
+body ul#popup-box li.popup-item:first-of-type {
+  /*font-weight: bold;*/
+
+  border-top: 1px solid black;
+}
+body ul#popup-box li.popup-item a {
+  color: black;
+  text-decoration: none;
+}
+body ul#popup-box li.popup-item a img {
+  width: 25px;
+}
+body ul#popup-box li.popup-item div.popup-content {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+body ul#popup-box li.popup-item div.popup-content a.btn-popup-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+body ul#popup-box li.popup-item div.popup-content a.btn-popup-close:hover {
+  text-decoration: underline;
+}
+body ul#popup-box li.popup-item div.popup-content fieldset {
+  border: 1px solid black;
+  padding: 15px;
+}
+body ul#popup-box li.popup-item div.popup-content fieldset legend {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333333;
+}
+body ul#popup-box li.popup-item div.popup-content fieldset button {
+  background-image: linear-gradient(top, #cacaca 0%, #686868 100%);
+  background-image: -o-linear-gradient(top, #cacaca 0%, #686868 100%);
+  background-image: -moz-linear-gradient(top, #cacaca 0%, #686868 100%);
+  background-image: -webkit-linear-gradient(top, #cacaca 0%, #686868 100%);
+  background-image: -ms-linear-gradient(top, #cacaca 0%, #686868 100%);
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: #333333;
+}
+body ul#popup-box li.popup-item div.popup-content fieldset button:hover {
+  background-image: linear-gradient(top, #cccccc 0%, #cccccc 100%);
+  background-image: -o-linear-gradient(top, #cccccc 0%, #cccccc 100%);
+  background-image: -moz-linear-gradient(top, #cccccc 0%, #cccccc 100%);
+  background-image: -webkit-linear-gradient(top, #cccccc 0%, #cccccc 100%);
+  background-image: -ms-linear-gradient(top, #cccccc 0%, #cccccc 100%);
+}
+body .invisible {
+  display: none;
+}
+body .current {
+  font-weight: bold;
+}

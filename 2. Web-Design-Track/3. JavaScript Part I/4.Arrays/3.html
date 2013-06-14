@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Maximal sequence of equal elements in array</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a script that finds the maximal sequence of equal elements in an array.
+		Example: {2, 1, 1, 2, 3, 3, 2, 2, 2, 1} -> {2, 2, 2}.
+        </p>
+        <a href="2.html">
+            <button>Previous task</button></a>
+        <a href="4.html">
+            <button>Next task</button></a>
+    </div>
+
+    <br />
+    <label for="array">Enter array elements (separated by intervals):</label>
+    <input id="array" type="text" />
+    <button onclick="FindMaxSequence()">Compare</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function FindMaxSequence() {
+            //read input
+            var stringArray = document.getElementById("array").value.split(' ');
+
+            //parse input
+            var numbers = new Array(stringArray.length);
+            for (var i = 0; i < stringArray.length; i++) {
+                numbers[i] = parseInt(stringArray[i]);
+            }
+            //solution
+            var bestElement;
+            var checker = numbers[0];
+            var currentSequenceLength = 1;
+            var maxSequenceLength = 0;
+
+            for (var i = 1; i < numbers.length; i++) {
+                if (numbers[i] == checker) {
+                    currentSequenceLength++;
+                }
+                else {
+                    if (currentSequenceLength > maxSequenceLength) {
+                        maxSequenceLength = currentSequenceLength;
+                        bestElement = checker;
+                    }
+                    currentSequenceLength = 1;
+                    checker = numbers[i]
+                }
+            }
+            if (currentSequenceLength > maxSequenceLength) { // this check is missed by for checks
+                maxSequenceLength = currentSequenceLength;
+                bestElement = checker;
+            }
+            jsConsole.write("Maximal sequence of equal elements -> ( ");
+            for (var i = 0; i < maxSequenceLength; i++) {
+                jsConsole.write(bestElement + " ");
+            }
+            jsConsole.writeLine(")");
+        }
+    </script>
+</body>
+</html>

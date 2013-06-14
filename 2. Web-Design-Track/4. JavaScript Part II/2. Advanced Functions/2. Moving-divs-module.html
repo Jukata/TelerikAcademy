@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>2. Moving divs</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style>
+        div#task {
+            height: 180px;
+        }
+
+        div.moving {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+        }
+
+        div#circle-container {
+            position:relative;
+        }
+
+        div#rect-container {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Create a module that works with moving div elements. Implement functionality for:
+        </p>
+        <ul>
+            <li>Add new moving div element to the DOM</li>
+            <li>The module should generate random background, font and border colors for the div element</li>
+            <li>All the div elements are with the same width and height</li>
+            <li>The movements of the div elements can be either circular or rectangular</li>
+            <li>The elements should be moving all the time</li>
+        </ul>
+        <a href="1. Working-With-Dom-Module.html">Previous task</a>
+        <a href="3. Special-console.html">Next task</a>
+    </div>
+
+    <button onclick="addCircle()">Add circular movement div</button>
+    <button onclick="addRectangle()">Add rectangular movement div</button>
+
+    <div id="rect-container"></div>
+    <div id="circle-container"></div>
+
+    <script>
+        ////add element with rectangular movement
+        //movingShapes.add("rect");
+        ////add element with ellipse movement
+        //movingShapes.add("ellipse");
+
+        movingShapes = function movingShapes() {
+
+            function getRandomColor() {
+                var red = Math.random() * 256 | 0;
+                var green = Math.random() * 256 | 0;
+                var blue = Math.random() * 256 | 0;
+                return "rgb(" + red + ", " + green + ", " + blue + ")";
+            }
+
+            function createDiv() {
+                var div = document.createElement("div");
+                div.className = "moving";
+                div.style.color = getRandomColor();
+                var borderColor = getRandomColor();
+                div.style.border = "1px solid " + borderColor;
+                div.style.backgroundColor = getRandomColor();
+                return div;
+            }
+
+            function createCircularDiv() {
+                var div = createDiv();
+                div.innerHTML = "Circle";
+                div.style.borderRadius = "50%";
+                return div;
+            }
+
+            function addCircularDiv() {
+                var div = createCircularDiv();
+                var circleContainer = document.getElementById("circle-container");
+                circleContainer.appendChild(div);
+                moveCircle(div);
+            }
+
+            function moveCircle(div) {
+                var angle = 0;
+
+                setInterval(updateCirclePosition, 10);
+                function updateCirclePosition() {
+                    var angleInRadians = angle * (Math.PI / 180);
+                    var left = 350 * Math.cos(angleInRadians) + 600;
+                    var top = 150 * Math.sin(angleInRadians) | 0;
+                    console.log(angleInRadians);
+                    div.style.left = left + "px";
+                    div.style.top = top + "px";
+                    angle++;
+                }
+            }
+
+            function createRectangularDiv() {
+                var div = createDiv();
+                div.innerHTML = "Rect";
+                div.style.borderRadius = "2px";
+                div.style.top = "0px";
+                div.style.left = "0px";
+                return div;
+            }
+
+            function addRectangularDiv() {
+                var div = createRectangularDiv();
+                var rectContainer = document.getElementById("rect-container");
+                rectContainer.appendChild(div);
+                moveRectangle(div);
+            }
+
+            function moveRectangle(div) {
+                var minTop = 25;
+                var minLeft = 25;
+                var maxLeft = 500;
+                var maxTop = 150;
+                var top = 25;
+                var left = 25;
+                setInterval(updateRectPosition, 5);
+
+                function updateRectPosition() {
+                    if (top == minTop && left < maxLeft) {
+                        left++;
+                    }
+                    else if (top < maxTop && left >= maxLeft) {
+                        top++;
+                    }
+                    else if (top == maxTop && left > minLeft) {
+                        left--;
+                    }
+                    else if (top > minTop && left == minLeft) {
+                        top--;
+                    }
+                    div.style.top = top + "px";
+                    div.style.left = left + "px";
+                }
+            }
+
+            function add(shape) {
+                if (shape === "circle") {
+                    addCircularDiv();
+                }
+                else if (shape === "rectangle") {
+                    addRectangularDiv();
+                }
+            }
+
+            return { add: add };
+        }();
+
+        function addRectangle() {
+            movingShapes.add("rectangle");
+        }
+
+        function addCircle() {
+            movingShapes.add("circle");
+        }
+
+
+
+        //var timer;
+        //var angle = 0;
+        //var divs = document.getElementsByClassName("rotating-divs");
+
+        //function startRotate() {
+        //    document.getElementById("stopButton").disabled = "";
+        //    document.getElementById("startButton").disabled = "disabled";
+
+        //    var divContainer = document.getElementById("div-container");
+        //    while (divContainer.firstChild) divContainer.removeChild(divContainer.firstChild);
+
+        //    var numberOfDivs = document.getElementById("number-of-divs").value | 0;
+        //    if (numberOfDivs < 1 || numberOfDivs > 100) numberOfDivs = 5;
+
+        //    for (var i = 0; i < numberOfDivs; i++) {
+        //        var div = document.createElement("div");
+        //        div.className = "rotating-divs"
+        //        divContainer.appendChild(div);
+        //    }
+
+        //    timer = setInterval(rotateDivs, 100);
+        //}
+
+        //function rotateDivs() {
+        //    for (i = 0, len = divs.length; i < len ; i++) {
+        //        divs[i].style.left = 110 + (Math.cos(angle + 2 * Math.PI / len * i) * 100) + 'px';
+        //        divs[i].style.top = 250 + (Math.sin(angle + 2 * Math.PI / len * i) * 100) + 'px';
+        //    }
+
+        //    angle = angle + 0.1;
+        //}
+
+        //function stopRotate() {
+        //    document.getElementById("stopButton").disabled = "disabled";
+        //    document.getElementById("startButton").disabled = "";
+        //    clearInterval(timer);
+        //}
+
+
+    </script>
+</body>
+</html>

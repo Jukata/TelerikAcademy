@@ -1,0 +1,8 @@
+/*CSS Document*/
+div
+{
+	width:97%;
+	border: 1px solid red;
+	border-radius:300px;
+	background-color:black;
+}

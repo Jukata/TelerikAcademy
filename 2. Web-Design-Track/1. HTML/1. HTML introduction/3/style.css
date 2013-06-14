@@ -1,0 +1,29 @@
+/* CSS Document */
+body
+{
+	color:#1B3A60;
+	font-family:arial, sans-serif;
+	background-color:#CCECFF;
+	font-weight:bold;
+}
+h1
+{
+	font-style:italic;
+}
+.left
+{
+	margin-right:100px;
+}
+.center
+{
+	margin-left:50px;
+	margin-right:50px;
+}
+.right
+{
+	margin-left:100px;
+}
+section
+{
+	font-style:italic;
+}

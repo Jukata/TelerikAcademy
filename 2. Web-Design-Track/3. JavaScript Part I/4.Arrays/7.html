@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Binary search</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            *Write a program that finds the index of given element in a sorted array of integers by using the binary search algorithm.
+        </p>
+        <a href="6.html">
+            <button>Previous task</button></a>
+    </div>
+
+    <br />
+    <label for="array">Enter array elements (separated by intervals):</label>
+    <input id="array" type="text" />
+    <label for="searchedElement">Enter number to find:</label>
+    <input id="searchedElement" type="text" />
+    <button onclick="FindIndexWithBinarySearch()">Find index of number</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function FindIndexWithBinarySearch() {
+            //read input
+            var numberToFind = parseInt(document.getElementById("searchedElement").value);
+            var stringArray = document.getElementById("array").value.split(' ');
+
+            //parse input
+            var numbers = new Array(stringArray.length);
+            for (var i = 0; i < stringArray.length; i++) {
+                numbers[i] = parseInt(stringArray[i]);
+            }
+
+            //solution
+            //find index recursive
+            BinarySearch(numbers,numberToFind,0,numbers.length-1);
+
+            //print result
+        }
+
+        function orderBy(a, b) {
+            return (a == b) ? 0 : a > b ? 1 : -1;
+        }
+
+        function BinarySearch(array, number, min, max) {
+            var mid = parseInt((min + max) / 2);
+            if (min > max) {
+                jsConsole.writeLine("There isnt such element in the array.");
+                if (number < array[0]) {
+                    jsConsole.writeLine("If there was such element its index would be " + (mid));
+                }
+                else {
+                    jsConsole.writeLine("If there was such element its index would be " + (mid + 1));
+                }
+                return;
+            }
+            if (array[mid] == number) {
+                jsConsole.writeLine("Element index is " + mid);
+                return;
+            }
+            else if (number > array[mid]) {
+                BinarySearch(array, number, mid + 1, max);
+            }
+            else // (number < array[mid])
+            {
+                BinarySearch(array, number, min, mid - 1);
+            }
+        }
+    </script>
+</body>
+</html>

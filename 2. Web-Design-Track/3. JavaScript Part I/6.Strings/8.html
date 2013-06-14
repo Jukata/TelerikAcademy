@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Parse a href to url</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a JavaScript function that replaces in a HTML document given as string all the tags &lt;a href="…"&gt;…&lt;/a&gt; with corresponding tags [URL=…]…/URL]. Sample HTML fragment:
+        </p>
+        <a href="7.html">Previous task</a>
+        <a href="9.html">Next task</a>
+    </div>
+
+    <br />
+    <button onclick="parseAnchorToURL()">Run script</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function parseAnchorToURL() {
+            var text = '<p>Please visit <a href="http://academy.telerik. com">our site</a> to choose a training course. Also visit <a href="www.devbg.org">our forum</a> to discuss the courses.</p>';
+            var expectedOutput = '<p>Please visit [URL=http://academy.telerik. com]our site[/URL] to choose a training course. Also visit [URL=www.devbg.org]our forum[/URL] to discuss the courses.</p>';
+
+            var fixedText = text;
+            var index = fixedText.indexOf("<a href=\"");
+            while (index != -1) {
+                fixedText = fixedText.replace("<a href=\"", "[URL=");
+                fixedText = fixedText.replace("\">", "\]");
+                fixedText = fixedText.replace("</a>", "[/URL]");
+                index = fixedText.indexOf("<a href=\"");
+            }
+
+            jsConsole.writeLine("Initial text: " + text);
+            jsConsole.writeLine("Fixed text: " + fixedText);
+            jsConsole.writeLine("Expected output: " + expectedOutput);
+            jsConsole.writeLine("Fixed -> " + (fixedText == expectedOutput));
+        }
+    </script>
+</body>
+</html>

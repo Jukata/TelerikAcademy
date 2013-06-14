@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Biggest of three integers</title>
+    <script src="scripts/isValidInput.js"></script>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="task">
+		Write a script that finds the biggest of three integers using nested if statements.
+	</div>
+    <label for="firstNumber">Enter first number:</label>
+    <input type="text" id="firstNumber" />
+    <label for="secondNumber">Enter second number:</label>
+    <input type="text" id="secondNumber" />
+    <label for="thirdNumber">Enter third number:</label>
+    <input type="text" id="thirdNumber" />
+    <button onclick="FindBiggest()">Run</button>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        //Write a script that finds the biggest of three integers using nested if statements.
+        function FindBiggest() {
+            var firstNumber = parseInt(document.getElementById("firstNumber").value);
+            var secondNumber = parseInt(document.getElementById("secondNumber").value);
+            var thirdNumber = parseInt(document.getElementById("thirdNumber").value);
+
+            if (isValidInputNumber(firstNumber) && isValidInputNumber(secondNumber) && isValidInputNumber(thirdNumber)) {
+                var biggest = firstNumber;
+                if (secondNumber > biggest) biggest = secondNumber;
+                if (thirdNumber > biggest) biggest = thirdNumber;
+                jsConsole.writeLine("Biggest = " + biggest);
+            }
+            else {
+                jsConsole.writeLine("Enter valid integers.");
+            }
+        }
+    </script>
+</body>
+</html>

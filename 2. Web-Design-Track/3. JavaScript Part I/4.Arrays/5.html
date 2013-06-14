@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Selection sort</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Sorting an array means to arrange its elements in increasing order. Write a script to sort an array. Use the "selection sort" algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, move it at the second position, etc.Hint: Use a second array
+        </p>
+        <a href="4.html">
+            <button>Previous task</button></a>
+        <a href="6.html">
+            <button>Next task</button></a>
+    </div>
+
+    <br />
+    <label for="array">Enter array elements (separated by intervals):</label>
+    <input id="array" type="text" />
+    <button onclick="SelectionSort()">Sort</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function SelectionSort() {
+            //read input
+            var stringArray = document.getElementById("array").value.split(' ');
+
+            //parse input
+            var numbers = new Array(stringArray.length);
+            for (var i = 0; i < stringArray.length; i++) {
+                numbers[i] = parseInt(stringArray[i]);
+            }
+
+            //solution
+            for (var i = 0; i < numbers.length; i++) {
+                var min = Number.MAX_VALUE;
+                var minElementIndex = i;
+                for (var j = i ; j < numbers.length; j++) //find smallest element
+                {
+                    if (numbers[j] < min) { 
+                        min = numbers[j]
+                        minElementIndex = j;
+                    }
+                }
+                //move smallest to first free position
+                temp = numbers[i];
+                numbers[i] = min;
+                numbers[minElementIndex] = temp;
+            }
+
+            //print sorted array
+            for (var i = 0; i < numbers.length; i++) {
+                jsConsole.write(numbers[i]+" ");
+            }
+            jsConsole.writeLine();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Occurency of word in text</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a function that finds all the occurrences of word in a text
+            <br />
+            The search can case sensitive or case insensitive
+            <br />
+            Use function overloading
+        </p>
+        <a href="2.html">Previous task</a>
+        <a href="4.html">Next task</a>
+    </div>
+
+    <br />
+    <label for="text">Enter some text:</label>
+    <input type="text" id="text" />
+    <label for="word">Enter searched word:</label>
+    <input type="text" id="word" />
+    <button onclick="searchForWord()">Find occurences case sensitive</button>
+    <button onclick="searchForWord(false)">Find occurences case insensitive</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function searchForWord(caseSensitive) {
+            var text = document.getElementById("text").value;
+            var word = document.getElementById("word").value;
+            var result = "";
+            if (arguments.length > 0) {
+                if (arguments[0]) {
+                    result = searchCaseSensitive(text, word);
+                    jsConsole.writeLine(result);
+                }
+                else {
+                    result = searchCaseInsensitive(text, word);
+                    jsConsole.writeLine(result);
+                }
+            }
+            else {
+                result = searchCaseSensitive(text, word);
+                jsConsole.writeLine(result);
+            }
+
+            function searchCaseSensitive(text, word) {
+                var counter = 0;
+                var wordLength = word.length;
+                var index = text.indexOf(word, index);
+
+                while (index != -1) {
+                    counter++;
+                    index += wordLength;
+                    index = text.indexOf(word, index);
+                }
+                return counter;
+            }
+
+            function searchCaseInsensitive(text, word) {
+                return searchCaseSensitive(text.toLowerCase(), word.toLowerCase());
+            }
+        }
+
+
+    </script>
+</body>
+</html>

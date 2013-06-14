@@ -1,0 +1,43 @@
+/*CSS Document*/
+
+div
+{
+	font-weight:bold;
+	text-align:right;
+}
+tfoot div
+{
+	background:#D1EDE1;
+	text-align:center;
+}
+table,td
+{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+input
+{
+	padding:3px;
+}
+.small
+{
+	width:40px;
+}
+.medium
+{
+	width:65px;
+}
+#firstName,#lastName,#email
+{
+	width:260px;
+}
+#comment
+{
+	width:250px;
+	height:100px;
+}
+#address
+{
+	width:250px;
+	height:50px;
+}

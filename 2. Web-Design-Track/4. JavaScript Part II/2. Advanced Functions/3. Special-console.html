@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>3. Special console</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <style>
+        div#task {
+            height: 190px;
+        }
+
+        p#tip{
+            color:darkred;
+            font-style:italic;
+            text-decoration:underline;
+        }
+        div#special-console {
+            width: 1000px;
+            height: 400px;
+            background-color: black;
+            color: white;
+            font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', sans-serif;
+            font-size: 12pt;
+            overflow: auto;
+            margin: 5px;
+            padding: 5px;
+            -ms-word-break: break-all;
+            word-break: break-all;
+        }
+
+        span.error-log{
+            color:red;
+        }
+
+        span.warning-log{
+            color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Create a module to work with the console object.Implement functionality for:
+        </p>
+        <ul>
+            <li>Writing a line to the console</li>
+            <li>Writing a line to the console using a format</li>
+            <li>Writing to the console should call toString() to each element</li>
+            <li>Writing errors and warnings to the console with and without format</li>
+        </ul>
+        <p id ="tip">For formating strings use following syntax - "Message {0} !", Hello</p>
+        <a href="2. Moving-divs-module.html">Previous task</a>
+        <a href="4. Tree-view-module.html">Next task</a>
+    </div>
+    <label for="write-line">Enter message:</label>
+    <input type="text" id="write-line" placeholder='"Message {0}", Hello' />
+    <button onclick="onWriteLine()">specialConsole.writeLine()</button>
+    <br />
+    <label for="write-error">Enter message:</label>
+    <input type="text" id="write-error" placeholder='"Error {0}!", error' />
+    <button onclick="onWriteError()">specialConsole.writeError()</button>
+    <br />
+    <label for="write-warning">Enter message:</label>
+    <input type="text" id="write-warning" placeholder='"Warning {0}!", warning' />
+    <button onclick="onWriteWarning()">specialConsole.writeWarning()</button>
+
+    <script>
+        var specialConsole = function specialConsole() {
+            var console = document.createElement("div");
+            console.id = "special-console";
+            document.body.appendChild(console);
+
+            function escapeTags(message) {
+                message += "";
+                var ltIndex = message.indexOf("<");
+                while (ltIndex != -1) {
+                    message = message.replace("<", "&lt;");
+                    ltIndex = message.indexOf("<");
+                }
+                var gtIndex = message.indexOf(">");
+                while (gtIndex != -1) {
+                    message = message.replace(">", "&gt;");
+                    gtIndex = message.indexOf("<");
+                }
+
+                return message;
+            }
+
+            function formatMessage(message, args) {
+                // for inline js code usage
+                if (args.length > 1) {
+                    message += "";
+                    for (var i = 1; i < args.length; i++) {
+                        var currentPlaceholder = "{" + (i - 1) + "}";
+                        var index = message.indexOf(currentPlaceholder);
+                        while (index != -1) {
+                            message = message.replace(currentPlaceholder, args[i]);
+                            index = message.indexOf(currentPlaceholder);
+                        }
+                    }
+
+                    return message;
+                }
+                    // for using input text (only for demo)
+                else {
+                    message += "";
+                    var argsStartIndex = message.lastIndexOf('"') + 1;
+                    if (argsStartIndex > 0) {
+                        var args = message.substr(argsStartIndex).split(',');
+                        // remove first args element cause it's empty string
+                        args.shift();
+                        message = message.substring(0, argsStartIndex);
+                        for (var i = 0; i < args.length; i++) {
+                            args[i] = args[i].trim();
+                            var currPlaceholder = '{' + i + '}';
+                            var indexOfPlaceholder = message.indexOf(currPlaceholder);
+                            while (indexOfPlaceholder != -1) {
+                                message = message.replace(currPlaceholder, args[i]);
+                                indexOfPlaceholder = message.indexOf(currPlaceholder);
+                            }
+                        }
+                    }
+                    return message;
+                }
+            }
+
+            function writeLine(message) {
+                var span = document.createElement("span");
+                message = escapeTags(message);
+                message = formatMessage(message, arguments);
+                span.innerHTML = message.toString();
+                console.appendChild(span);
+                var newLine = document.createElement("br");
+                console.appendChild(newLine);
+            }
+
+            function writeError(message) {
+                var span = document.createElement("span");
+                span.className = "error-log";
+                message = escapeTags(message);
+                message = formatMessage(message, arguments);
+                span.innerHTML = message.toString();
+                console.appendChild(span);
+                var newLine = document.createElement("br");
+                console.appendChild(newLine);
+            }
+
+            function writeWarning(message) {
+                var span = document.createElement("span");
+                span.className = "warning-log";
+                message = escapeTags(message);
+                message = formatMessage(message, arguments);
+                span.innerHTML = message.toString();
+                console.appendChild(span);
+                var newLine = document.createElement("br");
+                console.appendChild(newLine);
+            }
+
+            return {
+                writeLine: writeLine,
+                writeError: writeError,
+                writeWarning: writeWarning
+            }
+        }();
+
+        function onWriteLine() {
+            var message = document.getElementById("write-line").value;
+            specialConsole.writeLine(message);
+        }
+
+        function onWriteError() {
+            var message = document.getElementById("write-error").value;
+            specialConsole.writeError(message);
+        }
+
+        function onWriteWarning() {
+            var message = document.getElementById("write-warning").value;
+            specialConsole.writeWarning(message);
+        }
+
+        specialConsole.writeLine("Message: hello");
+        //logs to the console "Message: hello"
+        specialConsole.writeLine("Message: {0}", "hello");
+        //logs to the console "Message: hello"
+        specialConsole.writeError("Error: {0}", "Something happened");
+        specialConsole.writeWarning("Warning: {0}", "A warning");
+
+    </script>
+</body>
+</html>

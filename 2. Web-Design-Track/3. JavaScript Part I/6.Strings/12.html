@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>html ul</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a function that creates a HTML UL using a template for every HTML LI. The source of the list should an array of elements. Replace all placeholders marked with –{…}–   with the value of the corresponding property of the object
+        </p>
+        <a href="11.html">Previous task</a>
+    </div>
+
+    <br />
+    <button onclick="main()">Run script</button>
+
+    <p id="template">
+        -{name}- -{age}-
+    </p>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+
+        function main() {
+            var people = [{ name: "Svetlin", age: 13 }, { name: "Nakov", age: 19 }, { name: "Doncho", age: 50 },
+            { name: "Minkov", age: 25 }, { name: "Pavel", age: 15 }, { name: "Kolev", age: 23 }];
+
+            var template = document.getElementById("template").innerHTML;
+            var result = makeList(template, people);
+            jsConsole.writeLine("<ul>");
+            for (var i = 0; i < result.length; i += 2) {
+                jsConsole.writeLine("<li>" + result[i] + " " + result[i + 1] + "</li>")
+            }
+            jsConsole.writeLine("</ul>");
+
+        }
+
+        function makeList(template, people) {
+            var original = template;
+            var listItems = [];
+            for (var i = 0; i<people.length; i++) {
+                var index = template.indexOf("{name}");
+                var index2 = template.indexOf("{age}");
+                template = template.replace("{name}", people[i].name);
+                listItems.push(template.substr(index, people[i].name.length));
+                template = original;
+                template = template.replace("{age}", people[i].age);
+                listItems.push(template.substr(index2, people[i].age.toString().length));
+                template = original;
+            }
+            return listItems;
+        }
+    </script>
+</body>
+</html>

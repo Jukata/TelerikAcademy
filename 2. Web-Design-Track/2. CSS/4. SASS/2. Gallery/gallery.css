@@ -1,0 +1,29 @@
+body, div, ul, li, input, img, label {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  height: 800px; }
+  body div {
+    margin: 0 auto;
+    padding: 5px;
+    width: 1300px; }
+    body div#gallery-nav ul {
+      list-style-type: none; }
+    body div#gallery-nav li {
+      display: inline-block;
+      padding: 5px; }
+      body div#gallery-nav li img {
+        border: 1px solid black; }
+    body div#images {
+      width: 1200px;
+      text-align: center; }
+      body div#images img {
+        display: none; }
+      body div#images input {
+        display: none; }
+        body div#images input:checked + img {
+          display: inline-block;
+          border: 1px solid black; }
+

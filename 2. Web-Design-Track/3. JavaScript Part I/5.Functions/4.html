@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Count number of divs</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <script src="Scripts/isValidInput.js"></script>
+</head>
+<body>
+    <div id="task">
+        <p>
+            Write a function to count the number of divs on the web page
+        </p>
+        <a href="3.html">Previous task</a>
+        <a href="5.html">Next task</a>
+    </div>
+
+    <br />
+    <button onclick="countDivs()">Count divs</button>
+
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+
+    <script>
+        function countDivs() {
+            var nodeListOfDivs = document.getElementsByTagName("div");
+            var divsCount = nodeListOfDivs.length;
+            jsConsole.writeLine("Number of divs in this page = " + divsCount);
+        }
+    </script>
+</body>
+</html>
