@@ -1,0 +1,5 @@
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\EscapeSQLStrings\bin\Debug\EscapeSQLStrings.exe.config
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\EscapeSQLStrings\bin\Debug\EscapeSQLStrings.exe
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\EscapeSQLStrings\bin\Debug\EscapeSQLStrings.pdb
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\EscapeSQLStrings\obj\Debug\EscapeSQLStrings.exe
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\EscapeSQLStrings\obj\Debug\EscapeSQLStrings.pdb

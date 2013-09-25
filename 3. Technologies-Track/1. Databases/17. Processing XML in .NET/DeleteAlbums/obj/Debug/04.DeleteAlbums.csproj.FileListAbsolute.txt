@@ -1,0 +1,5 @@
+C:\Trash\XML-Processing-in-.NET\DeleteAlbums\bin\Debug\DeleteAlbums.exe.config
+C:\Trash\XML-Processing-in-.NET\DeleteAlbums\bin\Debug\DeleteAlbums.exe
+C:\Trash\XML-Processing-in-.NET\DeleteAlbums\bin\Debug\DeleteAlbums.pdb
+C:\Trash\XML-Processing-in-.NET\DeleteAlbums\obj\Debug\DeleteAlbums.exe
+C:\Trash\XML-Processing-in-.NET\DeleteAlbums\obj\Debug\DeleteAlbums.pdb

@@ -1,0 +1,8 @@
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Model\bin\Debug\Northwind.Model.dll.config
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Model\bin\Debug\Northwind.Model.dll
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Model\bin\Debug\Northwind.Model.pdb
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Model\bin\Debug\EntityFramework.dll
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Model\bin\Debug\EntityFramework.xml
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Model\obj\Debug\Northwind.Model.csprojResolveAssemblyReference.cache
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Model\obj\Debug\Northwind.Model.dll
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Model\obj\Debug\Northwind.Model.pdb

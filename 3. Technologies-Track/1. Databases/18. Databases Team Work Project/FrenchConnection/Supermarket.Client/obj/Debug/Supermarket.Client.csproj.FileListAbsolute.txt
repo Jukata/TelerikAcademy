@@ -1,0 +1,117 @@
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe.config
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.xml
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.csprojResolveAssemblyReference.cache
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.exe
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe.config
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.exe
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.xml
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.csprojResolveAssemblyReference.cache
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.xml
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe.config
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.exe
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.pdb
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.pdb
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\itextsharp.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.pdb
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.pdb
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.xml
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.xml
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe.config
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.exe
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.pdb
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.pdb
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\itextsharp.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Bson.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Driver.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.pdb
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.pdb
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.xml
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.xml
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Bson.xml
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Driver.xml
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe.config
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.exe
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.pdb
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.pdb
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.dll
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.dll
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\itextsharp.dll
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Bson.dll
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Driver.dll
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.dll
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.dll
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.pdb
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.pdb
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.xml
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.xml
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Bson.xml
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Driver.xml
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.csprojResolveAssemblyReference.cache
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketSQLite.Model.dll
+C:\Users\skirov\Desktop\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketSQLite.Model.pdb
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe.config
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.exe
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.pdb
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.pdb
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.dll
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.dll
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\itextsharp.dll
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Bson.dll
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Driver.dll
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.dll
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.dll
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketSQLite.Model.dll
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMSSql.Model.pdb
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketMySql.Model.pdb
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\SupermarketSQLite.Model.pdb
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\EntityFramework.xml
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\Ionic.Zip.xml
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Bson.xml
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\MongoDB.Driver.xml
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Viktor\Desktop\ZFrenchConnection\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.csprojResolveAssemblyReference.cache
+E:\Telerik\Database\18. Databases Team Work Project\FrenchConnection\Supermarket.Client\bin\Debug\Supermarket.Client.exe.config
+E:\Telerik\Database\18. Databases Team Work Project\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.exe
+E:\Telerik\Database\18. Databases Team Work Project\FrenchConnection\Supermarket.Client\obj\Debug\Supermarket.Client.pdb

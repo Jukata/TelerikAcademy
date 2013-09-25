@@ -1,0 +1,12 @@
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe.config
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Client.pdb
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\bin\Debug\EntityFramework.dll
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\bin\Debug\EntityFramework.xml
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\obj\Debug\StudentSystem.Client.csprojResolveAssemblyReference.cache
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\obj\Debug\StudentSystem.Client.exe
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\obj\Debug\StudentSystem.Client.pdb
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Data.dll
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Models.dll
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Data.pdb
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Models.pdb

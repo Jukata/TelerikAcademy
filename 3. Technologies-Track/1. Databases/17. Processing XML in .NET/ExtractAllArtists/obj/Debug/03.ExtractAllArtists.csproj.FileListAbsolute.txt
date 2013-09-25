@@ -1,0 +1,3 @@
+C:\Trash\XML-Processing-in-.NET\ExtractAllArtists\bin\Debug\ExtractAllArtists.exe.config
+C:\Trash\XML-Processing-in-.NET\ExtractAllArtists\obj\Debug\ExtractAllArtists.exe
+C:\Trash\XML-Processing-in-.NET\ExtractAllArtists\obj\Debug\ExtractAllArtists.pdb

@@ -1,0 +1,6 @@
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXML\bin\Debug\TraverseDirectoryAndWriteInXML.exe.config
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXML\bin\Debug\TraverseDirectoryAndWriteInXML.exe
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXML\bin\Debug\TraverseDirectoryAndWriteInXML.pdb
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXML\obj\Debug\10.TraverseDirectoryAndWriteInXML.csprojResolveAssemblyReference.cache
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXML\obj\Debug\TraverseDirectoryAndWriteInXML.exe
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXML\obj\Debug\TraverseDirectoryAndWriteInXML.pdb

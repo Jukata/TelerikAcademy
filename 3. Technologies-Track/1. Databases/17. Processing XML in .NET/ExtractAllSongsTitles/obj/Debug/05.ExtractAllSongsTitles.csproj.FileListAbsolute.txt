@@ -1,0 +1,5 @@
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitles\bin\Debug\ExtractAllSongsTitles.exe.config
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitles\bin\Debug\ExtractAllSongsTitles.exe
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitles\bin\Debug\ExtractAllSongsTitles.pdb
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitles\obj\Debug\ExtractAllSongsTitles.exe
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitles\obj\Debug\ExtractAllSongsTitles.pdb

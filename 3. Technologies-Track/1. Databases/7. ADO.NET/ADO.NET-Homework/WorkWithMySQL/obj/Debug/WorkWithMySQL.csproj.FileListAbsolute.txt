@@ -1,0 +1,1 @@
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithMySQL\bin\Debug\WorkWithMySQL.exe.config

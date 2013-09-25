@@ -1,0 +1,5 @@
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Models\bin\Debug\StudentSystem.Models.dll
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Models\bin\Debug\StudentSystem.Models.pdb
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Models\obj\Debug\StudentSystem.Models.csprojResolveAssemblyReference.cache
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Models\obj\Debug\StudentSystem.Models.dll
+E:\Telerik\Database\10. Entity Framework Code First\StudentSystem\StudentSystem.Models\obj\Debug\StudentSystem.Models.pdb

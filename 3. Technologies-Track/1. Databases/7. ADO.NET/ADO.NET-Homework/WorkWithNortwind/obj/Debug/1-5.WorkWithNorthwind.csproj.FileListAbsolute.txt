@@ -1,0 +1,3 @@
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithNortwind\bin\Debug\WorkWithNortwind.exe.config
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithNortwind\obj\Debug\WorkWithNortwind.exe
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithNortwind\obj\Debug\WorkWithNortwind.pdb

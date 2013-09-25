@@ -1,0 +1,24 @@
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMySql.Model\bin\Debug\SupermarketMySql.Model.dll.config
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMySql.Model\bin\Debug\SupermarketMySql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMySql.Model\bin\Debug\SupermarketMySql.Model.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMySql.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMySql.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMySql.Model\obj\Debug\SupermarketMySql.Model.csprojResolveAssemblyReference.cache
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMySql.Model\obj\Debug\SupermarketMySql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMySql.Model\obj\Debug\SupermarketMySql.Model.pdb
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMySql.Model\bin\Debug\SupermarketMySql.Model.dll.config
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMySql.Model\bin\Debug\SupermarketMySql.Model.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMySql.Model\bin\Debug\SupermarketMySql.Model.pdb
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMySql.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMySql.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMySql.Model\obj\Debug\SupermarketMySql.Model.csprojResolveAssemblyReference.cache
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMySql.Model\obj\Debug\SupermarketMySql.Model.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMySql.Model\obj\Debug\SupermarketMySql.Model.pdb
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMySql.Model\bin\Debug\SupermarketMySql.Model.dll.config
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMySql.Model\bin\Debug\SupermarketMySql.Model.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMySql.Model\bin\Debug\SupermarketMySql.Model.pdb
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMySql.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMySql.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMySql.Model\obj\Debug\SupermarketMySql.Model.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMySql.Model\obj\Debug\SupermarketMySql.Model.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMySql.Model\obj\Debug\SupermarketMySql.Model.pdb

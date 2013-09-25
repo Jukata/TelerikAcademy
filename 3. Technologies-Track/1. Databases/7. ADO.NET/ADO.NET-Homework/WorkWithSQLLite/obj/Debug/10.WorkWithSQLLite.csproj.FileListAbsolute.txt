@@ -1,0 +1,8 @@
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithSQLLite\bin\Debug\WorkWithSQLLite.exe.config
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithSQLLite\bin\Debug\WorkWithSQLLite.exe
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithSQLLite\bin\Debug\WorkWithSQLLite.pdb
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithSQLLite\bin\Debug\System.Data.SQLite.dll
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithSQLLite\bin\Debug\System.Data.SQLite.pdb
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithSQLLite\obj\Debug\10.WorkWithSQLLite.csprojResolveAssemblyReference.cache
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithSQLLite\obj\Debug\WorkWithSQLLite.exe
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithSQLLite\obj\Debug\WorkWithSQLLite.pdb

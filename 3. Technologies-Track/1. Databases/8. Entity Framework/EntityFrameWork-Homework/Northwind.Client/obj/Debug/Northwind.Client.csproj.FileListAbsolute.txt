@@ -1,0 +1,10 @@
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\bin\Debug\Northwind.Client.exe.config
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\obj\Debug\Northwind.Client.csprojResolveAssemblyReference.cache
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\bin\Debug\Northwind.Client.exe
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\bin\Debug\Northwind.Client.pdb
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\bin\Debug\EntityFramework.dll
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\bin\Debug\Northwind.Model.dll
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\bin\Debug\Northwind.Model.pdb
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\bin\Debug\EntityFramework.xml
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\obj\Debug\Northwind.Client.exe
+E:\Telerik\Database\8. Entity Framework\EntityFrameWork-Homework\Northwind.Client\obj\Debug\Northwind.Client.pdb

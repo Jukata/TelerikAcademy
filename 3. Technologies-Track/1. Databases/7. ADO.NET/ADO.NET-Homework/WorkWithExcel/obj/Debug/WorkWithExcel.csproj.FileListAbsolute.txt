@@ -1,0 +1,6 @@
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithExcel\bin\Debug\WorkWithExcel.exe.config
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithExcel\bin\Debug\WorkWithExcel.exe
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithExcel\bin\Debug\WorkWithExcel.pdb
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithExcel\obj\Debug\WorkWithExcel.csprojResolveAssemblyReference.cache
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithExcel\obj\Debug\WorkWithExcel.exe
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithExcel\obj\Debug\WorkWithExcel.pdb

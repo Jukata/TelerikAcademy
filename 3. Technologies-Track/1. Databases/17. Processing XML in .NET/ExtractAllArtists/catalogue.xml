@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+  <album>
+    <name>album name0</name>
+    <artist>artist name0</artist>
+    <year>2013</year>
+    <Producer>producer name0</Producer>
+    <Price>0.00</Price>
+    <song>
+      <title>0title0</title>
+      <duration>0.00</duration>
+      <title>0title1</title>
+      <duration>0.00</duration>
+      <title>0title2</title>
+      <duration>0.00</duration>
+      <title>0title3</title>
+      <duration>0.00</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name1</name>
+    <artist>artist name1</artist>
+    <year>2014</year>
+    <Producer>producer name1</Producer>
+    <Price>1.42</Price>
+    <song>
+      <title>1title0</title>
+      <duration>0.00</duration>
+      <title>1title1</title>
+      <duration>1.42</duration>
+      <title>1title2</title>
+      <duration>2.84</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name2</name>
+    <artist>artist name1</artist>
+    <year>2015</year>
+    <Producer>producer name2</Producer>
+    <Price>2.84</Price>
+    <song>
+      <title>2title0</title>
+      <duration>0.00</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name3</name>
+    <artist>artist name3</artist>
+    <year>2016</year>
+    <Producer>producer name3</Producer>
+    <Price>4.26</Price>
+    <song />
+  </album>
+  <album>
+    <name>album name4</name>
+    <artist>artist name4</artist>
+    <year>2017</year>
+    <Producer>producer name4</Producer>
+    <Price>5.68</Price>
+    <song>
+      <title>4title0</title>
+      <duration>0.00</duration>
+      <title>4title1</title>
+      <duration>5.68</duration>
+      <title>4title2</title>
+      <duration>11.36</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name5</name>
+    <artist>artist name5</artist>
+    <year>2018</year>
+    <Producer>producer name5</Producer>
+    <Price>7.10</Price>
+    <song>
+      <title>5title0</title>
+      <duration>0.00</duration>
+      <title>5title1</title>
+      <duration>7.10</duration>
+      <title>5title2</title>
+      <duration>14.20</duration>
+      <title>5title3</title>
+      <duration>21.30</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name6</name>
+    <artist>artist name6</artist>
+    <year>2019</year>
+    <Producer>producer name6</Producer>
+    <Price>8.52</Price>
+    <song>
+      <title>6title0</title>
+      <duration>0.00</duration>
+      <title>6title1</title>
+      <duration>8.52</duration>
+      <title>6title2</title>
+      <duration>17.04</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name7</name>
+    <artist>artist name7</artist>
+    <year>2020</year>
+    <Producer>producer name7</Producer>
+    <Price>9.94</Price>
+    <song>
+      <title>7title0</title>
+      <duration>0.00</duration>
+      <title>7title1</title>
+      <duration>9.94</duration>
+      <title>7title2</title>
+      <duration>19.88</duration>
+      <title>7title3</title>
+      <duration>29.82</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name8</name>
+    <artist>artist name8</artist>
+    <year>2021</year>
+    <Producer>producer name8</Producer>
+    <Price>11.36</Price>
+    <song>
+      <title>8title0</title>
+      <duration>0.00</duration>
+      <title>8title1</title>
+      <duration>11.36</duration>
+      <title>8title2</title>
+      <duration>22.72</duration>
+      <title>8title3</title>
+      <duration>34.08</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name9</name>
+    <artist>artist name9</artist>
+    <year>2022</year>
+    <Producer>producer name9</Producer>
+    <Price>12.78</Price>
+    <song>
+      <title>9title0</title>
+      <duration>0.00</duration>
+    </song>
+  </album>
+</albums>

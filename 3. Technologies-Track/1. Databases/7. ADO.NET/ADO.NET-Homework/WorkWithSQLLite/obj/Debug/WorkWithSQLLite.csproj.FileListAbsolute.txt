@@ -1,0 +1,1 @@
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithSQLLite\bin\Debug\WorkWithSQLLite.exe.config

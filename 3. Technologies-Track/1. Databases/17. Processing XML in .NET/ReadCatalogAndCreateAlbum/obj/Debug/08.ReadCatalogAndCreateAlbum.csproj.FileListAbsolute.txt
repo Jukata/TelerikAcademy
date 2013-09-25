@@ -1,0 +1,5 @@
+C:\Trash\XML-Processing-in-.NET\ReadCatalogAndCreateAlbum\bin\Debug\ReadCatalogAndCreateAlbum.exe.config
+C:\Trash\XML-Processing-in-.NET\ReadCatalogAndCreateAlbum\bin\Debug\ReadCatalogAndCreateAlbum.exe
+C:\Trash\XML-Processing-in-.NET\ReadCatalogAndCreateAlbum\bin\Debug\ReadCatalogAndCreateAlbum.pdb
+C:\Trash\XML-Processing-in-.NET\ReadCatalogAndCreateAlbum\obj\Debug\ReadCatalogAndCreateAlbum.exe
+C:\Trash\XML-Processing-in-.NET\ReadCatalogAndCreateAlbum\obj\Debug\ReadCatalogAndCreateAlbum.pdb

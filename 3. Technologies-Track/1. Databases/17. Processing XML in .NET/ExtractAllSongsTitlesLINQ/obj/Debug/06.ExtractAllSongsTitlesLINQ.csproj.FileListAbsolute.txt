@@ -1,0 +1,8 @@
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitlesLINQ\bin\Debug\ExtractAllSongsTitlesLINQ.exe.config
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitlesLINQ\bin\Debug\ExtractAllSongsTitlesLINQ.exe
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitlesLINQ\bin\Debug\ExtractAllSongsTitlesLINQ.pdb
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitlesLINQ\obj\Debug\ExtractAllSongsTitlesLINQ.exe
+C:\Trash\XML-Processing-in-.NET\ExtractAllSongsTitlesLINQ\obj\Debug\ExtractAllSongsTitlesLINQ.pdb
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\ExtractAllSongsTitlesLINQ\bin\Debug\ExtractAllSongsTitlesLINQ.exe.config
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\ExtractAllSongsTitlesLINQ\obj\Debug\ExtractAllSongsTitlesLINQ.exe
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\ExtractAllSongsTitlesLINQ\obj\Debug\ExtractAllSongsTitlesLINQ.pdb

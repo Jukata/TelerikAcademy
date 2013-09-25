@@ -1,0 +1,1 @@
+C:\Trash\XML-Processing-in-.NET\ExtractAlbumsWithLINQ\bin\Debug\ExtractAlbumsWithLINQ.exe.config

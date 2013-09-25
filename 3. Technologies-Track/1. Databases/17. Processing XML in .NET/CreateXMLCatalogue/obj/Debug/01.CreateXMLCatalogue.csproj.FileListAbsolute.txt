@@ -1,0 +1,9 @@
+C:\Trash\XML-Processing-in-.NET\CreateXMLCatalogue\bin\Debug\CreateXMLCatalogue.exe.config
+C:\Trash\XML-Processing-in-.NET\CreateXMLCatalogue\bin\Debug\CreateXMLCatalogue.exe
+C:\Trash\XML-Processing-in-.NET\CreateXMLCatalogue\bin\Debug\CreateXMLCatalogue.pdb
+C:\Trash\XML-Processing-in-.NET\CreateXMLCatalogue\obj\Debug\01.CreateXMLCatalogue.csprojResolveAssemblyReference.cache
+C:\Trash\XML-Processing-in-.NET\CreateXMLCatalogue\obj\Debug\CreateXMLCatalogue.exe
+C:\Trash\XML-Processing-in-.NET\CreateXMLCatalogue\obj\Debug\CreateXMLCatalogue.pdb
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\CreateXMLCatalogue\bin\Debug\CreateXMLCatalogue.exe.config
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\CreateXMLCatalogue\obj\Debug\CreateXMLCatalogue.exe
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\CreateXMLCatalogue\obj\Debug\CreateXMLCatalogue.pdb

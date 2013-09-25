@@ -1,0 +1,32 @@
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.dll.config
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMSSql.Model\bin\Debug\EntityFramework.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMSSql.Model\bin\Debug\EntityFramework.xml
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.csprojResolveAssemblyReference.cache
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.dll.config
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.pdb
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\SupermarketMSSql.Model\bin\Debug\EntityFramework.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\SupermarketMSSql.Model\bin\Debug\EntityFramework.xml
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.csprojResolveAssemblyReference.cache
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.dll
+D:\Telerik Software Academy\Databases Local Files\TeamWork\supermarket-records-app\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.pdb
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.dll.config
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.pdb
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMSSql.Model\bin\Debug\EntityFramework.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMSSql.Model\bin\Debug\EntityFramework.xml
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.csprojResolveAssemblyReference.cache
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.dll
+F:\Telerik\Databases\18. Databases Team Work Project\DatabasesTeam\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.pdb
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.dll.config
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMSSql.Model\bin\Debug\SupermarketMSSql.Model.pdb
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMSSql.Model\bin\Debug\EntityFramework.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMSSql.Model\bin\Debug\EntityFramework.xml
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.dll
+C:\Users\Viktor\Desktop\French Connection SVN\FrenchConnection\SupermarketMSSql.Model\obj\Debug\SupermarketMSSql.Model.pdb

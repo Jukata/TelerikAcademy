@@ -1,0 +1,8 @@
+C:\Trash\XML-Processing-in-.NET\ExtractArtistsAlbumsCountDOMParser\bin\Debug\ExtractArtistsAlbumsCountDOMParser.exe.config
+C:\Trash\XML-Processing-in-.NET\ExtractArtistsAlbumsCountDOMParser\bin\Debug\ExtractArtistsAlbumsCountDOMParser.exe
+C:\Trash\XML-Processing-in-.NET\ExtractArtistsAlbumsCountDOMParser\bin\Debug\ExtractArtistsAlbumsCountDOMParser.pdb
+C:\Trash\XML-Processing-in-.NET\ExtractArtistsAlbumsCountDOMParser\obj\Debug\ExtractArtistsAlbumsCountDOMParser.exe
+C:\Trash\XML-Processing-in-.NET\ExtractArtistsAlbumsCountDOMParser\obj\Debug\ExtractArtistsAlbumsCountDOMParser.pdb
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\ExtractArtistsAlbumsCountDOMParser\bin\Debug\ExtractArtistsAlbumsCountDOMParser.exe.config
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\ExtractArtistsAlbumsCountDOMParser\obj\Debug\ExtractArtistsAlbumsCountDOMParser.exe
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\ExtractArtistsAlbumsCountDOMParser\obj\Debug\ExtractArtistsAlbumsCountDOMParser.pdb

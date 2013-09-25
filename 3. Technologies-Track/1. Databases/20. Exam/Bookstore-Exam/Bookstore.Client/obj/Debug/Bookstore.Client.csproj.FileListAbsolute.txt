@@ -1,0 +1,15 @@
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\Bookstore.Client.exe.config
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\Bookstore.Client.exe
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\Bookstore.Client.pdb
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\EntityFramework.dll
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\EntityFramework.xml
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\obj\Debug\Bookstore.Client.exe
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\obj\Debug\Bookstore.Client.pdb
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\Bookstore.Models.dll
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\Bookstore.Models.pdb
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\obj\Debug\Bookstore.Client.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\Logs.Models.dll
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\Logs.Models.pdb
+E:\Telerik\Database\20. Real Exam\DbExam\Bookstore-Exam\Bookstore.Client\bin\Debug\Bookstore.Client.exe.config
+E:\Telerik\Database\20. Real Exam\DbExam\Bookstore-Exam\Bookstore.Client\obj\Debug\Bookstore.Client.exe
+E:\Telerik\Database\20. Real Exam\DbExam\Bookstore-Exam\Bookstore.Client\obj\Debug\Bookstore.Client.pdb

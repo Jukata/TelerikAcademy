@@ -1,0 +1,7 @@
+C:\Users\skirov\Desktop\FrenchConnection\SupermarketSQLite.Model\bin\Debug\SupermarketSQLite.Model.dll.config
+C:\Users\skirov\Desktop\FrenchConnection\SupermarketSQLite.Model\bin\Debug\SupermarketSQLite.Model.dll
+C:\Users\skirov\Desktop\FrenchConnection\SupermarketSQLite.Model\bin\Debug\SupermarketSQLite.Model.pdb
+C:\Users\skirov\Desktop\FrenchConnection\SupermarketSQLite.Model\bin\Debug\EntityFramework.dll
+C:\Users\skirov\Desktop\FrenchConnection\SupermarketSQLite.Model\bin\Debug\EntityFramework.xml
+C:\Users\skirov\Desktop\FrenchConnection\SupermarketSQLite.Model\obj\Debug\SupermarketSQLite.Model.dll
+C:\Users\skirov\Desktop\FrenchConnection\SupermarketSQLite.Model\obj\Debug\SupermarketSQLite.Model.pdb

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+  <album>
+    <name>album name1</name>
+    <artist>artist name1</artist>
+    <year>2014</year>
+    <Producer>producer name1</Producer>
+    <Price>21.42</Price>
+    <song>
+      <title>1title0</title>
+      <duration>0.00</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name2</name>
+    <artist>artist name1</artist>
+    <year>2015</year>
+    <Producer>producer name2</Producer>
+    <Price>22.84</Price>
+    <song>
+      <title>2title0</title>
+      <duration>0.00</duration>
+    </song>
+  </album>
+  <album>
+    <name>album name3</name>
+    <artist>artist name3</artist>
+    <year>2016</year>
+    <Producer>producer name3</Producer>
+    <Price>4.26</Price>
+    <song />
+  </album>
+</albums>

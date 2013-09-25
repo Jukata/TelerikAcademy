@@ -1,0 +1,1 @@
+C:\Trash\XML-Processing-in-.NET\ReadInfoFromTextFileAndWriteInXml\bin\Debug\ReadInfoFromTextFileAndWriteInXml.exe.config

@@ -1,0 +1,8 @@
+C:\Trash\XML-Processing-in-.NET\ReadInfoFromTextFileAndWriteInXml\bin\Debug\ReadInfoFromTextFileAndWriteInXml.exe.config
+C:\Trash\XML-Processing-in-.NET\ReadInfoFromTextFileAndWriteInXml\bin\Debug\ReadInfoFromTextFileAndWriteInXml.exe
+C:\Trash\XML-Processing-in-.NET\ReadInfoFromTextFileAndWriteInXml\bin\Debug\ReadInfoFromTextFileAndWriteInXml.pdb
+C:\Trash\XML-Processing-in-.NET\ReadInfoFromTextFileAndWriteInXml\obj\Debug\ReadInfoFromTextFileAndWriteInXml.exe
+C:\Trash\XML-Processing-in-.NET\ReadInfoFromTextFileAndWriteInXml\obj\Debug\ReadInfoFromTextFileAndWriteInXml.pdb
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\ReadInfoFromTextFileAndWriteInXml\bin\Debug\ReadInfoFromTextFileAndWriteInXml.exe.config
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\ReadInfoFromTextFileAndWriteInXml\obj\Debug\ReadInfoFromTextFileAndWriteInXml.exe
+E:\Telerik\Database\16-17. XML\17. Processing XML in .NET\ReadInfoFromTextFileAndWriteInXml\obj\Debug\ReadInfoFromTextFileAndWriteInXml.pdb

@@ -1,0 +1,1 @@
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXML\bin\Debug\TraverseDirectoryAndWriteInXML.exe.config

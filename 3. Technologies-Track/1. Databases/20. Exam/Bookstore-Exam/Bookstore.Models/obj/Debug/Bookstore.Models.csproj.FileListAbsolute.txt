@@ -1,0 +1,8 @@
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Models\bin\Debug\Bookstore.Models.dll.config
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Models\bin\Debug\Bookstore.Models.dll
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Models\bin\Debug\Bookstore.Models.pdb
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Models\bin\Debug\EntityFramework.dll
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Models\bin\Debug\EntityFramework.xml
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Models\obj\Debug\Bookstore.Models.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Models\obj\Debug\Bookstore.Models.dll
+C:\Users\Viktor\Desktop\DbExam\Bookstore-Exam\Bookstore.Models\obj\Debug\Bookstore.Models.pdb

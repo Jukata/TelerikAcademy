@@ -1,0 +1,5 @@
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXMLWithXClasses\bin\Debug\TraverseDirectoryAndWriteInXMLWithXClasses.exe.config
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXMLWithXClasses\bin\Debug\TraverseDirectoryAndWriteInXMLWithXClasses.exe
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXMLWithXClasses\bin\Debug\TraverseDirectoryAndWriteInXMLWithXClasses.pdb
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXMLWithXClasses\obj\Debug\TraverseDirectoryAndWriteInXMLWithXClasses.exe
+C:\Trash\XML-Processing-in-.NET\TraverseDirectoryAndWriteInXMLWithXClasses\obj\Debug\TraverseDirectoryAndWriteInXMLWithXClasses.pdb

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SupermarketReportsModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SupermarketReportsEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Expenses" EntityType="SupermarketReportsModel.Expens" />
+    <EntitySet Name="Measures" EntityType="SupermarketReportsModel.Measure" />
+    <EntitySet Name="Products" EntityType="SupermarketReportsModel.Product" />
+    <EntitySet Name="SalesReports" EntityType="SupermarketReportsModel.SalesReport" />
+    <EntitySet Name="Supermarkets" EntityType="SupermarketReportsModel.Supermarket" />
+    <EntitySet Name="Vendors" EntityType="SupermarketReportsModel.Vendor" />
+    <AssociationSet Name="FK_Expenses_Vendors" Association="SupermarketReportsModel.FK_Expenses_Vendors">
+      <End Role="Vendors" EntitySet="Vendors" />
+      <End Role="Expenses" EntitySet="Expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Measures" Association="SupermarketReportsModel.FK_Products_Measures">
+      <End Role="Measures" EntitySet="Measures" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Vendors" Association="SupermarketReportsModel.FK_Products_Vendors">
+      <End Role="Vendors" EntitySet="Vendors" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesReports_Products" Association="SupermarketReportsModel.FK_SalesReports_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="SalesReports" EntitySet="SalesReports" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesReports_Supermarkets" Association="SupermarketReportsModel.FK_SalesReports_Supermarkets">
+      <End Role="Supermarkets" EntitySet="Supermarkets" />
+      <End Role="SalesReports" EntitySet="SalesReports" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Expens">
+    <Key>
+      <PropertyRef Name="ExpenseId" />
+    </Key>
+    <Property Name="ExpenseId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="VendorId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Expenses" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Vendor" Relationship="SupermarketReportsModel.FK_Expenses_Vendors" FromRole="Expenses" ToRole="Vendors" />
+  </EntityType>
+  <EntityType Name="Measure">
+    <Key>
+      <PropertyRef Name="MeasureId" />
+    </Key>
+    <Property Name="MeasureId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="MeasureName" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Products" Relationship="SupermarketReportsModel.FK_Products_Measures" FromRole="Measures" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Productid" />
+    </Key>
+    <Property Name="Productid" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="BasePrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Measures_MeasureId" Type="Int32" Nullable="false" />
+    <Property Name="Vendors_VendorId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Measure" Relationship="SupermarketReportsModel.FK_Products_Measures" FromRole="Products" ToRole="Measures" />
+    <NavigationProperty Name="Vendor" Relationship="SupermarketReportsModel.FK_Products_Vendors" FromRole="Products" ToRole="Vendors" />
+    <NavigationProperty Name="SalesReports" Relationship="SupermarketReportsModel.FK_SalesReports_Products" FromRole="Products" ToRole="SalesReports" />
+  </EntityType>
+  <EntityType Name="SalesReport">
+    <Key>
+      <PropertyRef Name="SalesReportId" />
+    </Key>
+    <Property Name="SalesReportId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="SupermarketId" Type="Int32" Nullable="false" />
+    <Property Name="ReportDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Sum" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Product" Relationship="SupermarketReportsModel.FK_SalesReports_Products" FromRole="SalesReports" ToRole="Products" />
+    <NavigationProperty Name="Supermarket" Relationship="SupermarketReportsModel.FK_SalesReports_Supermarkets" FromRole="SalesReports" ToRole="Supermarkets" />
+  </EntityType>
+  <EntityType Name="Supermarket">
+    <Key>
+      <PropertyRef Name="SupermarketId" />
+    </Key>
+    <Property Name="SupermarketId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="SalesReports" Relationship="SupermarketReportsModel.FK_SalesReports_Supermarkets" FromRole="Supermarkets" ToRole="SalesReports" />
+  </EntityType>
+  <EntityType Name="Vendor">
+    <Key>
+      <PropertyRef Name="VendorId" />
+    </Key>
+    <Property Name="VendorId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="VendorName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Expenses" Relationship="SupermarketReportsModel.FK_Expenses_Vendors" FromRole="Vendors" ToRole="Expenses" />
+    <NavigationProperty Name="Products" Relationship="SupermarketReportsModel.FK_Products_Vendors" FromRole="Vendors" ToRole="Products" />
+  </EntityType>
+  <Association Name="FK_Expenses_Vendors">
+    <End Role="Vendors" Type="SupermarketReportsModel.Vendor" Multiplicity="1" />
+    <End Role="Expenses" Type="SupermarketReportsModel.Expens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendors">
+        <PropertyRef Name="VendorId" />
+      </Principal>
+      <Dependent Role="Expenses">
+        <PropertyRef Name="VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Measures">
+    <End Role="Measures" Type="SupermarketReportsModel.Measure" Multiplicity="1" />
+    <End Role="Products" Type="SupermarketReportsModel.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Measures">
+        <PropertyRef Name="MeasureId" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="Measures_MeasureId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Vendors">
+    <End Role="Vendors" Type="SupermarketReportsModel.Vendor" Multiplicity="1" />
+    <End Role="Products" Type="SupermarketReportsModel.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendors">
+        <PropertyRef Name="VendorId" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="Vendors_VendorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesReports_Products">
+    <End Role="Products" Type="SupermarketReportsModel.Product" Multiplicity="1" />
+    <End Role="SalesReports" Type="SupermarketReportsModel.SalesReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Productid" />
+      </Principal>
+      <Dependent Role="SalesReports">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesReports_Supermarkets">
+    <End Role="Supermarkets" Type="SupermarketReportsModel.Supermarket" Multiplicity="1" />
+    <End Role="SalesReports" Type="SupermarketReportsModel.SalesReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supermarkets">
+        <PropertyRef Name="SupermarketId" />
+      </Principal>
+      <Dependent Role="SalesReports">
+        <PropertyRef Name="SupermarketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

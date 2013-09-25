@@ -1,0 +1,7 @@
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithMySQL\bin\Debug\WorkWithMySQL.exe.config
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithMySQL\bin\Debug\WorkWithMySQL.exe
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithMySQL\bin\Debug\WorkWithMySQL.pdb
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithMySQL\bin\Debug\MySql.Data.dll
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithMySQL\obj\Debug\9.WorkWithMySQL.csprojResolveAssemblyReference.cache
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithMySQL\obj\Debug\WorkWithMySQL.exe
+E:\Telerik\Database\7. ADO.NET\ADO.NET-Homework\WorkWithMySQL\obj\Debug\WorkWithMySQL.pdb

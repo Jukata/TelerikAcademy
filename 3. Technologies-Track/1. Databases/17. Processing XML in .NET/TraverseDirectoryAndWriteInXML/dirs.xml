@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Directories>
+  <dir name="XML-Processing-in-.NET">
+    <dir name="CreateXMLCatalogue">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>CreateXMLCatalogue.exe</file>
+          <file>CreateXMLCatalogue.exe.config</file>
+          <file>CreateXMLCatalogue.pdb</file>
+          <file>CreateXMLCatalogue.vshost.exe</file>
+          <file>CreateXMLCatalogue.vshost.exe.config</file>
+        </dir>
+        <dir name="Release" />
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>01.CreateXMLCatalogue.csproj.FileListAbsolute.txt</file>
+          <file>01.CreateXMLCatalogue.csprojResolveAssemblyReference.cache</file>
+          <file>CreateXMLCatalogue.csproj.FileListAbsolute.txt</file>
+          <file>CreateXMLCatalogue.exe</file>
+          <file>CreateXMLCatalogue.pdb</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>01.CreateXMLCatalogue.csproj</file>
+      <file>01.CreateXMLCatalogue.csproj.user</file>
+      <file>App.config</file>
+      <file>catalogue.xml</file>
+      <file>CreateXMLCatalogue.cs</file>
+    </dir>
+    <dir name="DeleteAlbums">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>DeleteAlbums.exe</file>
+          <file>DeleteAlbums.exe.config</file>
+          <file>DeleteAlbums.pdb</file>
+          <file>DeleteAlbums.vshost.exe</file>
+          <file>DeleteAlbums.vshost.exe.config</file>
+          <file>DeleteAlbums.vshost.exe.manifest</file>
+        </dir>
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>04.DeleteAlbums.csproj.FileListAbsolute.txt</file>
+          <file>DeleteAlbums.csproj.FileListAbsolute.txt</file>
+          <file>DeleteAlbums.exe</file>
+          <file>DeleteAlbums.pdb</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>04.DeleteAlbums.csproj</file>
+      <file>App.config</file>
+      <file>catalogue.xml</file>
+      <file>Program.cs</file>
+    </dir>
+    <dir name="ExtractAllArtists">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>ExtractAllArtists.exe</file>
+          <file>ExtractAllArtists.exe.config</file>
+          <file>ExtractAllArtists.pdb</file>
+          <file>ExtractAllArtists.vshost.exe</file>
+          <file>ExtractAllArtists.vshost.exe.config</file>
+        </dir>
+        <dir name="Release" />
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>02.ExtractAllArtists.csproj.FileListAbsolute.txt</file>
+          <file>03.ExtractAllArtists.csproj.FileListAbsolute.txt</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>ExtractAllArtists.exe</file>
+          <file>ExtractAllArtists.pdb</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>03.ExtractAllArtists.csproj</file>
+      <file>App.config</file>
+      <file>catalogue.xml</file>
+      <file>ExtractAllArtists.cs</file>
+    </dir>
+    <dir name="ExtractAllSongsTitles">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>ExtractAllSongsTitles.exe</file>
+          <file>ExtractAllSongsTitles.exe.config</file>
+          <file>ExtractAllSongsTitles.pdb</file>
+          <file>ExtractAllSongsTitles.vshost.exe</file>
+          <file>ExtractAllSongsTitles.vshost.exe.config</file>
+        </dir>
+        <dir name="Release" />
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>05.ExtractAllSongsTitles.csproj.FileListAbsolute.txt</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>ExtractAllSongsTitles.csproj.FileListAbsolute.txt</file>
+          <file>ExtractAllSongsTitles.exe</file>
+          <file>ExtractAllSongsTitles.pdb</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>05.ExtractAllSongsTitles.csproj</file>
+      <file>App.config</file>
+      <file>catalogue.xml</file>
+      <file>ExtractAllSongsTitles.cs</file>
+    </dir>
+    <dir name="ExtractAllSongsTitlesLINQ">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>ExtractAllSongsTitlesLINQ.exe</file>
+          <file>ExtractAllSongsTitlesLINQ.exe.config</file>
+          <file>ExtractAllSongsTitlesLINQ.pdb</file>
+          <file>ExtractAllSongsTitlesLINQ.vshost.exe</file>
+          <file>ExtractAllSongsTitlesLINQ.vshost.exe.config</file>
+        </dir>
+        <dir name="Release" />
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>06.ExtractAllSongsTitlesLINQ.csproj.FileListAbsolute.txt</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>ExtractAllSongsTitlesLINQ.csproj.FileListAbsolute.txt</file>
+          <file>ExtractAllSongsTitlesLINQ.exe</file>
+          <file>ExtractAllSongsTitlesLINQ.pdb</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>06.ExtractAllSongsTitlesLINQ.csproj</file>
+      <file>App.config</file>
+      <file>catalogue.xml</file>
+      <file>ExtractAllSongsTitlesLINQ.cs</file>
+    </dir>
+    <dir name="ExtractArtistsAlbumsCountDOMParser">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>ExtractArtistsAlbumsCountDOMParser.exe</file>
+          <file>ExtractArtistsAlbumsCountDOMParser.exe.config</file>
+          <file>ExtractArtistsAlbumsCountDOMParser.pdb</file>
+          <file>ExtractArtistsAlbumsCountDOMParser.vshost.exe</file>
+          <file>ExtractArtistsAlbumsCountDOMParser.vshost.exe.config</file>
+        </dir>
+        <dir name="Release" />
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>02.ExtractArtistsAlbumsCountDOMParser.csproj.FileListAbsolute.txt</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>ExtractArtistsAlbumsCountDOMParser.csproj.FileListAbsolute.txt</file>
+          <file>ExtractArtistsAlbumsCountDOMParser.exe</file>
+          <file>ExtractArtistsAlbumsCountDOMParser.pdb</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>02.ExtractArtistsAlbumsCountDOMParser.csproj</file>
+      <file>App.config</file>
+      <file>catalogue.xml</file>
+      <file>ExtractArtistsAlbumsCountDOMParser.cs</file>
+    </dir>
+    <dir name="ReadCatalogAndCreateAlbum">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>ReadCatalogAndCreateAlbum.exe</file>
+          <file>ReadCatalogAndCreateAlbum.exe.config</file>
+          <file>ReadCatalogAndCreateAlbum.pdb</file>
+          <file>ReadCatalogAndCreateAlbum.vshost.exe</file>
+          <file>ReadCatalogAndCreateAlbum.vshost.exe.config</file>
+        </dir>
+        <dir name="Release" />
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>08.ReadCatalogAndCreateAlbum.csproj.FileListAbsolute.txt</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>ReadCatalogAndCreateAlbum.csproj.FileListAbsolute.txt</file>
+          <file>ReadCatalogAndCreateAlbum.exe</file>
+          <file>ReadCatalogAndCreateAlbum.pdb</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>08.ReadCatalogAndCreateAlbum.csproj</file>
+      <file>08.ReadCatalogAndCreateAlbum.csproj.user</file>
+      <file>album.xml</file>
+      <file>App.config</file>
+      <file>catalogue.xml</file>
+      <file>ReadCatalogAndCreateAlbum.cs</file>
+    </dir>
+    <dir name="ReadInfoFromTextFileAndWriteInXml">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>ReadInfoFromTextFileAndWriteInXml.exe</file>
+          <file>ReadInfoFromTextFileAndWriteInXml.exe.config</file>
+          <file>ReadInfoFromTextFileAndWriteInXml.pdb</file>
+          <file>ReadInfoFromTextFileAndWriteInXml.vshost.exe</file>
+          <file>ReadInfoFromTextFileAndWriteInXml.vshost.exe.config</file>
+          <file>ReadInfoFromTextFileAndWriteInXml.vshost.exe.manifest</file>
+        </dir>
+        <dir name="Release" />
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>07.ReadInfoFromTextFileAndWriteInXml.csproj.FileListAbsolute.txt</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>ReadInfoFromTextFileAndWriteInXml.csproj.FileListAbsolute.txt</file>
+          <file>ReadInfoFromTextFileAndWriteInXml.exe</file>
+          <file>ReadInfoFromTextFileAndWriteInXml.pdb</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>07.ReadInfoFromTextFileAndWriteInXml.csproj</file>
+      <file>07.ReadInfoFromTextFileAndWriteInXml.csproj.user</file>
+      <file>App.config</file>
+      <file>person.xml</file>
+      <file>personInfo.txt</file>
+      <file>ReadInfoFromTextFileAndWriteInXml.cs</file>
+    </dir>
+    <dir name="TraverseDirectoryAndWriteInXML">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>TraverseDirectoryAndWriteInXML.exe</file>
+          <file>TraverseDirectoryAndWriteInXML.exe.config</file>
+          <file>TraverseDirectoryAndWriteInXML.pdb</file>
+          <file>TraverseDirectoryAndWriteInXML.vshost.exe</file>
+          <file>TraverseDirectoryAndWriteInXML.vshost.exe.config</file>
+        </dir>
+        <dir name="Release" />
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>10.TraverseDirectoryAndWriteInXML.csproj.FileListAbsolute.txt</file>
+          <file>10.TraverseDirectoryAndWriteInXML.csprojResolveAssemblyReference.cache</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+          <file>TraverseDirectoryAndWriteInXML.csproj.FileListAbsolute.txt</file>
+          <file>TraverseDirectoryAndWriteInXML.exe</file>
+          <file>TraverseDirectoryAndWriteInXML.pdb</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>10.TraverseDirectoryAndWriteInXML.csproj</file>
+      <file>10.TraverseDirectoryAndWriteInXML.csproj.user</file>
+      <file>App.config</file>
+      <file>dirs.xml</file>
+      <file>TraverseDirectoryAndWriteInXML.cs</file>
+    </dir>
+    <dir name="TraverseDirectoryAndWriteInXMLWithXClasses">
+      <dir name="bin">
+        <dir name="Debug">
+          <file>TraverseDirectoryAndWriteInXMLWithXClasses.exe.config</file>
+          <file>TraverseDirectoryAndWriteInXMLWithXClasses.vshost.exe</file>
+          <file>TraverseDirectoryAndWriteInXMLWithXClasses.vshost.exe.config</file>
+        </dir>
+        <dir name="Release" />
+      </dir>
+      <dir name="obj">
+        <dir name="Debug">
+          <dir name="TempPE" />
+          <file>11.TraverseDirectoryAndWriteInXMLWithXClasses.csproj.FileListAbsolute.txt</file>
+          <file>DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+          <file>TraverseDirectoryAndWriteInXMLWithXClasses.csproj.FileListAbsolute.txt</file>
+        </dir>
+      </dir>
+      <dir name="Properties">
+        <file>AssemblyInfo.cs</file>
+      </dir>
+      <file>11.TraverseDirectoryAndWriteInXMLWithXClasses.csproj</file>
+      <file>App.config</file>
+      <file>TraverseDirectoryAndWriteInXMLWithXClasses.cs</file>
+    </dir>
+    <file>XML-Processing-in-.NET.sln</file>
+    <file>XML-Processing-in-.NET.v11.suo</file>
+  </dir>
+</Directories>

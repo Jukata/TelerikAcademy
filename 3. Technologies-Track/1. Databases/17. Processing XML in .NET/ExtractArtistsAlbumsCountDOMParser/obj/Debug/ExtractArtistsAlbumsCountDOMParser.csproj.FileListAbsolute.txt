@@ -1,0 +1,1 @@
+C:\Trash\XML-Processing-in-.NET\ExtractArtistsAlbumsCountDOMParser\bin\Debug\ExtractArtistsAlbumsCountDOMParser.exe.config

@@ -1,0 +1,26 @@
+#Create the same table in MySQL and partition it by date (1990, 2000, 2010).
+#Fill 1 000 000 log entries. Compare the searching speed in all 
+#partitions (random dates) to certain partition (e.g. year 1995).
+
+CREATE DATABASE PerformanceDb;
+
+USE PerformanceDb;
+
+CREATE TABLE Posts
+(
+	PostId INT NOT NULL AUTO_INCREMENT,
+	PostText VARCHAR(255) NOT NULL,
+	PostDate DATE NOT NULL,
+	PRIMARY KEY (PostId, PostDate)
+) PARTITION BY RANGE(YEAR(PostDate))(
+	PARTITION p0 VALUES LESS THAN (2000),
+    PARTITION p1 VALUES LESS THAN (2002),
+	PARTITION p2 VALUES LESS THAN (2004),
+	PARTITION p3 VALUES LESS THAN MAXVALUE );
+
+SELECT * FROM Posts WHERE PostDate = '1999.2.5';
+SELECT * FROM Posts WHERE PostDate = '2001.1.1';
+SELECT * FROM Posts WHERE PostDate = '2003.2.5';
+SELECT * FROM Posts WHERE PostDate = '2005.7.7';
+
+SELECT COUNT(*) FROM Posts
