@@ -1,0 +1,1 @@
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MinimumEditingDistance\bin\Debug\MinimumEditingDistance.exe.config

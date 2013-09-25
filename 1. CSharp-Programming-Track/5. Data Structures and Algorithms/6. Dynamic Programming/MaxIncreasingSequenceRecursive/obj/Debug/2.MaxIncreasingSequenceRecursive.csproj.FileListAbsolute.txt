@@ -1,0 +1,6 @@
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MaxIncreasingSequenceRecursive\bin\Debug\MaxIncreasingSequenceRecursive.exe.config
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MaxIncreasingSequenceRecursive\bin\Debug\MaxIncreasingSequenceRecursive.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MaxIncreasingSequenceRecursive\bin\Debug\MaxIncreasingSequenceRecursive.pdb
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MaxIncreasingSequenceRecursive\obj\Debug\2.MaxIncreasingSequenceRecursive.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MaxIncreasingSequenceRecursive\obj\Debug\MaxIncreasingSequenceRecursive.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MaxIncreasingSequenceRecursive\obj\Debug\MaxIncreasingSequenceRecursive.pdb

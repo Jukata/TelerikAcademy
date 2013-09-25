@@ -1,0 +1,5 @@
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\FindLargestConnectedArea\bin\Debug\FindLargestConnectedArea.exe.config
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\FindLargestConnectedArea\bin\Debug\FindLargestConnectedArea.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\FindLargestConnectedArea\bin\Debug\FindLargestConnectedArea.pdb
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\FindLargestConnectedArea\obj\Debug\FindLargestConnectedArea.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\FindLargestConnectedArea\obj\Debug\FindLargestConnectedArea.pdb

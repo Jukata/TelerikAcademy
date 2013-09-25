@@ -1,0 +1,6 @@
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\LongestCommonSubsequence\bin\Debug\LongestCommonSubsequence.exe.config
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\LongestCommonSubsequence\bin\Debug\LongestCommonSubsequence.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\LongestCommonSubsequence\bin\Debug\LongestCommonSubsequence.pdb
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\LongestCommonSubsequence\obj\Debug\5.LongestCommonSubsequence.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\LongestCommonSubsequence\obj\Debug\LongestCommonSubsequence.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\LongestCommonSubsequence\obj\Debug\LongestCommonSubsequence.pdb

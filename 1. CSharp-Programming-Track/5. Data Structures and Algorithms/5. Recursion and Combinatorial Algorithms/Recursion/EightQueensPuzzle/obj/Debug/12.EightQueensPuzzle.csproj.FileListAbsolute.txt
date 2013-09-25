@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\EightQueensPuzzle\bin\Debug\EightQueensPuzzle.exe.config
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\EightQueensPuzzle\bin\Debug\EightQueensPuzzle.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\EightQueensPuzzle\bin\Debug\EightQueensPuzzle.pdb
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\EightQueensPuzzle\obj\Debug\EightQueensPuzzle.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\EightQueensPuzzle\obj\Debug\EightQueensPuzzle.pdb
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\EightQueensPuzzle\obj\Debug\12.EightQueensPuzzle.csprojResolveAssemblyReference.cache

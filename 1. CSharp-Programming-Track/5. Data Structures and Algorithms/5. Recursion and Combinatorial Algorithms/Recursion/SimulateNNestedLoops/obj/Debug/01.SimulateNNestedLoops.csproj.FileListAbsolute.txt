@@ -1,0 +1,5 @@
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\SimulateNNestedLoops\bin\Debug\SimulateNNestedLoops.exe.config
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\SimulateNNestedLoops\bin\Debug\SimulateNNestedLoops.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\SimulateNNestedLoops\bin\Debug\SimulateNNestedLoops.pdb
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\SimulateNNestedLoops\obj\Debug\SimulateNNestedLoops.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\SimulateNNestedLoops\obj\Debug\SimulateNNestedLoops.pdb

@@ -1,0 +1,5 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\CountNumbersOccurrences\bin\Debug\CountNumbersOccurrences.exe.config
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\CountNumbersOccurrences\bin\Debug\CountNumbersOccurrences.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\CountNumbersOccurrences\bin\Debug\CountNumbersOccurrences.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\CountNumbersOccurrences\obj\Debug\CountNumbersOccurrences.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\CountNumbersOccurrences\obj\Debug\CountNumbersOccurrences.pdb

@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\TVCompany\bin\Debug\TVCompany.exe.config
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\TVCompany\bin\Debug\TVCompany.exe
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\TVCompany\bin\Debug\TVCompany.pdb
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\TVCompany\obj\Debug\3.TVCompany.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\TVCompany\obj\Debug\TVCompany.exe
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\TVCompany\obj\Debug\TVCompany.pdb

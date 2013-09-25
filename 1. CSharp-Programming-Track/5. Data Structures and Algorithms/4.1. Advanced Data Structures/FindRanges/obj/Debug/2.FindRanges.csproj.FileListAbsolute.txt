@@ -1,0 +1,8 @@
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\FindRanges\bin\Debug\FindRanges.exe.config
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\FindRanges\bin\Debug\FindRanges.exe
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\FindRanges\bin\Debug\FindRanges.pdb
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\FindRanges\bin\Debug\PowerCollections.dll
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\FindRanges\bin\Debug\PowerCollections.xml
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\FindRanges\obj\Debug\2.FindRanges.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\FindRanges\obj\Debug\FindRanges.exe
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\FindRanges\obj\Debug\FindRanges.pdb

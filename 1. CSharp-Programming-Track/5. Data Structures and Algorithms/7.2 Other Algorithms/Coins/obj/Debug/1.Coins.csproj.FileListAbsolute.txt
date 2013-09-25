@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\7.2 Other Algorithms\OtherAlgorithms\Coins\bin\Debug\Coins.exe.config
+E:\Telerik\Data Structures and Algorithms\7.2 Other Algorithms\OtherAlgorithms\Coins\bin\Debug\Coins.exe
+E:\Telerik\Data Structures and Algorithms\7.2 Other Algorithms\OtherAlgorithms\Coins\bin\Debug\Coins.pdb
+E:\Telerik\Data Structures and Algorithms\7.2 Other Algorithms\OtherAlgorithms\Coins\obj\Debug\1.Coins.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\7.2 Other Algorithms\OtherAlgorithms\Coins\obj\Debug\Coins.exe
+E:\Telerik\Data Structures and Algorithms\7.2 Other Algorithms\OtherAlgorithms\Coins\obj\Debug\Coins.pdb

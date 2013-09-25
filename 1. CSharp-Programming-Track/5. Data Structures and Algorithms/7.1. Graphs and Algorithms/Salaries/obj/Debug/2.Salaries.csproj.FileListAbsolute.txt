@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\Salaries\bin\Debug\Salaries.exe.config
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\Salaries\bin\Debug\Salaries.exe
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\Salaries\bin\Debug\Salaries.pdb
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\Salaries\obj\Debug\2.Salaries.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\Salaries\obj\Debug\Salaries.exe
+E:\Telerik\Data Structures and Algorithms\7.1. Graphs and Algorithms\GraphsAndAlgorithms\Salaries\obj\Debug\Salaries.pdb

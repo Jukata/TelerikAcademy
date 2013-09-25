@@ -1,0 +1,1 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LinkedList\bin\Debug\LinkedList.exe.config

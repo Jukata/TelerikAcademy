@@ -1,0 +1,6 @@
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\SubsetSums\bin\Debug\SubsetSums.exe.config
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\SubsetSums\obj\Debug\3.SubsetSums.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\SubsetSums\bin\Debug\SubsetSums.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\SubsetSums\bin\Debug\SubsetSums.pdb
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\SubsetSums\obj\Debug\SubsetSums.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\SubsetSums\obj\Debug\SubsetSums.pdb

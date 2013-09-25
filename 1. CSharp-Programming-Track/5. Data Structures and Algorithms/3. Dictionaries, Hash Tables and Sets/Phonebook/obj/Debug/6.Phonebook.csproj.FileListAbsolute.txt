@@ -1,0 +1,8 @@
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\Phonebook\obj\Debug\6.Phonebook.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\Phonebook\bin\Debug\Phonebook.exe.config
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\Phonebook\bin\Debug\Phonebook.exe
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\Phonebook\bin\Debug\Phonebook.pdb
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\Phonebook\bin\Debug\PowerCollections.dll
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\Phonebook\bin\Debug\PowerCollections.xml
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\Phonebook\obj\Debug\Phonebook.exe
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\Phonebook\obj\Debug\Phonebook.pdb

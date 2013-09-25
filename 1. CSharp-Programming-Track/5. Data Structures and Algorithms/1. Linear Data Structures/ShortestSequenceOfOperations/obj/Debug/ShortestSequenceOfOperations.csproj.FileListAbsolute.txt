@@ -1,0 +1,1 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\ShortestSequenceOfOperations\bin\Debug\ShortestSequenceOfOperations.exe.config

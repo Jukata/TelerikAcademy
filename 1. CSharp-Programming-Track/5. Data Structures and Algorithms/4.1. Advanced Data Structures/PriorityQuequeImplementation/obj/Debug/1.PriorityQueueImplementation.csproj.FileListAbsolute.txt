@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\PriorityQuequeImplementation\bin\Debug\PriorityQuequeImplementation.exe.config
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\PriorityQuequeImplementation\bin\Debug\PriorityQuequeImplementation.exe
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\PriorityQuequeImplementation\bin\Debug\PriorityQuequeImplementation.pdb
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\PriorityQuequeImplementation\obj\Debug\1.PriorityQueueImplementation.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\PriorityQuequeImplementation\obj\Debug\PriorityQuequeImplementation.exe
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\PriorityQuequeImplementation\obj\Debug\PriorityQuequeImplementation.pdb

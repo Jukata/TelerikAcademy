@@ -1,0 +1,8 @@
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\ImplementSet\bin\Debug\ImplementSet.exe.config
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\ImplementSet\bin\Debug\ImplementSet.exe
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\ImplementSet\bin\Debug\ImplementSet.pdb
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\ImplementSet\bin\Debug\HashTableImplementation.exe
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\ImplementSet\bin\Debug\HashTableImplementation.pdb
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\ImplementSet\obj\Debug\5.ImplementSet.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\ImplementSet\obj\Debug\ImplementSet.exe
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\ImplementSet\obj\Debug\ImplementSet.pdb

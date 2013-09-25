@@ -1,0 +1,8 @@
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\BiDictionaryImplementation\bin\Debug\BiDictionaryImplementation.exe.config
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\BiDictionaryImplementation\bin\Debug\BiDictionaryImplementation.exe
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\BiDictionaryImplementation\bin\Debug\BiDictionaryImplementation.pdb
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\BiDictionaryImplementation\bin\Debug\PowerCollections.dll
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\BiDictionaryImplementation\bin\Debug\PowerCollections.xml
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\BiDictionaryImplementation\obj\Debug\3.BiDictionaryImplementation.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\BiDictionaryImplementation\obj\Debug\BiDictionaryImplementation.exe
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\BiDictionaryImplementation\obj\Debug\BiDictionaryImplementation.pdb

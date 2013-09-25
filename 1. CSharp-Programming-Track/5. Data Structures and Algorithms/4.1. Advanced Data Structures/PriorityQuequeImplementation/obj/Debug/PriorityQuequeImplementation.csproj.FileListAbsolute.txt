@@ -1,0 +1,1 @@
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\PriorityQuequeImplementation\bin\Debug\PriorityQuequeImplementation.exe.config

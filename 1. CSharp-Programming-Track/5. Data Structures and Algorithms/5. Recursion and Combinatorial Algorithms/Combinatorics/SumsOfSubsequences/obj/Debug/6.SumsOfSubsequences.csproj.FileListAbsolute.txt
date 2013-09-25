@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Combinatorics\SumsOfSubsequences\bin\Debug\SumsOfSubsequences.exe.config
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Combinatorics\SumsOfSubsequences\bin\Debug\SumsOfSubsequences.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Combinatorics\SumsOfSubsequences\bin\Debug\SumsOfSubsequences.pdb
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Combinatorics\SumsOfSubsequences\obj\Debug\6.SumsOfSubsequences.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Combinatorics\SumsOfSubsequences\obj\Debug\SumsOfSubsequences.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Combinatorics\SumsOfSubsequences\obj\Debug\SumsOfSubsequences.pdb

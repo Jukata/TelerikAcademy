@@ -1,0 +1,5 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\SortInputIntegersSequence\bin\Debug\SortInputIntegersSequence.exe.config
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\SortInputIntegersSequence\bin\Debug\SortInputIntegersSequence.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\SortInputIntegersSequence\bin\Debug\SortInputIntegersSequence.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\SortInputIntegersSequence\obj\Debug\SortInputIntegersSequence.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\SortInputIntegersSequence\obj\Debug\SortInputIntegersSequence.pdb

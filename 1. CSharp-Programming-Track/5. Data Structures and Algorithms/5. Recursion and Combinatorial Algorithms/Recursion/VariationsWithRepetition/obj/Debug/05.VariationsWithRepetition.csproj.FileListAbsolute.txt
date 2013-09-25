@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\VariationsWithRepetition\bin\Debug\VariationsWithRepetition.exe.config
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\VariationsWithRepetition\bin\Debug\VariationsWithRepetition.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\VariationsWithRepetition\bin\Debug\VariationsWithRepetition.pdb
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\VariationsWithRepetition\obj\Debug\05.VariationsWithRepetition.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\VariationsWithRepetition\obj\Debug\VariationsWithRepetition.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\VariationsWithRepetition\obj\Debug\VariationsWithRepetition.pdb

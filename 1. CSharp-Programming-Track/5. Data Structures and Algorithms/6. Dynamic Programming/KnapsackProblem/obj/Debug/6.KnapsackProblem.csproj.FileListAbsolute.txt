@@ -1,0 +1,6 @@
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\KnapsackProblem\bin\Debug\KnapsackProblem.exe.config
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\KnapsackProblem\obj\Debug\6.KnapsackProblem.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\KnapsackProblem\bin\Debug\KnapsackProblem.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\KnapsackProblem\bin\Debug\KnapsackProblem.pdb
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\KnapsackProblem\obj\Debug\KnapsackProblem.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\KnapsackProblem\obj\Debug\KnapsackProblem.pdb

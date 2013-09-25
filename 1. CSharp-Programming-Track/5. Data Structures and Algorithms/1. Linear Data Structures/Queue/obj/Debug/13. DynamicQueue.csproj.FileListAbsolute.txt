@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Queue\bin\Debug\Queue.exe.config
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Queue\bin\Debug\Queue.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Queue\bin\Debug\Queue.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Queue\obj\Debug\13. DynamicQueue.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Queue\obj\Debug\Queue.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Queue\obj\Debug\Queue.pdb

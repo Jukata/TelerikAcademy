@@ -1,0 +1,6 @@
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MinimumEditingDistance\bin\Debug\MinimumEditingDistance.exe.config
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MinimumEditingDistance\bin\Debug\MinimumEditingDistance.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MinimumEditingDistance\bin\Debug\MinimumEditingDistance.pdb
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MinimumEditingDistance\obj\Debug\7.MinimumEditingDistance.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MinimumEditingDistance\obj\Debug\MinimumEditingDistance.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\MinimumEditingDistance\obj\Debug\MinimumEditingDistance.pdb

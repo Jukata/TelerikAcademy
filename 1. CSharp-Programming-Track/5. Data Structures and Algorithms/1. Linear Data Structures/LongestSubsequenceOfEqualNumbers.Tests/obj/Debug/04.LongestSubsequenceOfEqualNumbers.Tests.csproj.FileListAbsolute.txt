@@ -1,0 +1,7 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LongestSubsequenceOfEqualNumbers.Tests\bin\Debug\LongestSubsequenceOfEqualNumbers.Tests.dll
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LongestSubsequenceOfEqualNumbers.Tests\bin\Debug\LongestSubsequenceOfEqualNumbers.Tests.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LongestSubsequenceOfEqualNumbers.Tests\bin\Debug\LongestSubsequenceOfEqualNumbers.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LongestSubsequenceOfEqualNumbers.Tests\bin\Debug\LongestSubsequenceOfEqualNumbers.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LongestSubsequenceOfEqualNumbers.Tests\obj\Debug\04.LongestSubsequenceOfEqualNumbers.Tests.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LongestSubsequenceOfEqualNumbers.Tests\obj\Debug\LongestSubsequenceOfEqualNumbers.Tests.dll
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LongestSubsequenceOfEqualNumbers.Tests\obj\Debug\LongestSubsequenceOfEqualNumbers.Tests.pdb

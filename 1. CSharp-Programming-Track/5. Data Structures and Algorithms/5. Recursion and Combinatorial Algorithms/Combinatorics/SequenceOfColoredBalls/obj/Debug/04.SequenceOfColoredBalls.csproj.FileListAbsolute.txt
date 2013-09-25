@@ -1,0 +1,3 @@
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Combinatorics\SequenceOfColoredBalls\bin\Debug\SequenceOfColoredBalls.exe.config
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Combinatorics\SequenceOfColoredBalls\obj\Debug\SequenceOfColoredBalls.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Combinatorics\SequenceOfColoredBalls\obj\Debug\SequenceOfColoredBalls.pdb

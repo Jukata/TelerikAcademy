@@ -1,0 +1,5 @@
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\PermutationsWithRepetitions\bin\Debug\PermutationsWithRepetitions.exe.config
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\PermutationsWithRepetitions\bin\Debug\PermutationsWithRepetitions.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\PermutationsWithRepetitions\bin\Debug\PermutationsWithRepetitions.pdb
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\PermutationsWithRepetitions\obj\Debug\PermutationsWithRepetitions.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\PermutationsWithRepetitions\obj\Debug\PermutationsWithRepetitions.pdb

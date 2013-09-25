@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\CountWordsCountInTextFile\bin\Debug\CountWordsCountInTextFile.exe.config
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\CountWordsCountInTextFile\bin\Debug\CountWordsCountInTextFile.exe
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\CountWordsCountInTextFile\bin\Debug\CountWordsCountInTextFile.pdb
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\CountWordsCountInTextFile\obj\Debug\CountWordsCountInTextFile.exe
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\CountWordsCountInTextFile\obj\Debug\CountWordsCountInTextFile.pdb
+E:\Telerik\Data Structures and Algorithms\3. Dictionaries, Hash Tables and Sets\Dictionaries-HashTables-Sets\CountWordsCountInTextFile\obj\Debug\3.CountWordsCountInTextFile.csprojResolveAssemblyReference.cache

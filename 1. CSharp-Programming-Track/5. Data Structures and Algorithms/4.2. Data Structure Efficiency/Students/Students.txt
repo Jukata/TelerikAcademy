@@ -1,0 +1,27 @@
+﻿
+Atanas     | Kynchev     | C++
+Todor      | Todorov     | C++
+Teodora    | Kostadinova | C++
+Angel      | Petkov      | C++
+Kiril      | Ivanov      | C#
+Stefka     | Nikolova    | SQL
+Stela      | Mineva      | JAVA
+Milena     | Petrova     | Perl
+Ivan       | Grigorov    | C#
+Ivan       | Kolev       | SQL
+Anagel     | Grigorov    | C#
+Zdravko    | Grigorov    | C#
+Georgi     | Ivanov      | Perl
+Petko      | Petkov      | HTML
+Petko      | Iordanov    | HTML
+Joro       | Rachev      | HTML
+Joro       | Mentata     | JAVA
+Joro       | Birata      | C#
+Ivan       | Ivanov      | Perl
+Kiril      | Mihailov    | CSS
+Gergana    | Petrova     | CSS
+Stela      | Zlatinska   | CSS
+Ivan       | Kolevski    | JS
+Ivelina    | Nikolova    | JS
+Ivelina    | Hristova    | JS
+Stefka     | Kostadinova | SQL

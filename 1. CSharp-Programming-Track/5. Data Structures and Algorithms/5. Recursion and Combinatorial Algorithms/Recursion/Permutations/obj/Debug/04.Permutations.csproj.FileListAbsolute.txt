@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\Permutations\bin\Debug\Permutations.exe.config
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\Permutations\bin\Debug\Permutations.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\Permutations\bin\Debug\Permutations.pdb
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\Permutations\obj\Debug\Permutations.exe
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\Permutations\obj\Debug\Permutations.pdb
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\Permutations\obj\Debug\04.Permutations.csprojResolveAssemblyReference.cache

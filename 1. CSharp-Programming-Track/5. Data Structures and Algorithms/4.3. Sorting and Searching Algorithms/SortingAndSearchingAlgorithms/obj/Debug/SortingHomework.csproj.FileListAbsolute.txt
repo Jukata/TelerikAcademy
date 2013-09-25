@@ -1,0 +1,9 @@
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\bin\Debug\SortingHomework.exe.config
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\bin\Debug\SortingHomework.exe
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\bin\Debug\SortingHomework.pdb
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\obj\Debug\SortingHomework.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\obj\Debug\SortingHomework.exe
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\obj\Debug\SortingHomework.pdb
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\SortingAndSearchingAlgorithms\bin\Debug\SortingHomework.exe.config
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\SortingAndSearchingAlgorithms\obj\Debug\SortingHomework.exe
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\SortingAndSearchingAlgorithms\obj\Debug\SortingHomework.pdb

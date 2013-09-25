@@ -1,0 +1,1 @@
+E:\Telerik\Data Structures and Algorithms\5. Recursion and Combinatorial Algorithms\Recursion\Permutations\bin\Debug\Permutations.exe.config

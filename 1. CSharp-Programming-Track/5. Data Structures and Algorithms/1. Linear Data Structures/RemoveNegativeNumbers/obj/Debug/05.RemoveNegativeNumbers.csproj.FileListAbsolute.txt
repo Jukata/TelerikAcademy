@@ -1,0 +1,5 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\RemoveNegativeNumbers\bin\Debug\RemoveNegativeNumbers.exe.config
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\RemoveNegativeNumbers\bin\Debug\RemoveNegativeNumbers.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\RemoveNegativeNumbers\bin\Debug\RemoveNegativeNumbers.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\RemoveNegativeNumbers\obj\Debug\RemoveNegativeNumbers.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\RemoveNegativeNumbers\obj\Debug\RemoveNegativeNumbers.pdb

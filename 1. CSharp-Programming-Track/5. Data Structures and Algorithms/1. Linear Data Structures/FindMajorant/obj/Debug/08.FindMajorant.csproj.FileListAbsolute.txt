@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\FindMajorant\bin\Debug\FindMajorant.exe.config
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\FindMajorant\bin\Debug\FindMajorant.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\FindMajorant\bin\Debug\FindMajorant.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\FindMajorant\obj\Debug\FindMajorant.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\FindMajorant\obj\Debug\FindMajorant.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\FindMajorant\obj\Debug\08.FindMajorant.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\Coins\bin\Debug\Coins.exe.config
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\Coins\bin\Debug\Coins.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\Coins\bin\Debug\Coins.pdb
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\Coins\obj\Debug\4.Coins.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\Coins\obj\Debug\Coins.exe
+C:\Users\Viktor\Desktop\Trash\DynamicProgrammingExercise\Coins\obj\Debug\Coins.pdb

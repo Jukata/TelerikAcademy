@@ -1,0 +1,8 @@
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\Students\obj\Debug\1.Students.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\Students\bin\Debug\Students.exe.config
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\Students\bin\Debug\Students.exe
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\Students\bin\Debug\Students.pdb
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\Students\obj\Debug\Students.exe
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\Students\obj\Debug\Students.pdb
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\Students\bin\Debug\PowerCollections.dll
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\Students\bin\Debug\PowerCollections.xml

@@ -1,0 +1,14 @@
+E:\Telerik\Data Structures and Algorithms\Sorting.Tests\bin\Debug\Sorting.Tests.dll
+E:\Telerik\Data Structures and Algorithms\Sorting.Tests\bin\Debug\Sorting.Tests.pdb
+E:\Telerik\Data Structures and Algorithms\Sorting.Tests\bin\Debug\SortingHomework.exe
+E:\Telerik\Data Structures and Algorithms\Sorting.Tests\bin\Debug\SortingHomework.pdb
+E:\Telerik\Data Structures and Algorithms\Sorting.Tests\obj\Debug\SortingHomework.Tests.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\Sorting.Tests\obj\Debug\Sorting.Tests.dll
+E:\Telerik\Data Structures and Algorithms\Sorting.Tests\obj\Debug\Sorting.Tests.pdb
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\Sorting.Tests\bin\Debug\Sorting.Tests.dll
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\Sorting.Tests\bin\Debug\Sorting.Tests.pdb
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\Sorting.Tests\bin\Debug\SortingHomework.exe
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\Sorting.Tests\bin\Debug\SortingHomework.pdb
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\Sorting.Tests\obj\Debug\SortingHomework.Tests.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\Sorting.Tests\obj\Debug\Sorting.Tests.dll
+E:\Telerik\Data Structures and Algorithms\4.3. Sorting and Searching Algorithms\Sorting.Tests\obj\Debug\Sorting.Tests.pdb

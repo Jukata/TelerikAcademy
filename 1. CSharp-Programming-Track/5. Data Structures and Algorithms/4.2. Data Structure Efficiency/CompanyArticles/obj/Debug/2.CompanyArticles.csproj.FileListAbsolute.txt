@@ -1,0 +1,7 @@
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\CompanyArticles\bin\Debug\CompanyArticles.exe.config
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\CompanyArticles\bin\Debug\CompanyArticles.exe
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\CompanyArticles\bin\Debug\CompanyArticles.pdb
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\CompanyArticles\bin\Debug\PowerCollections.dll
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\CompanyArticles\bin\Debug\PowerCollections.xml
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\CompanyArticles\obj\Debug\CompanyArticles.exe
+E:\Telerik\Data Structures and Algorithms\4.2. Data Structure Efficiency\DataStructureEfficiency\CompanyArticles\obj\Debug\CompanyArticles.pdb

@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\2. Trees and Traversals\TreeLikeStructures\TreeTraversal\bin\Debug\TreeTraversal.exe.config
+E:\Telerik\Data Structures and Algorithms\2. Trees and Traversals\TreeLikeStructures\TreeTraversal\bin\Debug\TreeTraversal.exe
+E:\Telerik\Data Structures and Algorithms\2. Trees and Traversals\TreeLikeStructures\TreeTraversal\bin\Debug\TreeTraversal.pdb
+E:\Telerik\Data Structures and Algorithms\2. Trees and Traversals\TreeLikeStructures\TreeTraversal\obj\Debug\1.TreeTraversal.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\2. Trees and Traversals\TreeLikeStructures\TreeTraversal\obj\Debug\TreeTraversal.exe
+E:\Telerik\Data Structures and Algorithms\2. Trees and Traversals\TreeLikeStructures\TreeTraversal\obj\Debug\TreeTraversal.pdb

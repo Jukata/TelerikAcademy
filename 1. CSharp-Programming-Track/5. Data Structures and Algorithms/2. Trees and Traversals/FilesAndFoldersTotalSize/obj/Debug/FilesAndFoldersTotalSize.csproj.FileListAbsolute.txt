@@ -1,0 +1,1 @@
+E:\Telerik\Data Structures and Algorithms\2. Trees and Traversals\TreeLikeStructures\FilesAndFoldersTotalSize\bin\Debug\FilesAndFoldersTotalSize.exe.config

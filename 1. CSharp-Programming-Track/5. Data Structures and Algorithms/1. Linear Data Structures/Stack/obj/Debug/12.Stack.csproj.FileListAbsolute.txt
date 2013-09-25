@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Stack\obj\Debug\12.Stack.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Stack\bin\Debug\Stack.exe.config
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Stack\bin\Debug\Stack.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Stack\bin\Debug\Stack.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Stack\obj\Debug\Stack.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\Stack\obj\Debug\Stack.pdb

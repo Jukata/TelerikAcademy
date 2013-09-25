@@ -1,0 +1,6 @@
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\TrieImplementation\bin\Debug\TrieImplementation.exe.config
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\TrieImplementation\bin\Debug\TrieImplementation.exe
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\TrieImplementation\bin\Debug\TrieImplementation.pdb
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\TrieImplementation\obj\Debug\3.TrieImplementation.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\TrieImplementation\obj\Debug\TrieImplementation.exe
+E:\Telerik\Data Structures and Algorithms\4.1. Advanced Data Structures\AdvancedDataStructures\TrieImplementation\obj\Debug\TrieImplementation.pdb

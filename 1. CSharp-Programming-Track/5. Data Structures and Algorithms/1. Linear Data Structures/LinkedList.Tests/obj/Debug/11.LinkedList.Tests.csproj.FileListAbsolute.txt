@@ -1,0 +1,7 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LinkedList.Tests\bin\Debug\LinkedList.Tests.dll
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LinkedList.Tests\bin\Debug\LinkedList.Tests.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LinkedList.Tests\bin\Debug\LinkedList.exe
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LinkedList.Tests\bin\Debug\LinkedList.pdb
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LinkedList.Tests\obj\Debug\11.LinkedList.Tests.csprojResolveAssemblyReference.cache
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LinkedList.Tests\obj\Debug\LinkedList.Tests.dll
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LinkedList.Tests\obj\Debug\LinkedList.Tests.pdb

@@ -1,0 +1,1 @@
+E:\Telerik\Data Structures and Algorithms\1.3. Linear Data Structures\LinearDataStructures\LongestSubsequenceOfEqualNumbers\bin\Debug\LongestSubsequenceOfEqualNumbers.exe.config
