@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>3. Student's table</title>
+    <link href="styles/3.%20Students-table.css" rel="stylesheet" />
+    <script src="scripts/3.%20Students-table.js"></script>
+    <script src="scripts/jQuery-1.9.1.js"></script>
+</head>
+<body>
+    <h1>By given an array of students, generate a table that represents these students
+        Each student has first name,last name and grade
+        Use jQuery
+    </h1>
+    
+    <div id="main-div"></div>
+
+    <script>
+        var students = [];
+
+        students.push(new Student("Peter", "Ïvanov", 3));
+        students.push(new Student("Nikolay", "Kostov", 22));
+        students.push(new Student("Milena", "Grigorova", 6));
+        students.push(new Student("Gergana", "Borisova", 12));
+        students.push(new Student("Doncho", "Minkov", 5));
+        students.push(new Student("Boiko", "Petrov", 1));
+        students.push(new Student("Svetlin", "Nakov", 7));
+        students.push(new Student("Georgi", "Georgiev", 11));
+
+        GenerateTableOfStudents("#main-div",students);
+
+    </script>
+</body>
+</html>

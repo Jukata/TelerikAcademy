@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>2. Insert before and after</title>
+    <link href="styles/2.%20Insert-before-and-after.css" rel="stylesheet" />
+    <script src="scripts/jQuery-1.9.1.js"></script>
+</head>
+<body>
+    <h1>Using jQuery implement functionality to insert a DOM element before or after another element</h1>
+    <button id="insert-before">Insert before</button>
+    <button id="insert-after">Insert after</button>
+    <br />
+    <div id="main-div"></div>
+    <script>
+        var mainDiv = $("#main-div");
+
+        var insertBefore = $("#insert-before");
+        insertBefore.on('click', function () {
+            $('<div class="before"></div>').insertBefore(mainDiv);
+        });
+
+        var insertAfterButton = $("#insert-after");
+        insertAfterButton.on('click', function () {
+            $('<div class="after"></div>').insertAfter(mainDiv);
+        });
+    </script>
+</body>
+</html>

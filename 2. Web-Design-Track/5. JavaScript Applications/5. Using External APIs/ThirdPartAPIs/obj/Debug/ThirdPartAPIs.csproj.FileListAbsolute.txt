@@ -1,0 +1,5 @@
+E:\Telerik\JavaScript Applications\10. Using External APIs\ThirdPartAPIs\ThirdPartAPIs\bin\ThirdPartAPIs.dll
+E:\Telerik\JavaScript Applications\10. Using External APIs\ThirdPartAPIs\ThirdPartAPIs\bin\ThirdPartAPIs.pdb
+E:\Telerik\JavaScript Applications\10. Using External APIs\ThirdPartAPIs\ThirdPartAPIs\obj\Debug\ThirdPartAPIs.csprojResolveAssemblyReference.cache
+E:\Telerik\JavaScript Applications\10. Using External APIs\ThirdPartAPIs\ThirdPartAPIs\obj\Debug\ThirdPartAPIs.dll
+E:\Telerik\JavaScript Applications\10. Using External APIs\ThirdPartAPIs\ThirdPartAPIs\obj\Debug\ThirdPartAPIs.pdb

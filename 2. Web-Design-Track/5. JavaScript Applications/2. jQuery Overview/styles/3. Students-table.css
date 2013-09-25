@@ -1,0 +1,12 @@
+﻿body {
+}
+
+table.students-table {
+    border-collapse: collapse;
+    background-color: #c7c7a7;
+}
+
+    table.students-table th, table.students-table td {
+        border: 1px solid black;
+        padding:5px;
+    }

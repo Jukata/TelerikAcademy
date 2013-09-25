@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>4. Favorite site bar</title>
+    <link href="styles/4.%20Favorite-site-bar.css" rel="stylesheet" />
+    <script src="scripts/htmlEscape.js"></script>
+    <script src="scripts/Classical-oop.js"></script>
+    <script src="scripts/4.%20Favorite-site-bar.js"></script>
+</head>
+<body>
+    <div id="fav-bar"></div>
+    <script>
+        var favoriteSiteBar = new siteBar.FavoriteSiteBar("#fav-bar");
+
+        favoriteSiteBar.addUrl("Dot net perls", "http://www.dotnetperls.com/");
+        favoriteSiteBar.addUrl("Stack overflow", "http://stackoverflow.com/");
+
+        var movies = favoriteSiteBar.addFolder("Movies");
+            movies.addUrl("Zamunda", "http://zamunda.net");
+            movies.addUrl("ZamundaSEzzzzzzzzzzzz", "http://zamunda.se");
+
+        var sport = favoriteSiteBar.addFolder("Sport");
+            sport.addUrl("Sportal", "http://sportal.bg");
+            sport.addUrl("Sportni", "http://sportal.bg");
+
+        var news = favoriteSiteBar.addFolder("News");
+
+        var social = favoriteSiteBar.addFolder("Social");
+            social.addUrl("Facebook", "http://Facebook.bg");
+            social.addUrl("Twitter", "https://twitter.com/");
+
+        var Education = favoriteSiteBar.addFolder("Education");
+            Education.addUrl("Telerik academy", "http://academy.telerik.com");
+            Education.addUrl("Telerik students", "http://telerikacademy.com");
+
+        favoriteSiteBar.render();
+
+    </script>
+</body>
+</html>

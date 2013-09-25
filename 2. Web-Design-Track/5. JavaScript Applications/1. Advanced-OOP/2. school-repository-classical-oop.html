@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>2. School repository</title>
+    <script src="scripts/Classical-oop.js"></script>
+    <script src="scripts/2.%20school-repository-classical-oop.js"></script>
+</head>
+<body>
+    <h1>Result on console</h1>
+
+    <script>
+        var student1 = new schoolRepository.Student("Petar", "Petrov", 20, 1);
+        var student2 = new schoolRepository.Student("Ivan", "Ivanov", 28, 3);
+        var student3 = new schoolRepository.Student("Georgi", "Georgiev", 33, 15);
+        var teacher1 = new schoolRepository.Teacher("Svetlin", "Nakov", 24, "C# cources");
+        var teacher2 = new schoolRepository.Teacher("Doncho", "Minkov", 17, "JS cources");
+
+        console.log(student1.introduce());
+        console.log(student2.introduce());
+        console.log(student3.introduce());
+        console.log(teacher1.introduce());
+        console.log(teacher2.introduce());
+
+        var cSharpCourse = new schoolRepository.Course("C#", [student1, student2], 150, teacher1, [teacher1]);
+        console.log(cSharpCourse.introduce());
+        cSharpCourse.addStudent(student3);
+        cSharpCourse.addTeacher(teacher2);
+        console.log(cSharpCourse.introduce());
+
+        var telerik = new schoolRepository.School("Telerik Academy", "Sofia", [cSharpCourse]);
+        console.log(telerik.introduce());
+    </script>
+</body>
+</html>

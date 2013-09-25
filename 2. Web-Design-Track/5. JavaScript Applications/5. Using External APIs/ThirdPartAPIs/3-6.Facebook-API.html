@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Facebook Photos</title>
+    <script src="scripts/jQuery-1.9.1.js"></script>
+    <script src="scripts/3-6.%20Facebook.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="fb-root"></div>
+        <div id="fbLogout" onclick="fbLogout()"><a class="fb_button fb_button_medium"><span class="fb_button_text">Logout</span></a></div>
+        <div id="fbSend" class="fb-send" data-href="http://localhost:40649/3-6.Facebook-API.html" data-font="arial"></div>
+        <div id="profile"></div>
+        <div id="friends"></div>
+        <div id="large"></div>
+        <div id="background"></div>
+        <fb:login-button show-faces="true" width="200" max-rows="1" id="log" />
+    </div>
+</body>
+</html>

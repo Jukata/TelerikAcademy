@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>4. Image slider</title>
+    <link href="styles/3.%20Image-slder-prototypal.css" rel="stylesheet" />
+    <script src="scripts/htmlEscape.js"></script>
+    <script src="scripts/Prototypal-oop.js"></script>
+    <script src="scripts/3.%20Image-Slider-prototypal.js"></script>
+</head>
+<body>
+    <div id="img-slider"></div>
+    <script>
+        var slider = controls.ImageSlider
+        slider.init("#img-slider");
+        slider.addImage("Lion", "images/Lion200x200.jpg", "images/lion600x450.jpg");
+        slider.addImage("Rose", "images/rose200x200.jpg", "images/rose600x450.jpg");
+        slider.addImage("Tiger", "images/tiger200x200.jpg", "images/tiger600x450.jpg");
+        slider.addImage("Wolf", "images/wolf200x200.jpg", "images/wolf600x450.jpg");
+        slider.addImage("Horse", "images/horse200x200.png", "images/horse600x450.jpg");
+        slider.addImage("Dog", "images/dog200x200.jpg", "images/dog600x450.jpg");
+        slider.render();
+    </script>
+</body>
+</html>

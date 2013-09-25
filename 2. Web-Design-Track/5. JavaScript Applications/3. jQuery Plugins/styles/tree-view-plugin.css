@@ -1,0 +1,28 @@
+body{
+	background:#fadaf3;
+	font-family:verdana;
+	font-size:1.3em;
+}
+
+ul#tree-view, #tree-view ul {
+	list-style-type:none;
+}
+#tree-view li{
+	padding: 2px 2px 2px 20px;
+}
+
+#tree-view a {
+	text-decoration:none;
+	color:black;
+}
+
+#tree-view a:hover{
+	text-decoration: underline;
+	color:red;
+}
+
+#tree-view .has-child{
+	background-image: url('../images/bug-bullet.png');
+	background-position: 0px 5px;
+	background-repeat: no-repeat;
+}

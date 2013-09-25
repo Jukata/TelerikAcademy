@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>5.Grid View</title>
+    <script src="scripts/jquery-1.9.1.js"></script>
+	<style>
+		table {
+			border: 3px solid green;
+		}
+		
+		td, th {
+			border: 1px dashed green;
+		}
+	</style>
+</head>
+<body>
+	<div id="grid"></div>
+	<script src="scripts/5. Grid-view.js"></script>
+	<script>
+		$(function () {
+			var container = $("#grid");
+			var grid = new GridView(container);
+
+			grid.addHeader("First Name", "Middle Name", "Last Name");
+			var row = grid.addRow("Petko", "Petkov", "Petkov");
+			grid.addRow("Joro", "The", "Rabbit");
+
+			row.addNestedTable();
+			row.addHeader("Nested Name", "Nested Header");
+			row.addRow("Nested Joro", "Nested Rabbit");
+
+			grid.render();
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+#fav-bar ul {
+    list-style-type: none;
+}
+
+    #fav-bar ul li {
+        cursor: pointer;
+        background-image: url('../images/favorite.png');
+        background-position: left 7px;
+        background-repeat: no-repeat;
+        background-color: #7f9be2;
+        padding: 10px 10px 10px 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+        #fav-bar ul li.folder {
+            background-image: url('../images/folder.png');
+            background-position: 2px 8px;
+            background-color: #4460b5;
+        }
+
+#fav-bar a {
+    text-decoration: none;
+    color: #333;
+}
+
+    #fav-bar a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+
+#fav-bar > ul > li {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+
+    #fav-bar > ul > li > ul {
+        position: absolute;
+        top: 45px;
+        left: 0;
+    }
+
+        #fav-bar > ul > li > ul > li {
+            width: 100%;
+        }

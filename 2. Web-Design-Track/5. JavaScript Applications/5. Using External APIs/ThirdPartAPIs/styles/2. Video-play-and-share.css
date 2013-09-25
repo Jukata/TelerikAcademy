@@ -1,0 +1,46 @@
+﻿body {
+    text-align:center;
+    margin: 0px;
+    padding: 0px;
+    background-color:#bcd1ca;
+    font-family:Verdana;
+}
+
+#player-container {
+    margin: 30px auto;
+    width: 50%;
+}
+
+input, select {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #BCBCBC;
+    color:white;
+}
+
+button {
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    padding: 3px;
+}
+
+    button:active {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid grey;
+        border-bottom: 1px solid grey;
+        background-color: #9C9C9C !important;
+    }
+
+    button:hover {
+        background-color: #ACACAC;
+    }
+
+button, input, select {
+    margin: 5px;
+    padding: 5px;
+}

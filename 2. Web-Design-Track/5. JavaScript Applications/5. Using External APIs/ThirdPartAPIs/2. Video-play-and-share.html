@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Youtube Video player and share</title>
+    <link href="styles/2.%20Video-play-and-share.css" rel="stylesheet" />
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript">
+        (function () {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/client:plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+</head>
+<body>
+    <span id="signinButton">
+        <span
+            class="g-signin"
+            data-callback="signinCallback"
+            data-clientid="57734514146.apps.googleusercontent.com"
+            data-cookiepolicy="single_host_origin"
+            data-requestvisibleactions="http://schemas.google.com/AddActivity"
+            data-scope="https://www.googleapis.com/auth/plus.login"></span>
+    </span>
+
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <g:plus action="share" href="http://www.youtube.com/watch?v=gaTtGpjnKtA" id="share-tag"></g:plus>
+
+    <div id="player-container" style="display: none">
+        <div id="yt-player"></div>
+        <br />
+        <label for="load-video">ID: </label>
+        <input type="text" id="load-video" placeholder="BBSmo4JW4mk" />
+        <button id="single-video">Load video</button>
+        <button id="play">Play video</button>
+        <button id="pause">Pause video</button>
+        <button id="stop">Stop video</button>
+        <br />
+        <label for="playlist">Playlist: </label>
+        <input id="playlist" placeholder="1S5YO20Mxlc, VPNAzsUKo2g, WrW2CkP5gKw" />
+        <button id="load-playlist">Load playlist</button>
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+        <button id="mute">Mute</button>
+        <button id="unmute">Unmute</button>
+        <br />
+        <label for="quality">Quality: </label>
+        <select id="quality">
+            <option>small</option>
+            <option>medium</option>
+            <option>large</option>
+            <option>hd720</option>
+            <option>hd1080</option>
+            <option>highres</option>
+            <option>default</option>
+        </select>
+    </div>
+
+    <script src="scripts/2. Youtube-player.js">
+    </script>
+
+    <script>
+        function signinCallback(authResult) {
+            if (authResult['access_token']) {
+                document.getElementById('signinButton').setAttribute('style', 'display: none');
+                console.log("Google+ sign in succesful!");
+                showYTplayer();
+            } else if (authResult['error']) {
+                console.log('Google+ access denied!');
+            }
+        }
+
+        function showYTplayer() {
+            document.getElementById('player-container').style.display = 'block';
+        }
+
+    </script>
+</body>
+</html>

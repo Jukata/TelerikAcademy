@@ -1,0 +1,121 @@
+﻿body {
+    font-family: Verdana;
+}
+
+div.error-message {
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 300px;
+    height: 115px;
+    overflow: auto;
+    color: red;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 35px 5px 130px;
+    background: url('../images/error.png') no-repeat #ebbbba center left;
+}
+
+
+    div.error-message #btn-close-error-message {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        padding: 3px 5px;
+        cursor: pointer;
+    }
+
+        div.error-message #btn-close-error-message:hover {
+            background-color: red;
+        }
+
+span#nickname-display {
+    font-size: 1.3em;
+    padding: 1px 5px;
+    color: #4c75d7;
+}
+
+fieldset {
+    width: 63%;
+    border: 5px solid gray;
+    border-radius: 15px;
+}
+
+legend {
+    font-size: 1.5em;
+}
+
+input {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #BCBCBC;
+}
+
+button {
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    padding: 3px;
+}
+
+    button:active {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid grey;
+        border-bottom: 1px solid grey;
+        background-color: #9C9C9C !important;
+    }
+
+#btn-switch-to-login-form, #btn-switch-to-register-form, #btn-logout {
+    font-size: 1.3em;
+    background: none;
+    border: none;
+    color: gray;
+    cursor: pointer;
+}
+
+    #btn-switch-to-login-form:hover, #btn-switch-to-register-form:hover, #btn-logout:hover {
+        color: red;
+    }
+
+    #btn-switch-to-login-form.selected, #btn-switch-to-register-form.selected, #btn-logout {
+        background-color: #9C9C9C;
+        color: black;
+    }
+
+span.game-status {
+    color: orange;
+    margin-right: 10px;
+}
+
+span.game-creator {
+    margin: 0 10px;
+    color: #4c75d7;
+}
+
+div#active-games li, div#open-games li {
+    margin: 10px;
+}
+
+div#active-games a, div#open-games a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background-color:#9C9C9C;
+    border-radius:10px;
+    padding:2px 5px;
+    font-size: 1.1em;
+}
+
+    div#active-games a:hover, div#open-games a:hover {
+        color: red;
+        cursor: pointer;
+    }

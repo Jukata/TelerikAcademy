@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>1. School repository</title>
+    <script src="scripts/Prototypal-oop.js"></script>
+    <script src="scripts/1.%20school-repository-classical-oop.js"></script>
+</head>
+<body>
+    <h1>Result on console</h1>
+
+    <script>
+        var student1 = Object.create(schoolRepository.Student);
+        student1.init("Petar", "Petrov", 20, 1);
+        var student2 = Object.create(schoolRepository.Student);
+        student2.init("Ivan", "Ivanov", 28, 3);
+        var student3 = Object.create(schoolRepository.Student);
+        student3.init("Georgi", "Georgiev", 33, 15);
+        var teacher1 = Object.create(schoolRepository.Teacher)
+        teacher1.init("Svetlin", "Nakov", 24, "C# cources");
+        var teacher2 = Object.create(schoolRepository.Teacher);
+        teacher2.init("Doncho", "Minkov", 17, "JS cources");
+
+        console.log(student1.introduce());
+        console.log(student2.introduce());
+        console.log(student3.introduce());
+        console.log(teacher1.introduce());
+        console.log(teacher2.introduce());
+
+        var cSharpCourse = Object.create(schoolRepository.Course);
+        cSharpCourse.init("C#", [student1, student2], 150, teacher1, [teacher1]);
+        console.log(cSharpCourse.introduce());
+        cSharpCourse.addStudent(student3);
+        cSharpCourse.addTeacher(teacher2);
+        console.log(cSharpCourse.introduce());
+
+        var telerik = Object.create(schoolRepository.School)
+        telerik.init("Telerik Academy", "Sofia", [cSharpCourse]);
+        console.log(telerik.introduce());
+    </script>
+</body>
+</html>
