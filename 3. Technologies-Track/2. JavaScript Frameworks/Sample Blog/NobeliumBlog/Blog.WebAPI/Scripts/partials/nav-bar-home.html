@@ -1,0 +1,39 @@
+﻿<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand">Nobelium</span>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav home-nav">
+                <li class="nav-item"><a href="#/">Home</a></li>
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Posts <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#/posts">All</a></li>
+                        <li><a href="#/posts/mine">Mine</a></li>
+                        <li><a href="#/posts/create">Create</a></li>
+                        <li><a href="#/posts/search">Search</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comments <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#/comments">All</a></li>
+                        <li><a href="#/comments/mine">Mine</a></li>
+                        <li><a href="#/comments/search">Search</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#/tags">Tags</a></li>
+                <li class="nav-item" data-bind="visible: isAdmin"><a href="#/admin">Admin</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <button type="button" class="btn btn-success" onclick="location.href='#/logout';">Sign out</button>
+            </form>
+        </div>
+    </div>
+</div>

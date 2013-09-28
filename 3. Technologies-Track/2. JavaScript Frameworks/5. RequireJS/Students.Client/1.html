@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            font-family: Verdana;
+        }
+
+        .table-view td {
+            border: 1px solid black;
+            padding: 15px 20px;
+            margin: 2px;
+        }
+
+            .table-view td:hover {
+                background-color: yellow;
+                cursor: pointer;
+            }
+
+            .table-view td.selected {
+                background-color: red;
+            }
+
+        ul.no-bullets {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="students-container"><strong>Students:</strong></div>
+    <div id="marks-container"></div>
+
+    <script type="X-mustache-template" id="students-template">
+        <td class="student-cell" data-student-id="{{StudentId}}">
+            {{Name}}
+        </td>
+    </script>
+
+    <script type="X-mustache-template" id="marks-template">    
+        <strong>Marks:</strong> 
+        <ul class="no-bullets">
+            {{#.}}
+                <li>{{Subject}}: <strong>{{Score}}</strong></li>
+            {{/.}}
+            {{^.}}
+                <li><strong>No marks!</strong></li>
+            {{/.}}
+        </ul>
+    </script>
+
+    <script src="Scripts/libs/require.js"
+        data-main="Scripts/app-main"></script>
+</body>
+</html>

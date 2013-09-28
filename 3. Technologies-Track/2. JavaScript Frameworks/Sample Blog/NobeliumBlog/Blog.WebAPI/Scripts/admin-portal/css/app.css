@@ -1,0 +1,90 @@
+/* app css stylesheet */
+
+body {
+  padding-top: 20px;
+}
+
+.phones {
+  list-style: none;
+}
+
+.thumb {
+  float: left;
+    margin: 0 5em 1.5em 1em;
+    width: 100px;
+}
+
+.phones li {
+  clear: both;
+  height: 100px;
+  padding-top: 15px;
+}
+
+div.container-fluid {
+    margin-top:40px;
+}
+
+/** Navigation bar **/
+div.navbar {
+    margin-bottom:30px;
+    background-color: #565656;
+}
+
+    div.navbar .navbar-header {
+        float: left;
+        margin: 10px 60px 10px 30px;
+    }
+
+    div.navbar .navbar-header:after{
+        clear: both;
+    }
+
+/** Detail View **/
+div#main-content {
+    margin-top:30px;
+}
+
+div.post {
+  float: left;
+  border: 1px solid #adabab;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 2em;
+  border-radius: 6px;
+  height: 160px;
+  width: 160px;
+}
+div.post:after{
+    clear: both;
+}
+
+    div.post > p {
+        margin-top:5px;
+        text-align:center;
+        font-size:1.2em;
+    }
+
+ul.post-thumbs {
+  margin: 0;
+  list-style: none;
+}
+
+ul.post-thumbs li {
+  display: inline-block;
+  margin: 1em;
+  padding: 2px;
+  color: black;
+}
+
+div.post-text {  
+  margin: 0;
+  padding: 40px;
+}
+
+.page-tags,
+.page-tags ul {
+    display: inline-block; 
+}
+

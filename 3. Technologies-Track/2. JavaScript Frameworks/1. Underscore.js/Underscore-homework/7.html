@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+        //7.By an array of people find the most common first and last name. Use underscore.
+        var Person = Class.create({
+            init: function (fname, lname) {
+                this.fname = fname;
+                this.lname = lname;
+            }
+        });
+
+        var people = [
+            new Person("Svetlin", "Nakov"),
+            new Person("Preslav", "Nakov"),
+            new Person("Nikolay", "Kostov"),
+            new Person("Kostov", "Nikolay"),
+            new Person("Doncho", "Minkov"),
+            new Person("Joro", "Georgiev"),
+            new Person("George", "Georgiev"),
+            new Person("Joro", "Jorev"),
+        ];
+
+        var mostCommonFirstName = _.countBy(people, function (person) { return person.fname });
+        var index = _.max(mostCommonFirstName);
+        mostCommonFirstName = _.invert(mostCommonFirstName);
+        console.log("Most common first name - " + mostCommonFirstName[index]);
+
+        var mostCommonLastName = _.countBy(people, function (person) { return person.lname });
+        var indexLastName = _.max(mostCommonLastName);
+        mostCommonLastName = _.invert(mostCommonLastName);
+        console.log("Most commont last name - " + mostCommonLastName[indexLastName]);
+
+    </script>
+</body>
+</html>

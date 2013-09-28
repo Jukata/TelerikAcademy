@@ -1,0 +1,13 @@
+﻿<h2>Posts</h2>
+
+<div id="posts">
+    <div class="post" ng-repeat="post in posts">
+        <h3>{{post.title}}</h3>
+        <div class="post-content">{{post.content}}</div>
+        <div class="categories">
+            <span class="category" ng-repeat="category in post.categories">
+                <a href="#/category/{{category.categoryId}}/posts">{{category.name}}</a>
+            </span>
+        </div>
+    </div>
+</div>

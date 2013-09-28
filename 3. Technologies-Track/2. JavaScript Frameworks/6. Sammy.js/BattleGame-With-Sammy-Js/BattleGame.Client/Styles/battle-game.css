@@ -1,0 +1,274 @@
+﻿body, h1, div, ul, li, header, section, footer {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 20px 20px;
+    background-image: url('../Images/battle-game-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana;
+    font-size: 14pt;
+}
+
+h1 {
+    padding: 10px;
+}
+
+nav#main-nav ul {
+    list-style-type: none;
+}
+
+    nav#main-nav ul li {
+        display: inline-block;
+        margin: 5px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: #318add;
+        font-size: 1.2em;
+    }
+
+        nav#main-nav ul li:hover {
+            cursor: pointer;
+        }
+
+        nav#main-nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        nav#main-nav ul li:hover a {
+            color: red;
+            text-decoration: underline;
+        }
+
+        nav#main-nav ul li:active a {
+            color: yellow;
+        }
+
+div#game-container {
+    background-color: rgba(255,255,255,0.5);
+}
+
+footer {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+div#error-container {
+    background-color: #fb9120;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px 20px 20px 100px;
+    width: 300px;
+    min-height: 80px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-image: url(../Images/error.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    -ms-word-break: inherit;
+    word-break: break-all;
+}
+
+    div#error-container span#btn-close-error {
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: #ff6a00;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+        div#error-container span#btn-close-error:hover {
+            background-color: #ff2020;
+            cursor: pointer;
+        }
+
+form#login-form, form#register-form, form#crate-new-game-form {
+    padding: 20px 50px;
+    font-weight: bold;
+}
+
+    form#login-form div, form#register-form div, form#create-new-game-form div {
+        width: 35%;
+        text-align: right;
+    }
+
+input, button, a.button {
+    background-color: #318add;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #040457;
+    border-radius: 10px;
+    font-size: 1.1em;
+    padding: 5px 10px;
+}
+
+button, a.button {
+    border-style: outset;
+    border-width: 5px;
+}
+
+    button:active, a.button:active {
+        background-color: #318;
+        border-style: inset;
+        border-color: #020235;
+    }
+
+    button:hover, a.button:hover {
+        color: red;
+    }
+
+a.button {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.greetings {
+    font-size: 1.1em;
+}
+
+    .greetings .username {
+        color: #945a1b;
+    }
+
+#open-games, #my-games {
+    padding: 10px;
+}
+
+    #open-games div, #my-games div {
+        padding: 5px;
+    }
+
+    #open-games .open-games-title, #my-games .my-games-tile {
+        color: #222222;
+    }
+
+    #open-games .nickname, #my-games .nickname {
+        color: orange;
+    }
+
+    #open-games .tb-join-game-password {
+        padding: 2px 4px;
+        font-size: 1em;
+    }
+
+    #open-games .btn-join-game, #my-games .btn-show-field, #my-games .btn-start-game {
+        color: blue;
+        text-decoration: none;
+        border: 1px solid blue;
+        padding: 2px 4px;
+        border-radius: 5px;
+    }
+
+        #open-games .btn-join-game:hover, #my-games .btn-show-field:hover,
+        #my-games .btn-start-game:hover {
+            background-color: blue;
+            color: red;
+        }
+
+        #open-games .btn-join-game:active, #my-games .btn-show-field:active,
+        #my-games .btn-start-game:active {
+            background-color: red;
+            color: yellow;
+        }
+
+    #my-games .status {
+        color: #00ff00;
+    }
+
+#scoreboard {
+    padding: 10px;
+    font-size: 1em;
+}
+
+    #scoreboard .nickname {
+        color: orange;
+    }
+
+    #scoreboard .score {
+        color: red;
+    }
+
+
+
+div#field {
+    padding: 10px 100px;
+}
+
+
+ul.game-field-row {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li.cell {
+    width: 50px;
+    height: 42px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+    li.cell.red-unit {
+        background-color: red;
+        cursor: pointer;
+        /*border:10px solid red;*/
+        border-color: red;
+    }
+
+    li.cell.blue-unit {
+        background-color: blue;
+        cursor: pointer;
+        /*border: 10px solid blue;*/
+        border-color: blue;
+    }
+
+li.warrior-unit {
+    background-image: url('../images/warrior.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+li.ranger-unit {
+    background-image: url('../images/ranger.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+li.cell.battle-mode-attack {
+    border-width: 3px;
+}
+
+li.cell.battle-mode-defend {
+    border-width: 3px;
+    border-color: purple;
+}
+
+li.cell div.current-hp {
+    background-color: #00AA00;
+    height: 100%;
+}
+
+li.cell div.hit-points {
+    border: 1px solid black;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#game-field li.cell.selected-cell {
+    background-color: green;
+    border-color: green;
+}

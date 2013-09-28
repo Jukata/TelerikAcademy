@@ -1,0 +1,5 @@
+E:\Telerik\JavaScript Frameworks\6. Sammy.js\BattleGame-With-Sammy-Js\BattleGame.Client\bin\BattleGame.Client.dll
+E:\Telerik\JavaScript Frameworks\6. Sammy.js\BattleGame-With-Sammy-Js\BattleGame.Client\bin\BattleGame.Client.pdb
+E:\Telerik\JavaScript Frameworks\6. Sammy.js\BattleGame-With-Sammy-Js\BattleGame.Client\obj\Debug\BattleGame.Client.csprojResolveAssemblyReference.cache
+E:\Telerik\JavaScript Frameworks\6. Sammy.js\BattleGame-With-Sammy-Js\BattleGame.Client\obj\Debug\BattleGame.Client.dll
+E:\Telerik\JavaScript Frameworks\6. Sammy.js\BattleGame-With-Sammy-Js\BattleGame.Client\obj\Debug\BattleGame.Client.pdb

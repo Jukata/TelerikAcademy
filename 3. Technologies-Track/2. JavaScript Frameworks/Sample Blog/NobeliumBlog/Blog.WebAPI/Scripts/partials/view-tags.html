@@ -1,0 +1,17 @@
+﻿<div class="container">
+    <div class="page-header">
+        <h3>
+            <span>Tags </span><small>(<span data-bind="text: tags.length"></span>)</small>
+             <a href="#/tags/search" class="pull-right">
+                <span class="glyphicon glyphicon-search"></span>
+            </a>
+        </h3>
+    </div>
+    <div class="row" data-template="tags-template" data-bind="source: tags"></div>
+
+    <script type="text/x-kendo-template" id="tags-template">
+        <div class="col-md-3 tag-item">
+            <a data-bind="text: name" href="#= '\#/tags/' + id + '/posts' #"></a> <small>(<span data-bind="text: posts"></span>)</small>
+        </div>
+    </script>
+</div>

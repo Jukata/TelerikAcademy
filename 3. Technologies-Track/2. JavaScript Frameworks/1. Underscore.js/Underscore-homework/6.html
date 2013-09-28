@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+        //6.By a given collection of books, find the most popular author
+        //(the author with the biggest number of books)
+
+        var Book = Class.create({
+            init: function (title, author) {
+                this.title = title;
+                this.author = author;
+            }
+        });
+
+        var books = [
+            new Book("Why Win8 sucks", "George Georviev"),
+            new Book("ASP.NET MVC", "Svetlin Nakov"),
+            new Book(".NET Internals", "Nikolay Kostov"),
+            new Book("HTML5 vs XAML", "Doncho Minkov"),
+            new Book("JAVA Fundamentals", "Svetlin Nakov"),
+            new Book("JavaScript the good parts", "Doncho Minkov"),
+            new Book("Internet programming with JAVA", "Svetlin Nakov"),
+        ];
+
+        var grouped = _.groupBy(books, 'author');
+        var bestGroup = _.max(grouped, function (group) {
+            return group.length;
+        });
+
+        console.log("Most popular author is " + bestGroup[0].author);
+    </script>
+</body>
+</html>

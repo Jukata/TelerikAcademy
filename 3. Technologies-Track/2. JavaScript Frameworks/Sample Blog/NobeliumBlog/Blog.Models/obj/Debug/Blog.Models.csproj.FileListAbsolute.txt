@@ -1,0 +1,5 @@
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Models\bin\Debug\Blog.Models.dll
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Models\bin\Debug\Blog.Models.pdb
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Models\obj\Debug\Blog.Models.csprojResolveAssemblyReference.cache
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Models\obj\Debug\Blog.Models.dll
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Models\obj\Debug\Blog.Models.pdb

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="blog">
+<head>
+    <title>Blog</title>
+    <script src="Scripts/libs/jquery-2.0.3.js"></script>
+    <script src="Scripts/libs/angular.js"></script>
+    <script src="Scripts/app/controllers.js"></script>
+    <script src="Scripts/app-main.js"></script>
+    <link href="Styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Telerik Academy Blog System</h1>
+        <nav>
+            <ul id="main-nav">
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/posts">Posts</a></li>
+                <li><a href="#/posts/create">Create Post</a></li>
+                <li><a href="#/categories">Categories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div ng-view id="main-container"></div>
+    </section>
+
+    <footer>
+        <p>&copy; Telerik Academy 2013</p>
+    </footer>
+</body>
+</html>

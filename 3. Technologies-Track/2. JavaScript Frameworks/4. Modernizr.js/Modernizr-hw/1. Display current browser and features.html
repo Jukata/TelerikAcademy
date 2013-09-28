@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/ua-parser.js"></script>
+    <!--<script src="Scripts/jquery-2.0.3.js"></script> //IE 7 Doesn't work with jQuery 2.0.3-->
+    <script src="Scripts/jquery-1.8.2.js"></script>
+    <script src="Scripts/mustache.js"></script>
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+
+    <style>
+        body {
+            font-family: Verdana;
+            margin: 0;
+            padding: 0;
+        }
+
+        #browser-info {
+            margin-right: 100px;
+            border: 1px solid black;
+            width: 30%;
+            border-radius: 15px;
+            float: right;
+        }
+
+        #browser-features {
+            margin: 50px 0 0 30px;
+        }
+
+            #browser-features td, #browser-features th {
+                border: 1px solid black;
+                margin: 2px;
+                padding: 5px;
+            }
+
+            #browser-features th {
+                background-color: blue;
+            }
+
+            #browser-features td.supported {
+                background-color: green;
+            }
+
+            #browser-features td.not-supported {
+                background-color: red;
+            }
+    </style>
+</head>
+<body>
+    <script type="X-mustache-template" id="browser-info-template">
+        <ul>
+            <li>
+                Browser
+                <ul>
+                    <li>Name: {{browser.name}}</li>
+                    <li>Version: {{browser.version}}</li>
+                </ul>    
+            </li>
+            <li>
+                Engine
+                <ul>
+                    <li>Name: {{engine.name}}</li>
+                    <li>Version: {{engine.version}}</li>
+                </ul>    
+            </li>
+            <li>
+                OS
+                <ul>
+                    <li>Name: {{os.name}}</li>
+                    <li>Version: {{os.version}}</li>
+                </ul>    
+            </li>
+            <li>
+                Device
+                <ul>
+                    <li>Model: 
+                        {{#device.model}}{{device.model}}{{/device.model}}
+                        {{^device.model}}unknown{{/device.model}}
+                    </li>
+                    <li>Type: 
+                        {{#device.type}}{{device.type}}{{/device.type}}
+                        {{^device.type}}uknown{{/device.type}}
+                    </li>
+                    <li>Vendor: 
+                        {{#device.vendor}}{{device.vendor}}{{/device.vendor}}
+                        {{^device.vendor}}uknown{{/device.vendor}}
+                    </li>
+                </ul>    
+            </li>
+        </ul>
+    </script>
+
+    <div id="browser-info"></div>
+    <table id="browser-features">
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Support</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script>
+        var template = Mustache.compile($('#browser-info-template').html());
+
+        var parser = new UAParser();
+        var info = parser.getResult();
+
+        var infoContainer = $('#browser-info');
+        infoContainer.html(template(info));
+
+        var featuresContainer = $('#browser-features');
+        for (var prop in Modernizr) {
+            if (Modernizr[prop] === true || Modernizr[prop] === false) {
+                var currentRow = $('<tr></tr>');
+                currentRow.append('<td>' + prop + '</td>');
+                if (Modernizr[prop]) {
+                    currentRow.append('<td class="supported">Yes</td>');
+                }
+                else {
+                    currentRow.append('<td class="not-supported">No</td>');
+                }
+                featuresContainer.append(currentRow);
+            }
+        }
+    </script>
+</body>
+</html>

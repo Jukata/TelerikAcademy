@@ -1,0 +1,10 @@
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\bin\Debug\Blog.Data.dll.config
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\bin\Debug\Blog.Data.dll
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\bin\Debug\Blog.Data.pdb
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\bin\Debug\Blog.Models.dll
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\bin\Debug\EntityFramework.dll
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\bin\Debug\Blog.Models.pdb
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\bin\Debug\EntityFramework.xml
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\obj\Debug\Blog.Data.csprojResolveAssemblyReference.cache
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\obj\Debug\Blog.Data.dll
+E:\Telerik\JavaScript Frameworks\Teamwork\Workspaces\NobeliumBlog\Blog.Data\obj\Debug\Blog.Data.pdb

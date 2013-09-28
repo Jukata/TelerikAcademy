@@ -1,0 +1,14 @@
+﻿<form id="create-post">
+    <input ng-model="message" type="text" id="create-post-message" style='display: none' />
+    <br />
+    <label for="tb-new-post-title">Title:</label>
+    <input ng-model="newPost.title" type="text" id="tb-new-post-title" placeholder="Title goes here" />
+    <br />
+    <label for="tb-new-post-categories">Categories (separated by comma):</label>
+    <input ng-model="newPost.categories" type="text" id="tb-new-post-categories" placeholder="Categories (separated by comma)" />
+    <br />
+    <label for="ta-new-post-content">Content:</label>
+    <textarea ng-model="newPost.content" id="ta-new-post-content"></textarea>
+    <button ng-click="clear()">Clear</button>
+    <button ng-click="create()">Create</button>
+</form>

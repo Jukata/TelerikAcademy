@@ -1,0 +1,41 @@
+<div class="navbar navbar-inverse navbar-fixed-top">    
+    <div class="navbar-header">        
+        <span class="navbar-brand">Nobelium Admin</span>
+    </div>
+    <div class="navbar-content">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#/">Home</a></li>
+            <li><a href='/index.html#/'>View Site</a></li>                
+        </ul>
+        <form class="navbar-form navbar-right">
+            <button type=button class="btn btn-success" onclick="document.location.href = '/index.html#/logout';">Sign out</button>
+        </form>
+    </div>    
+</div>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="title">Alphabetical</option>
+        <option value="postDate">Newest</option>
+      </select>
+
+    </div>
+    <div class="span10">
+      <!--Body content-->
+
+      <ul class="posts">
+        <li ng-repeat="post in posts | filter:query | orderBy:orderProp" class="thumbnail">
+          <a href="#/posts/{{post.id}}" class="thumb"><span>{{post.postDate}}</span></a>
+          <a href="#/posts/{{post.id}}">{{post.title}}</a>
+          <p>{{post.text}}</p>          
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

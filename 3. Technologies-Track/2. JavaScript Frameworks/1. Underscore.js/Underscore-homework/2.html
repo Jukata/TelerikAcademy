@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+        //2.Write function that finds the first name and last name of 
+        //all students with age between 18 and 24. Use Underscore.js
+        var Person = Class.create({
+            init: function (fname, lname, age) {
+                this.fname = fname;
+                this.lname = lname;
+                this.age = age;
+            },
+        });
+
+        var PersonModel = Class.create({
+            init: function (fname, lname) {
+                this.fname = fname;
+                this.lname = lname;
+            },
+            fullname: function () {
+                return this.fname + " " + this.lname;
+            },
+        });
+
+        var people = [
+            new Person("Doncho", "Minkov", 24),
+            new Person("Svetlin", "Nakov", 22),
+            new Person("George", "Georgiev", 17),
+            new Person("Nikolay", "Kostov", 49),
+            new Person("Ivaylo", "Kenov", 20),
+        ];
+
+        _.chain(people)
+            .filter(function (p) {
+                return p.age > 18 && p.age < 24;
+            })
+                .map(function (p) {
+                    return new PersonModel(p.fname, p.lname)
+                })
+                    .each(function(p){
+                        console.log(p.fullname());
+                    });
+
+    </script>
+</body>
+</html>

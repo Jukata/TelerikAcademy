@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Models", "Blog.Models\Blog.Models.csproj", "{52A4DD0C-0524-4D9C-AE5F-8DD0FB5D3395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Data", "Blog.Data\Blog.Data.csproj", "{3D6A8112-CC52-4C5E-B536-E8B76742152E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.WebAPI", "Blog.WebAPI\Blog.WebAPI.csproj", "{F882BF0D-DF4A-4F38-893B-5AAD6FC3BDDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{29B8E2D9-51BC-4958-BF36-84A9713E8801}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs12
+		SccProjectUniqueName0 = Blog.Models\\Blog.Models.csproj
+		SccProjectName0 = Blog.Models
+		SccAuxPath0 = https://tfs.codeplex.com/tfs/tfs12
+		SccLocalPath0 = Blog.Models
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Blog.Data\\Blog.Data.csproj
+		SccProjectName1 = Blog.Data
+		SccAuxPath1 = https://tfs.codeplex.com/tfs/tfs12
+		SccLocalPath1 = Blog.Data
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Blog.WebAPI\\Blog.WebAPI.csproj
+		SccProjectName2 = Blog.WebAPI
+		SccAuxPath2 = https://tfs.codeplex.com/tfs/tfs12
+		SccLocalPath2 = Blog.WebAPI
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52A4DD0C-0524-4D9C-AE5F-8DD0FB5D3395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A4DD0C-0524-4D9C-AE5F-8DD0FB5D3395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A4DD0C-0524-4D9C-AE5F-8DD0FB5D3395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A4DD0C-0524-4D9C-AE5F-8DD0FB5D3395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6A8112-CC52-4C5E-B536-E8B76742152E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6A8112-CC52-4C5E-B536-E8B76742152E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6A8112-CC52-4C5E-B536-E8B76742152E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6A8112-CC52-4C5E-B536-E8B76742152E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F882BF0D-DF4A-4F38-893B-5AAD6FC3BDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F882BF0D-DF4A-4F38-893B-5AAD6FC3BDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F882BF0D-DF4A-4F38-893B-5AAD6FC3BDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F882BF0D-DF4A-4F38-893B-5AAD6FC3BDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

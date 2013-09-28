@@ -1,0 +1,30 @@
+﻿<div class="container">
+    <fieldset class="search-comment-post">
+        <legend class="search-comment-post-heading">Search Comment</legend>
+        <div class="alert alert-warning alert-box" style="display: none;">
+            <strong>Warning!</strong> <span class="alert-content"></span>
+        </div>
+        <div class="input-group">
+            <input data-bind="value: keyword" type="text" class="form-control" placeholder="Keyword" />
+            <span class="input-group-btn">
+                <button class="btn btn-warning" type="button" data-bind="click: clear">Clear</button>
+                <button class="btn btn-primary" type="button" data-bind="click: search">Search</button>
+            </span>
+        </div>
+    </fieldset>
+    <div class="page-header">
+        <h3>
+            <span>Results</span><small>(<span data-bind="text: comments.length"></span>)</small>
+        </h3>
+    </div>
+    <ul data-template="comments-template" data-bind="source: comments" class="list-unstyled"></ul>
+
+    <script type="text/x-kendo-template" id="comments-template">
+        <li>
+            <p data-bind="text: text"></p>  
+            <p class="pull-right">
+                <em>on <span data-bind="text: postDate"></span></em>
+            </p><hr />
+        </li>
+    </script>
+</div>

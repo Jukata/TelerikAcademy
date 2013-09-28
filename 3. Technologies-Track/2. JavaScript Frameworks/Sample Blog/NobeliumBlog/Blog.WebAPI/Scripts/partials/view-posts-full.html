@@ -1,0 +1,48 @@
+﻿<div class="container">
+    <div data-template="post-full-template" data-bind="source: post"></div>
+
+    <script type="text/x-kendo-template" id="post-full-template">
+    <div class="post-details">
+        <div class="page-header">
+            <h3>
+                <span data-bind="text: title"></span>
+                <a href="#= '\#/posts/' + id + '/comment' #" class="pull-right">
+                    <span class="glyphicon glyphicon-comment"></span>
+                </a>
+            </h3>
+        </div>
+        <p data-bind="text: text"></p>
+        <div class="page-tags">
+            <a href="\#/tags">Tags</a>:
+            <ul class="list-inline" data-template="tags-template" data-bind="source: tags"></ul>
+        </div>
+
+        # if (comments.length) { #
+            <div class="page-header">
+                <h3>
+                    <span>Comments</span> <small>(<span data-bind="text: comments.length"></span>)</small>
+                </h3>
+            </div>
+            <ul  data-template="comments-template" data-bind="source: comments" class="list-unstyled">
+                
+            </ul>
+        # } #
+    </div>
+    </script>
+
+    <script type="text/x-kendo-template" id="tags-template">
+        <li>
+            <em data-bind="text: name"></em>      
+        </li>
+    </script>
+
+    <script type="text/x-kendo-template" id="comments-template">
+        <li>
+            <p data-bind="text: text"></p>  
+            <p class="pull-right">
+                <em>by <span data-bind="text: commentedBy"></span> on <span data-bind="text: postDate"></span></em>
+            </p><hr />
+            
+        </li>
+    </script>
+</div>

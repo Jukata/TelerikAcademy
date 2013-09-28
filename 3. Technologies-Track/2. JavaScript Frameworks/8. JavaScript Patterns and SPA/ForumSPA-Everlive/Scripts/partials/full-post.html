@@ -1,0 +1,19 @@
+﻿<div class="post">
+    <div class="post-title">{{Title}}</div>
+    <div class="post-meta">
+        <span class="post-tags">{{#Tags}}{{.}}, {{/Tags}}</span>
+        <span class="post-create-date">{{CreatedAt}}</span>
+        <!--<span class="post-creator">{{CreatedBy}}</span>-->
+    </div>
+    <div class="post-content">{{Content}}</div>
+    <div class="post-comments">
+        Comments:
+        {{#Comments}}
+            <div class="post-comment">{{.}}</div>
+        {{/Comments}}
+        <div class="new-comment">
+            <textarea id="new-comment-text-area">Comment...</textarea>
+            <a href="#/post/{{Id}}/comment">Leave comment</a>
+        </div>
+    </div>
+</div>

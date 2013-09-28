@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/underscore.js"></script>
+    <script src="Scripts/class.js"></script>
+</head>
+<body>
+    <script>
+        //4.Write a function that by a given array of animals,
+        //groups them by species and sorts them by number of legs
+        var Animal = Class.create({
+            init: function (name, species, legs) {
+                this.name = name;
+                this.species = species;
+                this.legs = legs;
+            },
+            introduce: function () {
+                console.log("My name is " + this.name + ". I am "
+                    + this.species + " and I have " + this.legs + " legs.");
+            }
+        });
+
+        var animals = [
+            new Animal("Kanero", "Dog", 4),
+            new Animal("Roki", "Dog", 4),
+            new Animal("Sharo", "Dog", 5),
+            new Animal("Liceie", "Dog", 3),
+            new Animal("Hundi", "Centipede", 100),
+            new Animal("Mundi", "Centipede", 101),
+            new Animal("Chuchi", "Chicken", 2),
+            new Animal("Peter Parker", "Spider", 8),
+            new Animal("Venom", "Spider", 4),
+        ];
+
+        var result = groupBySpeciesAndSortByLegs(animals);
+
+        _.each(result, function (animalGroup, index) {
+            console.log(index + 1 + ". Group " + animalGroup[0].species + "s:");
+            _.each(animalGroup, function (animal) {
+                animal.introduce();
+            });
+        });
+
+        function groupBySpeciesAndSortByLegs(animals) {
+            var grouped = _.groupBy(animals, 'species');
+            var sorted = [];
+
+            _.each(grouped, function (group) {
+                sorted.push(_.sortBy(group, 'legs'));
+            })
+
+            return sorted;
+        }
+
+    </script>
+</body>
+</html>

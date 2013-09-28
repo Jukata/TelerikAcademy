@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+        //3.Write a function that by a given array of students finds the student with highest marks
+        var Student = Class.create({
+            init: function (fname, lname, marks) {
+                this.fname = fname;
+                this.lname = lname;
+                if (_.isArray(marks)) {
+                    this.marks = marks;
+                }
+                else {
+                    this.marks = [];
+                }
+            },
+            addMark: function (mark) {
+                if (mark instanceof Mark) {
+                    this.marks.push(mark);
+                }
+            },
+            toString: function () {
+                var result = "Name: " + this.fname + " " + this.lname;
+                if (this.marks && this.marks.length > 0) {
+                    result += "\nMarks: "
+                    for (var i = 0; i < this.marks.length; i++) {
+                        result += "Subject - " + this.marks[i].subject + " Value - " + this.marks[i].value;
+                        if (i < this.marks.length - 1) {
+                            result += ", "
+                        }
+                    }
+                }
+                return result;
+            }
+        });
+
+        var Mark = Class.create({
+            init: function (subject, value) {
+                this.subject = subject;
+                this.value = value;
+            }
+        });
+
+        var students = [
+            new Student("Svetlin", "Nakov", [new Mark("CSharp", 6), new Mark("Java", 5.5)]),
+            new Student("Doncho", "Minkov", [new Mark("JavaScript", 39), new Mark("Web API", 5.3)]),
+            new Student("Nikolay", "Kostov", [new Mark("CSharp", 26), new Mark("ASP.NET MVC", 15)]),
+            new Student("George", "Georgiev", [new Mark("Win8", 20), new Mark("C++", 20)]),
+            new Student("Ivaylo", "Kenov", [new Mark("OOP", 17), new Mark("DSA", 21)]),
+        ];
+
+        var bestStudent = findStudentWithHighestMarks(students);
+
+        console.log(bestStudent.toString());
+
+        function findStudentWithHighestMarks(students) {
+            return _.max(students, function (st) {
+                var sum = 0;
+                _.each(st.marks, function (m) {
+                    sum += m.value;
+                });
+
+                return sum;
+            });
+        }
+
+    </script>
+</body>
+</html>

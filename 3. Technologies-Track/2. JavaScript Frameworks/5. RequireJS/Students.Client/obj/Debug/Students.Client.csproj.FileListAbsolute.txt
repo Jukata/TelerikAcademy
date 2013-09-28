@@ -1,0 +1,5 @@
+E:\Telerik\JavaScript Frameworks\5. RequireJS\Requirejs-hw\Students.Client\bin\Students.Client.dll
+E:\Telerik\JavaScript Frameworks\5. RequireJS\Requirejs-hw\Students.Client\bin\Students.Client.pdb
+E:\Telerik\JavaScript Frameworks\5. RequireJS\Requirejs-hw\Students.Client\obj\Debug\Students.Client.csprojResolveAssemblyReference.cache
+E:\Telerik\JavaScript Frameworks\5. RequireJS\Requirejs-hw\Students.Client\obj\Debug\Students.Client.dll
+E:\Telerik\JavaScript Frameworks\5. RequireJS\Requirejs-hw\Students.Client\obj\Debug\Students.Client.pdb

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+    <script src="Scripts/jquery-1.8.2.js"></script>
+    <style>
+        #main-canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="main-canvas" width="500" height="200"></canvas>
+    <div id="geolocation-container"></div>
+
+    <script>
+        //task 1 - canvas
+        function runBouncingBall() {
+            var canvas = document.getElementById("main-canvas");
+            var ctx = canvas.getContext("2d");
+            var height = canvas.height;
+            var width = canvas.width;
+
+            var x = 100;
+            var y = 100;
+            var r = 15;
+            var directions = { x: 1, y: 1 };
+
+            setInterval(function () {
+
+                if (x < 0 + r || x > width - r) {
+                    directions.x *= -1;
+                }
+
+                if (y < 0 + r || y > height - r) {
+                    directions.y *= -1;
+                }
+
+                ctx.beginPath();
+                ctx.clearRect(0, 0, width, height);
+                ctx.fill();
+
+                ctx.fillStyle = "blue";
+                ctx.strokeStyle = "red";
+                ctx.arc(x, y, r, 0, 2 * Math.PI);
+                ctx.lineWidth = 2;
+                ctx.fill();
+                ctx.stroke();
+                x += directions.x;
+                y += directions.y;
+
+            }, 10);
+        }
+
+        Modernizr.load({
+            test: Modernizr.canvas,
+            nope: 'Scripts/FlashCanvas/flashcanvas.js',
+            complete: runBouncingBall
+        });
+
+        //task 2 - geolocation
+        function printGeoLocation(position) {
+            $('#geolocation-container').html(
+                'Your coordinates: <br />' +
+                'Latitide: ' + position.coords.latitude + '<br />' +
+                'Longitude: ' + position.coords.longitude
+            )
+        }
+
+        Modernizr.load({
+            test: Modernizr.geolocation,
+            nope: 'Scripts/geolocation-shim.js',
+            complete: function () {
+                navigator.geolocation.getCurrentPosition(printGeoLocation);
+            }
+        });
+
+        //task 3 - localStorage
+        Modernizr.load({
+            test: Modernizr.localstorage,
+            nope: 'Scripts/web-storages-polyfill.js',
+            complete: function () {
+                window.localStorage.setItem("test-item", "Yep, Nakov is a test item!");
+                var testItem = window.localStorage.getItem("test-item");
+                $('body').append('<div>Loaded from local storage - ' + testItem + '</div>');
+            }
+        });
+
+
+    </script>
+</body>
+</html>

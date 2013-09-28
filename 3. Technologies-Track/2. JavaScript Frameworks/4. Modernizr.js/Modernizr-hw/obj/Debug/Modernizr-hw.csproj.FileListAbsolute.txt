@@ -1,0 +1,5 @@
+E:\Telerik\JavaScript Frameworks\4. Modernizr.js\Modernizr-hw\Modernizr-hw\bin\Modernizr-hw.dll
+E:\Telerik\JavaScript Frameworks\4. Modernizr.js\Modernizr-hw\Modernizr-hw\bin\Modernizr-hw.pdb
+E:\Telerik\JavaScript Frameworks\4. Modernizr.js\Modernizr-hw\Modernizr-hw\obj\Debug\Modernizr-hw.csprojResolveAssemblyReference.cache
+E:\Telerik\JavaScript Frameworks\4. Modernizr.js\Modernizr-hw\Modernizr-hw\obj\Debug\Modernizr-hw.dll
+E:\Telerik\JavaScript Frameworks\4. Modernizr.js\Modernizr-hw\Modernizr-hw\obj\Debug\Modernizr-hw.pdb

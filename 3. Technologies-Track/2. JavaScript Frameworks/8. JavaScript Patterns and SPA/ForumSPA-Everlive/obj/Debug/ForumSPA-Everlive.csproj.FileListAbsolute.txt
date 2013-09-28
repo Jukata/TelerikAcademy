@@ -1,0 +1,10 @@
+C:\Trash\ForumSPA-Everlive\ForumSPA-Everlive\bin\ForumSPA-Everlive.dll
+C:\Trash\ForumSPA-Everlive\ForumSPA-Everlive\bin\ForumSPA-Everlive.pdb
+C:\Trash\ForumSPA-Everlive\ForumSPA-Everlive\obj\Debug\ForumSPA-Everlive.csprojResolveAssemblyReference.cache
+C:\Trash\ForumSPA-Everlive\ForumSPA-Everlive\obj\Debug\ForumSPA-Everlive.dll
+C:\Trash\ForumSPA-Everlive\ForumSPA-Everlive\obj\Debug\ForumSPA-Everlive.pdb
+E:\Telerik\JavaScript Frameworks\8. JavaScript Patterns and SPA\ForumSPA-Everlive\ForumSPA-Everlive\bin\ForumSPA-Everlive.dll
+E:\Telerik\JavaScript Frameworks\8. JavaScript Patterns and SPA\ForumSPA-Everlive\ForumSPA-Everlive\bin\ForumSPA-Everlive.pdb
+E:\Telerik\JavaScript Frameworks\8. JavaScript Patterns and SPA\ForumSPA-Everlive\ForumSPA-Everlive\obj\Debug\ForumSPA-Everlive.csprojResolveAssemblyReference.cache
+E:\Telerik\JavaScript Frameworks\8. JavaScript Patterns and SPA\ForumSPA-Everlive\ForumSPA-Everlive\obj\Debug\ForumSPA-Everlive.dll
+E:\Telerik\JavaScript Frameworks\8. JavaScript Patterns and SPA\ForumSPA-Everlive\ForumSPA-Everlive\obj\Debug\ForumSPA-Everlive.pdb

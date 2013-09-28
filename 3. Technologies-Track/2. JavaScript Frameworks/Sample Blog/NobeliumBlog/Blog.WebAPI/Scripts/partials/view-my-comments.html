@@ -1,0 +1,22 @@
+﻿<div class="container">
+
+    <div class="page-header">
+        <h3>
+            <span>My Comments</span> <small>(<span data-bind="text: comments.length"></span>)</small>
+            <a href="#/comments/search" class="pull-right">
+                <span class="glyphicon glyphicon-search"></span>
+            </a>
+        </h3>
+    </div>
+    <div>
+        <ul  data-template="comments-template" data-bind="source: comments" class="list-unstyled"></ul>
+    </div>
+    <script type="text/x-kendo-template" id="comments-template">
+        <li>
+            <p data-bind="text: text"></p>  
+            <p class="pull-right">
+                <em>on <span data-bind="text: postDate"></span></em>
+            </p><hr />
+        </li>
+    </script>
+</div>

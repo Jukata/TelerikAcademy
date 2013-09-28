@@ -1,0 +1,40 @@
+﻿<div class="container">
+    <div class="page-header">
+        <h3>
+            <span>All Posts</span> <small>(<span data-bind="text: posts.length"></span>)</small>
+            <a href="#/posts/create" class="pull-right">
+                <span class="glyphicon glyphicon-plus"></span>
+            </a>
+        </h3>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>By</th>
+                <th>Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody data-template="post-template" data-bind="source: posts">
+        </tbody>
+    </table>
+
+    <script type="text/x-kendo-template" id="post-template">
+        <tr>
+            <td>
+                <a data-bind="text: title" href="#= '\#/posts/' + id #"></a>
+            </td>
+            <td data-bind="text: postedBy"></td>
+            <td data-bind="text: postDate"></td>
+            <td>                
+                <a href="#= '\#/posts/' + id #">
+                    <span class="glyphicon glyphicon-zoom-in"></span>
+                </a>
+                <a href="#= '\#/posts/' + id + '/comment' #">
+                    <span class="glyphicon glyphicon-comment"></span>
+                </a>
+            </td>
+        </tr>
+    </script>
+</div>

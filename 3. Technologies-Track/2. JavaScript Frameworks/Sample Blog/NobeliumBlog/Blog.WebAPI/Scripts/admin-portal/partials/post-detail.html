@@ -1,0 +1,39 @@
+<div class="navbar navbar-inverse navbar-fixed-top">    
+    <div class="navbar-header">        
+        <span class="navbar-brand">Nobelium Admin</span>
+    </div>
+    <div class="navbar-content">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#/">Home</a></li>
+            <li><a href="#/posts/edit">Edited post</a></li>                
+        </ul>
+        <form class="navbar-form navbar-right">
+            <button type=button class="btn btn-success" onclick="document.location.href = '/index.html#/logout';">Sign out</button>
+        </form>
+    </div>    
+</div>
+<div id="main-content">
+    <div class="post">
+        <img src="../../../Images/trollface.png" width="160" height="140"/>
+        <p><strong>{{postedBy}}</strong></p>
+    </div>
+    <div class="page-header title">
+    <h1>{{post.title}}</h1>
+    </div>
+
+    <div class="page-tags">
+        <a>Tags: </a>
+        <ul class="post-thumbs">
+            <li ng-repeat="tag in post.tags">
+            <span>{{tag}}</span>
+            </li>
+        </ul>
+    </div>
+    <div class="post-text">
+        <textarea ng-model="editedText" style="width:800px; height: 300px;">{{post.text}}</textarea>
+        <button ng-click="editPost(editedText)">Save</button>
+        <span>{{editResult}}</span>
+    </div>
+    <p class="pull-right"><em>posted on {{post.postDate}}</em></p>
+    <hr />
+</div>

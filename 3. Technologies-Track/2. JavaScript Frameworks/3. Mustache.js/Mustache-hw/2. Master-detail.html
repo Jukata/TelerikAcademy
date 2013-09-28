@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/mustache.js"></script>
+    <script src="Scripts/2. table-view.js"></script>
+    <script src="Scripts/jquery-2.0.3.js"></script>
+    <style>
+        body, table, div, td, tr, ul, li {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .error-container {
+            color: red;
+        }
+
+        .table-view {
+            margin: 20px;
+        }
+
+            .table-view td {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: left;
+                vertical-align: top;
+            }
+
+                .table-view td ul {
+                    margin-left: 20px;
+                }
+
+                .table-view td:hover {
+                    cursor: pointer;
+                    background-color: yellow;
+                }
+
+                .table-view td.selected {
+                    background-color: red;
+                }
+
+        #details {
+            margin: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        #details ul{
+            width: 60%;
+            margin-left: 30px;
+            list-style-type:none;
+        }
+
+        #details ul li{
+            display: inline-block;
+            margin:5px;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+
+    <script type="X-mustache-template" id="student-template">
+        <strong>{{FirstName}} {{LastName}}</strong>
+    </script>
+
+    <script type="X-mustache-template" id="marks-template">
+        <ul>
+            {{#.}}
+            <li>
+                {{Subject}}: <strong>{{Score}}</strong>
+            </li>
+            {{/.}}
+            {{^.}}
+            <li>
+                No marks!
+            </li>
+            {{/.}}
+        </ul>
+    </script>
+
+    <div id="content"></div>
+    <div id="details"></div>
+
+    <script>
+        $.ajax({
+            url: "http://localhost:4416/api/students/",
+            type: "GET",
+            accept: "application/json",
+            success: generateTableView,
+            error: displayError,
+        });
+
+        function displayError(receivedData) {
+            var errorContainer = $("<h1></h1>");
+            errorContainer.addClass("error-container")
+            errorContainer.html("Error: " +
+                receivedData.status + " - " + receivedData.statusText);
+            $('body').append(errorContainer);
+        }
+
+        function generateTableView(receivedData) {
+            var studentTemplate = Mustache.compile($('#student-template').html());
+            var tableView = controls.getTableView(receivedData, 2);
+            var tableViewHtml = tableView.render(studentTemplate);
+            $('#content').html(tableViewHtml);
+
+            attachEventHandlers();
+        }
+
+        function attachEventHandlers() {
+            $('.table-view').on('click', 'td', function () {
+                var target = $(this);
+
+                if (!(target.is('td'))) {
+                    return;
+                }
+
+                $('td.selected').removeClass('selected');
+                target.addClass('selected');
+
+                var studentId = target.attr('data-student-id');
+
+                $.ajax({
+                    url: "http://localhost:4416/api/students/" + studentId + "/marks/",
+                    method: "GET",
+                    accept: "application/json",
+                    success: displayMarks,
+                    error: displayError
+                })
+            })
+        }
+
+        function displayMarks(receivedData) {
+            debugger;
+            var marksContainer = $('#details');
+            var template = Mustache.compile($('#marks-template').html());
+            var marksDetailsHtml = template(receivedData);
+            marksContainer.html(marksDetailsHtml);
+        }
+    </script>
+</body>
+</html>

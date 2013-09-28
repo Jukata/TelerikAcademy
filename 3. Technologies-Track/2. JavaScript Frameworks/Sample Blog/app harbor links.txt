@@ -1,0 +1,2 @@
+http://nobeliumblog.apphb.com/api/ - services
+http://nobeliumblog.apphb.com/index.html - client

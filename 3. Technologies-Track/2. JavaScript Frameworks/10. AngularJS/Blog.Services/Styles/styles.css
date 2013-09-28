@@ -1,0 +1,29 @@
+﻿body {
+}
+
+#posts .post {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#posts div {
+    margin: 5px;
+    padding: 5px;
+}
+
+#err-page {
+    font-size: 1.2em;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+}
+
+.category {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: skyblue;
+    padding: 5px;
+}
